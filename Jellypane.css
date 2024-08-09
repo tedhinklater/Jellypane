@@ -35,6 +35,7 @@
   min-width: 11%;
   justify-content: center;
   background: rgba(0, 0, 0, 0.95);
+  border-radius: 0.75em;
 }
 
 .layout-desktop .homeLibraryText {
@@ -396,6 +397,18 @@ body {
   -webkit-flex-shrink: 0;
   flex-shrink: 0;
   background: #00000078;
+}
+
+@media (min-width: 100em) {
+  .pageWithAbsoluteTabs:not(.noSecondaryNavPage) {
+    padding-top: 3.7em !important;
+  }
+}
+
+@media (max-width: 100em) {
+  .sectionTabs {
+    font-size: 100%;
+  }
 }
 
 /* 768p */
