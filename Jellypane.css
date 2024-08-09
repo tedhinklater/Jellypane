@@ -316,6 +316,73 @@ body {
   padding-bottom: calc(env(safe-area-inset-bottom) + 0em) !important;
 }
 
+.portraitCard, .squareCard {
+    width: 11.75em;
+}
+
+.padded-right-withalphapicker {
+    padding-right: 7.5%;
+    padding-right: max(env(safe-area-inset-right),5.5%) !important;
+  }
+
+.cardBox.cardBox-bottompadded {
+	transition: background 0.3s;
+	border-bottom-left-radius: 1em;
+	border-bottom-right-radius: 1em;
+	background: #000000a3;
+}
+
+.cardBox.cardBox-bottompadded:hover {
+	background: #000;
+}
+
+.cardBox.cardBox-bottompadded:hover .cardOverlayButton-br.flex {
+	background: linear-gradient(180deg, rgb(0% 0% 0% / 0) 0%, rgb(0% 0% 0% / 0.14082031250000002) 6.25%, rgb(0% 0% 0% / 0.26406250000000003) 12.5%, rgb(0% 0% 0% / 0.3708984375) 18.75%, rgb(0% 0% 0% / 0.4625) 25%, rgb(0% 0% 0% / 0.5400390625) 31.25%, rgb(0% 0% 0% / 0.6046875) 37.5%, rgb(0% 0% 0% / 0.6576171875000001) 43.75%, rgb(0% 0% 0% / 0.7000000000000001) 50%, rgb(0% 0% 0% / 0.7330078125) 56.25%, rgb(0% 0% 0% / 0.7578125) 62.5%, rgb(0% 0% 0% / 0.7755859375) 68.75%, rgb(0% 0% 0% / 0.7875000000000001) 75%, rgb(0% 0% 0% / 0.7947265625000001) 81.25%, rgb(0% 0% 0% / 0.7984375) 87.5%, rgb(0% 0% 0% / 0.7998046875) 93.75%, rgb(0% 0% 0% / 0.8) 100% );
+}
+
+.cardOverlayContainer {
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: .2em;
+  bottom: 0;
+  left: 0;
+  opacity: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  transition: opacity .2s;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.cardOverlayButton-br {
+  width: -moz-available;
+  justify-content: space-evenly;
+}
+
+.flex.align-items-center.justify-content-center.flex-wrap-wrap.padded-top.padded-left.padded-right.padded-bottom.focuscontainer-x {
+	filter: drop-shadow(1px 1px 1px rgb(0, 0, 0));
+}
+
+.textActionButton:hover {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  color: #00a4dc;
+}
+
+.itemsContainer > .card > .cardBox:hover .cardText {
+  color: #00a4dc;
+}
+
+.cardText.cardTextCentered.cardText-first {
+	transition: color 0.6s;
+}
+
+.cardText.cardTextCentered.cardText-secondary {
+	transition: color 1s;
+	font-weight: 700;
+}
+
 /* 768p */
 
 @media only screen and (min-width: 800px) and (max-width: 1400px) {
