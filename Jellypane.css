@@ -16,7 +16,7 @@
 }
 
 .layout-desktop .skinHeader-withBackground {
-  background-color: #000000b2;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.85) 0%, rgba(0, 0, 0, 0.85) 6.25%, rgba(0, 0, 0, 0.83) 12.5%, rgba(0, 0, 0, 0.82) 18.75%, rgba(0, 0, 0, 0.8) 25%, rgba(0, 0, 0, 0.77) 31.25%, rgba(0, 0, 0, 0.73) 37.5%, rgba(0, 0, 0, 0.69) 43.75%, rgba(0, 0, 0, 0.64) 50%, rgba(0, 0, 0, 0.58) 56.25%, rgba(0, 0, 0, 0.52) 62.5%, rgba(0, 0, 0, 0.45) 68.75%, rgba(0, 0, 0, 0.37) 75%, rgba(0, 0, 0, 0.29) 81.25%, rgba(0, 0, 0, 0.2) 87.5%, rgba(0, 0, 0, 0.1) 93.75%, rgba(0, 0, 0, 0) 100% );
   position: absolute;
   top: 0em;
   scroll-snap-align: start;
@@ -24,7 +24,7 @@
 
 .layout-desktop .skinHeader.semiTransparent {
   backdrop-filter: none !important;
-  background-color: rgba(0, 0, 0, 0.2);
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.85) 0%, rgba(0, 0, 0, 0.85) 6.25%, rgba(0, 0, 0, 0.83) 12.5%, rgba(0, 0, 0, 0.82) 18.75%, rgba(0, 0, 0, 0.8) 25%, rgba(0, 0, 0, 0.77) 31.25%, rgba(0, 0, 0, 0.73) 37.5%, rgba(0, 0, 0, 0.69) 43.75%, rgba(0, 0, 0, 0.64) 50%, rgba(0, 0, 0, 0.58) 56.25%, rgba(0, 0, 0, 0.52) 62.5%, rgba(0, 0, 0, 0.45) 68.75%, rgba(0, 0, 0, 0.37) 75%, rgba(0, 0, 0, 0.29) 81.25%, rgba(0, 0, 0, 0.2) 87.5%, rgba(0, 0, 0, 0.1) 93.75%, rgba(0, 0, 0, 0) 100% );
   position: absolute;
   top: 6em;
   scroll-snap-align: start;
@@ -34,7 +34,7 @@
   margin: .5em !important;
   min-width: 11%;
   justify-content: center;
-  background: rgba(0, 0, 0, 0.8);
+  background: rgba(0, 0, 0, 0.95);
 }
 
 .layout-desktop .homeLibraryText {
@@ -42,6 +42,15 @@
   text-overflow: ellipsis;
   white-space: nowrap;
   padding-right: 1em;
+}
+
+.raised {
+  color: rgba(255, 255, 255, 0.87);
+  background: rgba(0, 0, 0, 0.95);
+}
+
+.mainDrawer, .drawer-open {
+  background: rgba(0, 0, 0, 0.95);
 }
 
 .layout-desktop .detailPageWrapperContainer {
@@ -81,6 +90,10 @@
   max-width: 26em;
   left: 11.83em;
   transform: translateX(-50%);
+}
+
+.layout-desktop #liveTvSuggestedPage .cardText {
+	background: transparent;
 }
 
 .layout-desktop .itemName.originalTitle {
@@ -230,7 +243,7 @@ body {
 }
 
 .layout-desktop .detailRibbon {
-  background: rgba(0, 0, 0, 0.8);
+  background: linear-gradient(180deg, rgb(0% 0% 0% / 0.33) 0%, rgb(0% 0% 0% / 0.43693618774414067) 6.25%, rgb(0% 0% 0% / 0.52449462890625) 12.5%, rgb(0% 0% 0% / 0.5951710510253907) 18.75%, rgb(0% 0% 0% / 0.6512890625000001) 25%, rgb(0% 0% 0% / 0.6950001525878906) 31.25%, rgb(0% 0% 0% / 0.72828369140625) 37.5%, rgb(0% 0% 0% / 0.7529469299316407) 43.75%, rgb(0% 0% 0% / 0.7706250000000001) 50%, rgb(0% 0% 0% / 0.7827809143066407) 56.25%, rgb(0% 0% 0% / 0.7907055664062501) 62.5%, rgb(0% 0% 0% / 0.7955177307128907) 68.75%, rgb(0% 0% 0% / 0.7981640625) 75%, rgb(0% 0% 0% / 0.7994190979003907) 81.25%, rgb(0% 0% 0% / 0.79988525390625) 87.5%, rgb(0% 0% 0% / 0.7999928283691407) 93.75%, rgb(0% 0% 0% / 0.8) 100% );
 }
 
 .layout-desktop [dir="ltr"] .detailPageContent {
@@ -240,7 +253,7 @@ body {
 
 .cardText {
   white-space: nowrap;
-  background: #0000008c;
+  filter: drop-shadow(1px 1px 1px rgb(0, 0, 0));
 }
 
 .cardText-secondary {
@@ -248,6 +261,11 @@ body {
   color: rgba(255, 255, 255, 0.5);
   border-bottom-right-radius: 1em;
   border-bottom-left-radius: 1em;
+}
+
+.sectionTitle.sectionTitle-cards.padded-left {
+	filter: drop-shadow(1px 1px 1px rgb(0, 0, 0));
+	font-weight: 400;
 }
 
 .layout-desktop .nameContainer {
