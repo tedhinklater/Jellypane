@@ -275,3 +275,39 @@ body {
   padding-bottom: 0em !important;
   padding-bottom: calc(env(safe-area-inset-bottom) + 0em) !important;
 }
+
+/* 768p */
+
+@media only screen and (min-width: 800px) and (max-width: 1400px) {
+	body {
+		font-size: 73%;
+	}
+	.layout-desktop .detailPagePrimaryContent {
+		font-size: 98.5%;
+	}
+	.sectionTabs {
+		margin-top: -2em;
+	}
+}
+
+/* 1440p */
+
+@media (min-width: 1930px) {
+	body {
+		font-size: 133.3333%;
+	}
+	.layout-desktop .detailPagePrimaryContent {
+		font-size: 98.5%;
+	}
+	.layout-desktop .mainDrawer.transition.touch-menu-la.drawer-open {
+		width: 21em !important;
+	}
+}
+
+/* 4k */
+
+@media (min-width: 2570px) {
+	body {
+		font-size: 200%;
+	}
+}
