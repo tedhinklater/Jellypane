@@ -179,6 +179,18 @@
 	scroll-snap-align: start;
 }
 
+.layout-desktop .raised.button-submit.block.emby-button {
+	scroll-snap-align: start;
+}
+
+.MuiBox-root.css-k008qs .cardText {
+	background: transparent;
+}
+
+.layout-desktop .content-primary {
+	scroll-snap-align: start;
+}
+
 .layout-desktop .musicParentName {
   margin: .15em 0 .2em;
   position: absolute;
