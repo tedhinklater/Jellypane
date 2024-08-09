@@ -9,3 +9,5 @@ Import to your CSS with
 @import url("https://cdn.jsdelivr.net/gh/tedhinklater/Jellypane@main/Jellypane.css");
 
 ```
+
+![unknown_2024 08 09-16 56_1](https://github.com/user-attachments/assets/e687c461-208e-4ab6-8be1-6507a11a39df)
