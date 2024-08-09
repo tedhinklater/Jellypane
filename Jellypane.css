@@ -88,7 +88,7 @@
   top: 1em;
   font-size: 1.3em;
   max-width: 26em;
-  left: 11.83em;
+  left: 11.8em;
   transform: translateX(-50%);
 }
 
@@ -211,9 +211,10 @@
 .layout-desktop .musicParentName {
   margin: .15em 0 .2em;
   position: absolute;
-  left: 14.4em;
-  top: 0.1em;
-  transform: translateX(-50%);
+  left: -0.6em;
+  top: -0.5em;
+  width: 27.5em;
+  text-align: center;
 }
 
 body {
