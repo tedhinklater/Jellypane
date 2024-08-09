@@ -83,6 +83,10 @@
 	scroll-snap-align: start;
 }
 
+.layout-desktop #itemDetailPage .card {
+	scroll-snap-align: unset;
+}
+
 .layout-desktop .itemName.parentNameLast {
   position: absolute;
   top: 1em;
@@ -323,6 +327,7 @@ body {
 .padded-right-withalphapicker {
     padding-right: 7.5%;
     padding-right: max(env(safe-area-inset-right),5.5%) !important;
+	justify-content: space-evenly;
   }
 
 .cardBox.cardBox-bottompadded {
