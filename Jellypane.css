@@ -19,6 +19,7 @@
   background-color: #000000b2;
   position: absolute;
   top: 0em;
+  scroll-snap-align: start;
 }
 
 .layout-desktop .skinHeader.semiTransparent {
@@ -172,6 +173,10 @@
 
 .listItem:hover {
   background: #00000078;
+}
+
+.layout-desktop .sectionTitle {
+	scroll-snap-align: start;
 }
 
 .layout-desktop .musicParentName {
