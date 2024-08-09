@@ -1,0 +1,277 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+
+/* Limit Custom CSS code box size */
+#txtCustomCss, #txtLocalCustomCss {
+    height: 400px !important;
+    max-height: 400px !important;
+    overflow-y: scroll !important;
+    resize: vertical !important;
+}
+.customCssContainer textarea {
+    height: auto !important;
+}
+
+.layout-desktop .backgroundContainer.withBackdrop {
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.05) 0%, rgba(0, 0, 0, 0.05) 6.25%, rgba(0, 0, 0, 0.07) 12.5%, rgba(0, 0, 0, 0.08) 18.75%, rgba(0, 0, 0, 0.11) 25%, rgba(0, 0, 0, 0.14) 31.25%, rgba(0, 0, 0, 0.18) 37.5%, rgba(0, 0, 0, 0.23) 43.75%, rgba(0, 0, 0, 0.29) 50%, rgba(0, 0, 0, 0.35) 56.25%, rgba(0, 0, 0, 0.42) 62.5%, rgba(0, 0, 0, 0.5) 68.75%, rgba(0, 0, 0, 0.58) 75%, rgba(0, 0, 0, 0.68) 81.25%, rgba(0, 0, 0, 0.78) 87.5%, rgba(0, 0, 0, 0.89) 93.75%, rgb(0% 0% 0%) 100% );
+}
+
+.layout-desktop .skinHeader-withBackground {
+  background-color: #000000b2;
+  position: absolute;
+  top: 0em;
+}
+
+.layout-desktop .skinHeader.semiTransparent {
+  backdrop-filter: none !important;
+  background-color: rgba(0, 0, 0, 0.2);
+  position: absolute;
+  top: 6em;
+  scroll-snap-align: start;
+}
+
+.layout-desktop .homeLibraryButton {
+  margin: .5em !important;
+  min-width: 11%;
+  justify-content: center;
+  background: rgba(0, 0, 0, 0.8);
+}
+
+.layout-desktop .homeLibraryText {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  padding-right: 1em;
+}
+
+.layout-desktop .detailPageWrapperContainer {
+  position: absolute;
+  background: #000c;
+  top: calc(100vh - -6em);
+}
+
+.layout-desktop .detailLogo {
+  position: absolute;
+  left: 1em;
+  display: block;
+  filter: drop-shadow(15px 14px 4px rgba(2, 2, 2, 0.65));
+  max-width: 62em;
+  max-height: 70em;
+  top: 30em;
+  padding-top: 0em;
+  min-height: 20em;
+  min-width: 34em;
+}
+
+.layout-desktop .detailImageContainer .card {
+  left: 1%;
+  max-height: none;
+  top: 6.5em;
+  width: 25vw;
+}
+
+.layout-desktop .itemName.parentNameLast {
+  position: absolute;
+  top: 1em;
+  font-size: 1.3em;
+  max-width: 26em;
+  left: 11.83em;
+  transform: translateX(-50%);
+}
+
+.layout-desktop .itemName.originalTitle {
+  margin: .2em 0 .2em;
+  position: absolute;
+  left: 16.4em;
+  transform: translateX(-50%);
+  top: 0.2em;
+}
+
+
+.layout-desktop .mainDetailButtons.focuscontainer-x {
+  position: absolute;
+  bottom: -1.1em;
+  left: 30vw;
+  z-index: 50;
+  width: 40vw;
+  justify-content: space-between;
+}
+
+.layout-desktop .mainDetailButtons.focuscontainer-x:hover {
+  opacity: 1;
+  transition-delay: 0s;
+}
+
+.layout-desktop .mainDetailButtons {
+  font-size: 138%;
+  margin: 1.25em 0;
+  position: relative;
+}
+
+.layout-desktop .mainDetailButtons {
+    position: relative;
+}
+
+.layout-desktop .mainDetailButtons:hover::before {
+    height: 161%;
+  transition-delay: 0s;
+}
+
+.layout-desktop .itemMiscInfo.itemMiscInfo-primary {
+  position: absolute;
+  right: 1.5em;
+  font-size: 1.1em;
+  bottom: 0.75em;
+  font-weight: 700;
+}
+
+.layout-desktop .itemBackdrop {
+  -webkit-animation: backdrop-fadein .8s ease-in normal both;
+  animation: backdrop-fadein .8s ease-in normal both;
+  background-attachment: fixed;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 90vh;
+  position: relative;
+}
+
+.layout-desktop .detailPagePrimaryContainer.padded-left.padded-right.detailRibbon {
+  bottom: 0em;
+  scroll-snap-align: start;
+}
+
+.layout-desktop .detailRibbon {
+  height: 5em;
+  margin-top: -5em;
+}
+
+.preload {
+  background-color: #101010;
+  scroll-snap-type: y mandatory;
+}
+
+.layout-desktop #itemDetailPage div:not(.sectionTitleContainer-cards) > .sectionTitle-cards {
+  margin: 0;
+  padding-bottom: .2em;
+  padding-top: .5em;
+  scroll-snap-align: start;
+  font-weight: 600;
+}
+
+.layout-desktop .detailPageSecondaryContainer {
+  padding-top: 1.25em;
+  width: 100vw;
+}
+
+.layout-desktop .listItem {
+  padding: .25em .25em .25em .5em;
+  text-align: left;
+  scroll-snap-align: start;
+  transition: background 0.3s;
+}
+
+.listItem:hover {
+  background: #00000078;
+}
+
+.layout-desktop .musicParentName {
+  margin: .15em 0 .2em;
+  position: absolute;
+  left: 14.4em;
+  top: 0.1em;
+  transform: translateX(-50%);
+}
+
+body {
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 600;
+}
+
+.layout-desktop .trackSelections {
+  max-width: 100em;
+  width: fit-content;
+}
+
+.layout-desktop .detailsGroupItem, .trackSelections .selectContainer {
+  display: -webkit-flex;
+  display: flex;
+  margin: 0 0 .5em !important;
+  max-width: 100em;
+}
+
+.layout-desktop .tagline {
+  position: fixed;
+  top: 47.5em;
+  left: 1em;
+  font-weight: 600;
+  width: 27.65em;
+  text-align: center;
+}
+
+.layout-desktop .detailRibbon {
+  background: rgba(0, 0, 0, 0.8);
+}
+
+.layout-desktop [dir="ltr"] .detailPageContent {
+  padding-left: 28.45vw;
+  padding-right: 0;
+}
+
+.cardText {
+  white-space: nowrap;
+  background: #0000008c;
+}
+
+.cardText-secondary {
+  color: #999;
+  color: rgba(255, 255, 255, 0.5);
+  border-bottom-right-radius: 1em;
+  border-bottom-left-radius: 1em;
+}
+
+.layout-desktop .nameContainer {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+  position: absolute;
+  left: 2em;
+  top: 0.75em;
+}
+
+.layout-desktop .detail-clamp-text {
+  display: -webkit-box;
+  overflow: hidden;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 12;
+  font-size: 1.3em;
+}
+
+.layout-desktop #childrenContent .starRatingContainer {
+  -webkit-align-items: center;
+  align-items: center;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: center;
+  justify-content: center;
+  padding-bottom: 0;
+  padding-top: 0;
+  vertical-align: middle;
+  opacity: 0;
+}
+
+.layout-desktop .itemTags.focuscontainer-x {
+  margin: .7em 0;
+  font-size: 92%;
+  font-style: italic;
+  padding-bottom: 2em;
+}
+
+.layout-desktop #itemDetailPage .verticalSection.detailVerticalSection.emby-scroller-container {
+  padding-top: 0.37em;
+}
+
+.layout-desktop .padded-bottom-page {
+  padding-bottom: 0em !important;
+  padding-bottom: calc(env(safe-area-inset-bottom) + 0em) !important;
+}
