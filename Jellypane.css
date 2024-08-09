@@ -70,6 +70,10 @@
   width: 25vw;
 }
 
+.layout-desktop .card {
+	scroll-snap-align: start;
+}
+
 .layout-desktop .itemName.parentNameLast {
   position: absolute;
   top: 1em;
