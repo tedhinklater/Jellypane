@@ -54,6 +54,16 @@
   background: rgba(0, 0, 0, 0.95);
 }
 
+.navMenuOption:hover {
+  background-color: rgba(0, 164, 220, 0.2);
+}
+
+.layout-desktop #homeTab .sections.homeSectionsContainer {
+  margin-left: -2em;
+  max-width: 131em;
+  margin-top: 2em;
+}
+
 .alphaPicker-fixed-right {
     right: 1em;
     right: max(env(safe-area-inset-right),1em);
