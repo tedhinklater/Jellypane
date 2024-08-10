@@ -130,10 +130,11 @@
 
 .layout-desktop .itemName.parentNameLast {
   position: absolute;
-  top: 2em;
+  top: 1em;
   font-size: 1.17em;
   max-width: 26em;
-  left: 0em;
+  left: 13em;
+  transform: translateX(-50%);
 }
 
 .layout-desktop #liveTvSuggestedPage .cardText {
@@ -247,15 +248,16 @@
 }
 
 .layout-desktop .musicParentName {
-  margin: .15em 0 .2em;
-  position: absolute;
-  left: 0em;
-  top: -0.2em;
-  font-size: 1.75em;
-  width: 19em;
-  overflow: hidden;
-  height: 1.4em;
-  text-align: left;
+	margin: .15em 0 .2em;
+	position: absolute;
+	left: -0.15em;
+	top: -0.5em;
+	font-size: 1.25em;
+	overflow: hidden;
+	height: 1.4em;
+	transform: translateX(0%);
+	width: 25em;
+	text-align: center;
 }
 
 body {
@@ -285,7 +287,7 @@ body {
 }
 
 .layout-desktop .detailRibbon {
-  background: linear-gradient(180deg, rgb(0% 0% 0% / 0.33) 0%, rgb(0% 0% 0% / 0.43693618774414067) 6.25%, rgb(0% 0% 0% / 0.52449462890625) 12.5%, rgb(0% 0% 0% / 0.5951710510253907) 18.75%, rgb(0% 0% 0% / 0.6512890625000001) 25%, rgb(0% 0% 0% / 0.6950001525878906) 31.25%, rgb(0% 0% 0% / 0.72828369140625) 37.5%, rgb(0% 0% 0% / 0.7529469299316407) 43.75%, rgb(0% 0% 0% / 0.7706250000000001) 50%, rgb(0% 0% 0% / 0.7827809143066407) 56.25%, rgb(0% 0% 0% / 0.7907055664062501) 62.5%, rgb(0% 0% 0% / 0.7955177307128907) 68.75%, rgb(0% 0% 0% / 0.7981640625) 75%, rgb(0% 0% 0% / 0.7994190979003907) 81.25%, rgb(0% 0% 0% / 0.79988525390625) 87.5%, rgb(0% 0% 0% / 0.7999928283691407) 93.75%, rgb(0% 0% 0% / 0.8) 100% );
+  background: linear-gradient(180deg, rgb(0% 0% 0% / 0.63) 0%, rgb(0% 0% 0% / 0.6686790466308594) 6.25%, rgb(0% 0% 0% / 0.70034912109375) 12.5%, rgb(0% 0% 0% / 0.7259129333496094) 18.75%, rgb(0% 0% 0% / 0.7462109375) 25%, rgb(0% 0% 0% / 0.7620213317871094) 31.25%, rgb(0% 0% 0% / 0.77406005859375) 37.5%, rgb(0% 0% 0% / 0.7829808044433594) 43.75%, rgb(0% 0% 0% / 0.789375) 50%, rgb(0% 0% 0% / 0.7937718200683594) 56.25%, rgb(0% 0% 0% / 0.79663818359375) 62.5%, rgb(0% 0% 0% / 0.7983787536621094) 68.75%, rgb(0% 0% 0% / 0.7993359375) 75%, rgb(0% 0% 0% / 0.7997898864746094) 81.25%, rgb(0% 0% 0% / 0.79995849609375) 87.5%, rgb(0% 0% 0% / 0.7999974060058594) 93.75%, rgb(0% 0% 0% / 0.8) 100% );
 }
 
 .layout-desktop [dir="ltr"] .detailPageContent {
