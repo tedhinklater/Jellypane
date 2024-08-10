@@ -34,7 +34,7 @@
 }
 
 .layout-desktop .backgroundContainer.withBackdrop {
-  background: linear-gradient(180deg, rgba(0, 0, 0, 0.05) 0%, rgba(0, 0, 0, 0.05) 6.25%, rgba(0, 0, 0, 0.07) 12.5%, rgba(0, 0, 0, 0.08) 18.75%, rgba(0, 0, 0, 0.11) 25%, rgba(0, 0, 0, 0.14) 31.25%, rgba(0, 0, 0, 0.18) 37.5%, rgba(0, 0, 0, 0.23) 43.75%, rgba(0, 0, 0, 0.29) 50%, rgba(0, 0, 0, 0.35) 56.25%, rgba(0, 0, 0, 0.42) 62.5%, rgba(0, 0, 0, 0.5) 68.75%, rgba(0, 0, 0, 0.58) 75%, rgba(0, 0, 0, 0.68) 81.25%, rgba(0, 0, 0, 0.78) 87.5%, rgba(0, 0, 0, 0.89) 93.75%, rgb(0% 0% 0%) 100% );
+  background: linear-gradient(180deg, rgb(5.49% 11.373% 11.765% / 0) 0%, rgb(5.49% 11.373% 11.765% / 0.0000152587890625) 6.25%, rgb(5.49% 11.373% 11.765% / 0.000244140625) 12.5%, rgb(5.49% 11.373% 11.765% / 0.0012359619140625) 18.75%, rgb(5.49% 11.373% 11.765% / 0.00390625) 25%, rgb(5.49% 11.373% 11.765% / 0.0095367431640625) 31.25%, rgb(5.49% 11.373% 11.765% / 0.019775390625) 37.5%, rgb(5.49% 11.373% 11.765% / 0.0366363525390625) 43.75%, rgb(5.49% 11.373% 11.765% / 0.0625) 50%, rgb(5.49% 11.373% 11.765% / 0.1001129150390625) 56.25%, rgb(5.49% 11.373% 11.765% / 0.152587890625) 62.5%, rgb(5.49% 11.373% 11.765% / 0.2234039306640625) 68.75%, rgb(5.49% 11.373% 11.765% / 0.31640625) 75%, rgb(5.49% 11.373% 11.765% / 0.4358062744140625) 81.25%, rgb(5.49% 11.373% 11.765% / 0.586181640625) 87.5%, rgb(5.49% 11.373% 11.765% / 0.7724761962890625) 93.75%, rgb(5.49% 11.373% 11.765%) 100% );
 }
 
 .layout-desktop .skinHeader-withBackground {
@@ -55,13 +55,13 @@
 	margin: .5em !important;
 	min-width: 11%;
 	justify-content: center;
-	background: rgba(0, 0, 0, 0.95);
+	background: #0e1d1e7a;
 	border-radius: 0.75em;
 	transition: color 0.6s;
 }
 
 .layout-desktop .homeLibraryButton:hover {
-	color: #00a4dc;
+	color: #cbebf7;
 }
 
 .layout-desktop .homeLibraryText {
@@ -72,8 +72,8 @@
 }
 
 .raised {
-  color: rgba(255, 255, 255, 0.87);
-  background: rgba(0, 0, 0, 0.95);
+	color: rgba(255, 255, 255, 0.87);
+	background: #0e1d1e9c;
 }
 
 .layout-desktop .raised.button-submit.block.btnSave.emby-button {
@@ -85,7 +85,8 @@
 }
 
 .mainDrawer, .drawer-open {
-  background: rgba(0, 0, 0, 0.95);
+	background: #0b1515c2;
+	backdrop-filter: blur(7px);
 }
 
 .navMenuOption:hover {
@@ -105,9 +106,22 @@
   }
 
 .layout-desktop .detailPageWrapperContainer {
+	position: absolute;
+	background: transparent;
+	top: 100vh;
+}
+
+.layout-desktop .detailPageWrapperContainer::before {
+  content: '';
   position: absolute;
-  background: #000c;
-  top: 100vh;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #0e1d1e9c; /* Same background as the container */
+  backdrop-filter: blur(7px); /* Apply the blur effect here */
+  z-index: -1; /* Ensure it’s behind the main content */
+  pointer-events: none; /* Ensure it doesn’t block interactions */
 }
 
 .layout-desktop .detailLogo {
@@ -244,7 +258,14 @@
 }
 
 .listItem:hover {
-  background: #00000078;
+  background: #0e1d1e9c;
+}
+
+.layout-desktop #childrenContent .listItemImage-large {
+  background-position: 50%;
+  height: 7.875vw;
+  margin-right: .75em;
+  width: 14vw;
 }
 
 .layout-desktop .musicParentName {
@@ -287,7 +308,8 @@ body {
 }
 
 .layout-desktop .detailRibbon {
-  background: linear-gradient(180deg, rgb(0% 0% 0% / 0.63) 0%, rgb(0% 0% 0% / 0.6686790466308594) 6.25%, rgb(0% 0% 0% / 0.70034912109375) 12.5%, rgb(0% 0% 0% / 0.7259129333496094) 18.75%, rgb(0% 0% 0% / 0.7462109375) 25%, rgb(0% 0% 0% / 0.7620213317871094) 31.25%, rgb(0% 0% 0% / 0.77406005859375) 37.5%, rgb(0% 0% 0% / 0.7829808044433594) 43.75%, rgb(0% 0% 0% / 0.789375) 50%, rgb(0% 0% 0% / 0.7937718200683594) 56.25%, rgb(0% 0% 0% / 0.79663818359375) 62.5%, rgb(0% 0% 0% / 0.7983787536621094) 68.75%, rgb(0% 0% 0% / 0.7993359375) 75%, rgb(0% 0% 0% / 0.7997898864746094) 81.25%, rgb(0% 0% 0% / 0.79995849609375) 87.5%, rgb(0% 0% 0% / 0.7999974060058594) 93.75%, rgb(0% 0% 0% / 0.8) 100% );
+	background: #0e1d1e9c;
+	backdrop-filter: blur(3px);
 }
 
 .layout-desktop [dir="ltr"] .detailPageContent {
@@ -383,13 +405,13 @@ body {
 
 .cardBox.cardBox-bottompadded {
 	transition: background 0.3s;
-	border-bottom-left-radius: 1em;
-	border-bottom-right-radius: 1em;
-	background: #000000a3;
+	border-bottom-left-radius: 0.2em;
+	border-bottom-right-radius: 0.2em;
+	background: #0e1d1e7a;
 }
 
 .cardBox.cardBox-bottompadded:hover {
-	background: #000;
+	background: #0e1d1e9c;
 }
 
 .cardBox.cardBox-bottompadded:hover .cardOverlayButton-br.flex {
@@ -423,11 +445,11 @@ body {
 .textActionButton:hover {
   -webkit-text-decoration: none;
   text-decoration: none;
-  color: #00a4dc;
+  color: #cbebf7;
 }
 
 .itemsContainer > .card > .cardBox:hover .cardText {
-  color: #00a4dc;
+  color: #cbebf7;
 }
 
 .cardText.cardTextCentered.cardText-first {
