@@ -54,6 +54,12 @@
   background: rgba(0, 0, 0, 0.95);
 }
 
+.alphaPicker-fixed-right {
+    right: 1em;
+    right: max(env(safe-area-inset-right),1em);
+    z-index: 10;
+  }
+
 .layout-desktop .detailPageWrapperContainer {
   position: absolute;
   background: #000c;
