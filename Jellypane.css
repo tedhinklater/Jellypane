@@ -67,16 +67,14 @@
 }
 
 .layout-desktop .detailLogo {
-  position: absolute;
-  left: 1em;
+  position: fixed;
+  left: 1.45em;
   display: block;
   filter: drop-shadow(-6px 2px 4px rgba(2, 2, 2, 0.85));
-  max-width: 62em;
-  max-height: 70em;
-  top: 30em;
+  top: 35em;
   padding-top: 0em;
-  min-height: 20em;
-  min-width: 34em;
+  height: 22em;
+  width: 32em;
 }
 
 .layout-desktop .detailImageContainer .card {
@@ -452,3 +450,4 @@ body {
 		font-size: 200%;
 	}
 }
+
