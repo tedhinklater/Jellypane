@@ -14,6 +14,6 @@ Paste this line into your Custom CSS box
 
 ![unknown_2024 08 10-03 29_2](https://github.com/user-attachments/assets/2dce55e6-42dd-48d2-8ead-54dc6022e612)
 
-![Screenshot 2024-08-10 034754](https://github.com/user-attachments/assets/ae5ac0d5-6442-4c93-af83-70b6eaef12cf)
+![Screenshot from 2024-08-10 12-34-04](https://github.com/user-attachments/assets/4ac86ac2-20d1-4087-80d8-ed975b66d671)
 
 [Featured Content Bar instructions](https://github.com/tedhinklater/finality?tab=readme-ov-file#featured-content-bar-by-bobhasnosoul-and-sethbacon)
