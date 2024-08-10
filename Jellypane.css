@@ -314,7 +314,7 @@ body {
 
 .layout-desktop .detailRibbon {
 	background: #0e1d1e9c;
-	backdrop-filter: blur(3px);
+	backdrop-filter: blur(8px);
 }
 
 .layout-desktop [dir="ltr"] .detailPageContent {
