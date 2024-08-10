@@ -11,6 +11,10 @@
     height: auto !important;
 }
 
+.layout-desktop .dashboardSection, .content-primary {
+	scroll-snap-align: start;
+}
+
 .layout-desktop .backgroundContainer.withBackdrop {
   background: linear-gradient(180deg, rgba(0, 0, 0, 0.05) 0%, rgba(0, 0, 0, 0.05) 6.25%, rgba(0, 0, 0, 0.07) 12.5%, rgba(0, 0, 0, 0.08) 18.75%, rgba(0, 0, 0, 0.11) 25%, rgba(0, 0, 0, 0.14) 31.25%, rgba(0, 0, 0, 0.18) 37.5%, rgba(0, 0, 0, 0.23) 43.75%, rgba(0, 0, 0, 0.29) 50%, rgba(0, 0, 0, 0.35) 56.25%, rgba(0, 0, 0, 0.42) 62.5%, rgba(0, 0, 0, 0.5) 68.75%, rgba(0, 0, 0, 0.58) 75%, rgba(0, 0, 0, 0.68) 81.25%, rgba(0, 0, 0, 0.78) 87.5%, rgba(0, 0, 0, 0.89) 93.75%, rgb(0% 0% 0%) 100% );
 }
@@ -19,7 +23,6 @@
   background: linear-gradient(180deg, rgba(0, 0, 0, 0.85) 0%, rgba(0, 0, 0, 0.85) 6.25%, rgba(0, 0, 0, 0.83) 12.5%, rgba(0, 0, 0, 0.82) 18.75%, rgba(0, 0, 0, 0.8) 25%, rgba(0, 0, 0, 0.77) 31.25%, rgba(0, 0, 0, 0.73) 37.5%, rgba(0, 0, 0, 0.69) 43.75%, rgba(0, 0, 0, 0.64) 50%, rgba(0, 0, 0, 0.58) 56.25%, rgba(0, 0, 0, 0.52) 62.5%, rgba(0, 0, 0, 0.45) 68.75%, rgba(0, 0, 0, 0.37) 75%, rgba(0, 0, 0, 0.29) 81.25%, rgba(0, 0, 0, 0.2) 87.5%, rgba(0, 0, 0, 0.1) 93.75%, rgba(0, 0, 0, 0) 100% );
   position: absolute;
   top: 0em;
-  scroll-snap-align: start;
 }
 
 .layout-desktop .skinHeader.semiTransparent {
@@ -36,6 +39,11 @@
   justify-content: center;
   background: rgba(0, 0, 0, 0.95);
   border-radius: 0.75em;
+  transition: color 0.6s;
+}
+
+.layout-desktop .homeLibraryButton:hover {
+	color: #00a4dc;
 }
 
 .layout-desktop .homeLibraryText {
@@ -94,14 +102,6 @@
   width: 25vw;
 }
 
-.layout-desktop .card {
-	scroll-snap-align: start;
-}
-
-.layout-desktop #itemDetailPage .card {
-	scroll-snap-align: unset;
-}
-
 .layout-desktop .itemName.parentNameLast {
   position: absolute;
   top: 1em;
@@ -123,6 +123,9 @@
   top: 0.2em;
 }
 
+.MuiBox-root.css-k008qs .cardText {
+	background: transparent;
+}
 
 .layout-desktop .mainDetailButtons.focuscontainer-x {
   position: absolute;
@@ -209,22 +212,6 @@
 
 .listItem:hover {
   background: #00000078;
-}
-
-.layout-desktop .sectionTitle {
-	scroll-snap-align: start;
-}
-
-.layout-desktop .raised.button-submit.block.emby-button {
-	scroll-snap-align: start;
-}
-
-.MuiBox-root.css-k008qs .cardText {
-	background: transparent;
-}
-
-.layout-desktop .content-primary {
-	scroll-snap-align: start;
 }
 
 .layout-desktop .musicParentName {
@@ -460,4 +447,3 @@ body {
 		font-size: 200%;
 	}
 }
-
