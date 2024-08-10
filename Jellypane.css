@@ -226,6 +226,10 @@
   left: 0em;
   top: -0.2em;
   font-size: 1.75em;
+  width: 19em;
+  overflow: hidden;
+  height: 1.4em;
+  text-align: left;
 }
 
 body {
