@@ -399,6 +399,11 @@ body {
 	font-weight: 700;
 }
 
+/* Hide My Media text on desktop */
+.layout-desktop #homeTab .section0 .sectionTitle.sectionTitle-cards.padded-left {
+	display: none;
+}
+
 .nowPlayingInfoContainer {
   display: -webkit-flex;
   display: flex;
