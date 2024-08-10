@@ -25,6 +25,10 @@
     backdrop-filter: blur(10px) brightness(80%);
 }
 
+#itemDetailPage .itemsContainer.padded-left::before {
+    backdrop-filter: blur(0px);
+}
+
 .layout-desktop .dashboardSection, .content-primary {
 	scroll-snap-align: start;
 }
