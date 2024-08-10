@@ -11,6 +11,20 @@
     height: auto !important;
 }
 
+.itemsContainer.padded-left::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    opacity: 1;
+    z-index: -1;
+    background-attachment: fixed;
+    backdrop-filter: blur(10px) brightness(80%);
+}
+
 .layout-desktop .dashboardSection, .content-primary {
 	scroll-snap-align: start;
 }
