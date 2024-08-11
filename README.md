@@ -12,8 +12,9 @@ Paste this line into your Custom CSS box
 
 ```
 
-<img src="https://github.com/user-attachments/assets/8544c0e5-71ea-4295-888d-0ef596ceb131" width="49.5%" height="49.5%" /> <img src="https://github.com/user-attachments/assets/b3b5c2d1-d2ca-42a9-84a0-1808c9601cab" width="49.5%" height="49.5%" />
-<img src="https://github.com/user-attachments/assets/e76a8ebb-d119-4726-ae7b-019e840a125a" width="49.5%" height="49.5%" /> <img src="https://github.com/user-attachments/assets/c3e4b71f-afed-4c10-9710-5ae989508dd8" width="49.5%" height="49.5%" />
-<img src="https://github.com/user-attachments/assets/0b7b6608-82a8-47a8-8ad1-b7a681f07a5c" width="49.5%" height="49.5%" /> <img src="https://github.com/user-attachments/assets/3dd49ea7-63c0-45ed-9072-342e68896191" width="49.5%" height="49.5%" />
+<img src="https://github.com/user-attachments/assets/ba27fdc6-5c81-4d9a-9bdf-b57ea4fe0c15" width="49.5%" height="49.5%" /> <img src="https://github.com/user-attachments/assets/f8b703e7-aead-4ddd-a605-1a4a45f1df4b" width="49.5%" height="49.5%" />
+<img src="https://github.com/user-attachments/assets/0646cd10-7564-4a3b-9b6c-acf2a7e25b64" width="49.5%" height="49.5%" /> <img src="https://github.com/user-attachments/assets/82e2b888-2b76-4d60-bcd9-5fa11452506e" width="49.5%" height="49.5%" />
+<img src="https://github.com/user-attachments/assets/7732f585-881c-4fc8-803f-6ddca8c2ae0d" width="49.5%" height="49.5%" /> <img src="https://github.com/user-attachments/assets/773f3ba9-8798-4766-9e72-da8bc5d476d0" width="49.5%" height="49.5%" />
+<img src="https://github.com/user-attachments/assets/db6d2796-ed8f-4d21-be86-6a90858c4f24" width="49.5%" height="49.5%" /> <img src="https://github.com/user-attachments/assets/b8472be3-5bab-4c49-87a5-5cf21fcbe515" width="49.5%" height="49.5%" />
 
 [Featured Content Bar instructions](https://github.com/tedhinklater/finality?tab=readme-ov-file#featured-content-bar-by-bobhasnosoul-and-sethbacon)
