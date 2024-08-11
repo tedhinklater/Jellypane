@@ -756,10 +756,11 @@ progress::-webkit-progress-value {
 }
 
 .layout-desktop #childrenContent .listItemImage-large {
-  background-position: 50%;
-  height: 7.875vw;
-  margin-right: .75em;
-  width: 14vw;
+	background-position: 50%;
+	height: 7.875vw;
+	margin-right: .75em;
+	width: 14vw;
+	cursor: pointer;
 }
 
 .layout-desktop #childrenContent .listItemBodyText.secondary.listItem-overview.listItemBodyText {
