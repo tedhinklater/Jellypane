@@ -731,6 +731,17 @@ progress::-webkit-progress-value {
   width: 14vw;
 }
 
+.layout-desktop #childrenContent .listItemBodyText.secondary.listItem-overview.listItemBodyText {
+  transition: filter 0.8s, opacity 0.8s;
+  filter: blur(40px);
+  opacity: 0.1;
+}
+
+.layout-desktop #childrenContent .listItemBodyText.secondary.listItem-overview.listItemBodyText:hover {
+	filter: blur(0px);
+	opacity: 1;
+}
+
 .layout-desktop .musicParentName {
 	margin: .15em 0 .2em;
 	position: absolute;
