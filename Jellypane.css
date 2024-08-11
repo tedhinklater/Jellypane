@@ -208,7 +208,7 @@ progress::-webkit-progress-value {
 @media (hover: hover) and (pointer: fine) {
     .paper-icon-button-light:hover:not(:disabled) {
         color: #cbebf7;
-        background-color: #425359;
+        background-color: #42535970;
     }
 }
 
