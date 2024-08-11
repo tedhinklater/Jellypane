@@ -591,10 +591,10 @@ progress::-webkit-progress-value {
   left: 0;
   width: 100%;
   height: 100%;
-  background: #0e1d1e9c; /* Same background as the container */
-  backdrop-filter: blur(7px); /* Apply the blur effect here */
-  z-index: -1; /* Ensure it’s behind the main content */
-  pointer-events: none; /* Ensure it doesn’t block interactions */
+  background: #0e1d1e9c;
+  backdrop-filter: blur(7px);
+  z-index: -1; 
+  pointer-events: none;
 }
 
 .layout-desktop .detailLogo {
@@ -710,14 +710,14 @@ progress::-webkit-progress-value {
 }
 
 .layout-desktop .detailPagePrimaryContainer.padded-left.padded-right.detailRibbon::before {
-    content: ''; /* Required for pseudo-elements */
-    position: absolute;
-    top: -4em; /* Position it 4em above the element */
-    left: 0;
-    right: 0;
-    height: 4em; /* Height of the pseudo-element */
-    background-color: transparent; /* Background color for the pseudo-element */
-    z-index: -1; /* Ensure it sits behind the detailRibbon content */
+	content: '';
+	position: absolute;
+	top: -4em;
+	left: 0;
+	right: 0;
+	height: 4em;
+	background-color: transparent;
+	z-index: -1;
 	scroll-snap-align: start;
 }
 
@@ -984,7 +984,29 @@ body {
   flex-direction: row;
   -webkit-flex-shrink: 0;
   flex-shrink: 0;
-  background: #00000078;
+  background: #0e1d1e9c;
+
+}
+
+.layout-desktop .nowPlayingInfoContainer::before {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: transparent;
+	z-index: -1;
+	pointer-events: none;
+	scroll-snap-align: start;
+}
+
+#playlist .listItem {
+	background: #0e1d1e9c;
+}
+
+#playlist .listItem:hover {
+	background: #162b2bc7;
 }
 
 @media (min-width: 100em) {
