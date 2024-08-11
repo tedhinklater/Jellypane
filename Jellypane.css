@@ -776,7 +776,7 @@ progress::-webkit-progress-value {
 .layout-desktop .musicParentName {
 	margin: .15em 0 .2em;
 	position: absolute;
-	left: -0.15em;
+	left: -0.5em;
 	top: -0.5em;
 	font-size: 1.25em;
 	overflow: hidden;
