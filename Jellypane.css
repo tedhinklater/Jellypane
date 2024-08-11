@@ -502,6 +502,7 @@ progress::-webkit-progress-value {
 	backdrop-filter: blur(7px);
 	position: fixed;
 	top: 0em;
+	max-height: 4em;
 }
 
 .layout-desktop .skinHeader.semiTransparent {
@@ -602,7 +603,7 @@ progress::-webkit-progress-value {
   left: 1.425em;
   display: block;
   filter: drop-shadow(-6px 2px 4px rgba(2, 2, 2, 0.85));
-  top: 43em;
+  top: 42.8em;
   padding-top: 0em;
   height: 16em;
   width: 32em;
