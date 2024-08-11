@@ -500,7 +500,7 @@ progress::-webkit-progress-value {
 .layout-desktop .skinHeader-withBackground {
 	background: #0e1d1e9c;
 	backdrop-filter: blur(7px);
-	position: absolute;
+	position: fixed;
 	top: 0em;
 }
 
@@ -602,7 +602,7 @@ progress::-webkit-progress-value {
   left: 1.45em;
   display: block;
   filter: drop-shadow(-6px 2px 4px rgba(2, 2, 2, 0.85));
-  top: 35em;
+  top: 37em;
   padding-top: 0em;
   height: 22em;
   width: 32em;
@@ -805,7 +805,7 @@ body {
 
 .layout-desktop .tagline {
   position: fixed;
-  top: 47.5em;
+  top: 50.5em;
   left: 1em;
   font-weight: 600;
   width: 27.65em;
