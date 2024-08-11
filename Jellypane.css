@@ -599,12 +599,12 @@ progress::-webkit-progress-value {
 
 .layout-desktop .detailLogo {
   position: fixed;
-  left: 1.45em;
+  left: 1.425em;
   display: block;
   filter: drop-shadow(-6px 2px 4px rgba(2, 2, 2, 0.85));
-  top: 37em;
+  top: 43em;
   padding-top: 0em;
-  height: 22em;
+  height: 16em;
   width: 32em;
 }
 
