@@ -11,10 +11,472 @@
     height: auto !important;
 }
 
-/*Use your own header logo*/
+/* Video Playback Progress Bar */
+.mdl-slider-background-lower {
+    background: #add1de !important;
+}
+
+.iconOsdProgressInner {
+  background: #cbebf7;
+  border-radius: .25em;
+  height: 100%;
+}
+
+/* Edge & Chrome browser & JMP */
+
+.slider-browser-edge{margin-left:-.16em;margin-right:-.16em;width:150%}.mdl-slider::-webkit-slider-thumb{-webkit-appearance:none;appearance:none;background:#add1de;}
+.navMenuOption:hover {
+  background: rgba(0, 164, 220, 0.2);
+  color: white;
+  padding-left: 15% !important;
+  font-weight: 700 !important;
+}
+
+.mdl-slider::-moz-range-thumb {
+  background: #cbebf7 !important;
+}
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #cbebf7 #0000 !important;
+}
+
+.sliderMarker.watched {
+  background-color: #cbebf7;
+}
+
 .pageTitleWithDefaultLogo {
   background-image: url(https://i.imgur.com/gp44vKV.png);
 }
+
+/*Spinner*/
+.mdl-spinner__layer-1,
+.mdl-spinner__layer-2,
+.mdl-spinner__layer-3,
+.mdl-spinner__layer-4 {
+    border-color: #cbebf7 !important;
+}
+
+.starIcon {
+  margin-bottom: 0.2em;
+}
+
+.mediaInfoCriticRating {
+  margin-bottom: 0.2em;
+}
+
+* {
+    scrollbar-width: thin;
+    scrollbar-color: #fff #0000 !important;
+}
+
+progress {
+  -webkit-appearance: none;
+  appearance: none;
+  background: #182c33 !important;
+}
+
+/* Progress ring */
+.progressring-spiner {
+  border-color: #cbebf7;
+  border-width: .35em;
+}
+.progressring {
+    margin: .4em;
+}
+.progressring-bg {
+   display: none;
+}
+
+.cardBox:not(.visualCardBox) .cardPadder {
+  background-color: transparent !important;
+  box-shadow: 0 .0725em .29em 0 rgba(0,0,0,0);
+}
+
+/* Dashboard & button colours */
+
+.css-17c09up.Mui-selected {
+  background-color: #425359;
+  font-weight: 700 !important;
+}
+
+.css-17c09up.Mui-selected .css-37qkju {
+  color: rgba(255, 255, 255, 1);
+}
+
+.css-37qkju {
+  color: rgb(255, 255, 255);
+}
+
+.css-17c09up.Mui-selected:hover {
+  background-color: #425359;
+}
+
+.css-17c09up:hover {
+  text-decoration: none;
+  background-color: rgba(28, 21, 21, 0.37);
+}
+
+.css-1ip8vbj.Mui-selected {
+  background-color: #425359;
+}
+
+.css-1ip8vbj.Mui-selected:hover {
+  background-color: #425359;
+}
+
+.css-1ip8vbj:hover {
+  text-decoration: none;
+  background-color: rgba(28, 21, 21, 0.37);
+}
+
+.css-77wcaa .MuiAlert-icon {
+  color: #377991;
+}
+
+.css-1fv02xh {
+  background-color: rgba(255, 255, 255, 1);
+}
+
+.css-1fv02xh:hover {
+  background-color: #cbebf7;
+}
+
+.css-77wcaa {
+  background-color: #425359;
+}
+
+.css-195jjve {
+  background-color: #425359;
+}
+
+.css-1pjtbja {
+  color: #fff;
+}
+
+.css-1jmiiw3 .MuiDataGrid-row.Mui-selected {
+  background-color: #cbebf7;
+}
+
+.css-1jmiiw3 .MuiDataGrid-row.Mui-selected:hover {
+  background-color: #cbebf7;
+}
+
+#dashboardPage .listItemIcon.material-icons.notifications {
+  background-color: #425359 !important;
+}
+
+.material-icons.favorite,
+.material-icons.detailButton-icon.check.playstatebutton-icon-played,
+.material-icons.detailButton-icon.check.playstatebutton-icon-unplayed,
+.material-icons.detailButton-icon.theaters,
+.material-icons.detailButton-icon.more_vert,
+.material-icons.detailButton-icon.shuffle,
+.material-icons.detailButton-icon.play_arrow,
+.material-icons.detailButton-icon.explore,
+.material-icons.detailButton-icon.replay {
+  font-family: 'Material Icons';
+filter: drop-shadow(0px 0px 4px rgb(0, 0, 0));
+}
+
+progress::-moz-progress-bar {
+  background-color: #cbebf7;
+}
+progress::-webkit-progress-value {
+  background-color: #cbebf7;
+}
+.taskProgressInner {
+  background: #cbebf7 !important;
+}
+#divRunningTasks span {
+    color: #cbebf7 !important;
+}
+
+.listItemIcon:not(.listItemIcon-transparent) {
+  background-color: #425359;
+  border-radius: 100em;
+  color: #fff;
+  padding: .5em;
+}
+
+@media (hover: hover) and (pointer: fine) {
+    .paper-icon-button-light:hover:not(:disabled) {
+        color: #cbebf7;
+        background-color: #425359;
+    }
+}
+
+@media (hover: hover) and (pointer: fine) {
+    .paper-icon-button-light:hover:not(:disabled) {
+        color: #cbebf7;
+        background-color: #425359;
+    }
+}
+
+.paper-icon-button-light:active:not(:disabled) {
+    color: #cbebf7;
+    background-color: #425359;
+}
+
+.paper-icon-button-light.show-focus:focus {
+    color: #cbebf7;
+}
+
+.emby-checkbox:checked + span + .checkboxOutline, .itemProgressBarForeground {
+  background-color: #000;
+}
+
+.button-submit {
+  background: #425359;
+  color: #fff;
+}
+
+.button-submit:focus {
+    background: #fff;
+    color: #000;
+}
+
+.inputLabelFocused,
+.selectLabelFocused,
+.textareaLabelFocused {
+    color: #cbebf7;
+}
+
+.defaultCardBackground1 {
+    background-color: #425359;
+}
+
+.defaultCardBackground2 {
+    background-color: #182c33;
+}
+
+.defaultCardBackground3 {
+    background-color: #194554;
+}
+
+.defaultCardBackground4 {
+    background-color: #397082;
+}
+
+.defaultCardBackground5 {
+    background-color: #125b73;
+}
+
+.itemSelectionPanel {
+    border: 1px solid #cbebf7;
+}
+
+.selectionCommandsPanel {
+    background: #cbebf7;
+    color: #fff;
+}
+
+.upNextDialog-countdownText {
+    color: #cbebf7;
+}
+
+.alphaPickerButton {
+  color: rgba(255, 255, 255, 0.5);
+  background-color: transparent;
+  margin-bottom: 0.21em;
+}
+
+.alphaPickerButton-selected {
+    color: #fff;
+}
+
+.alphaPickerButton-tv:focus {
+    background-color: #425359;
+    color: #fff !important;
+}
+
+.progressring-spiner {
+    border-color: #cbebf7;
+}
+
+.button-flat:hover {
+    color: #cbebf7;
+}
+
+.button-link {
+  color: #fff;
+}
+
+/*Change Intro Skip Color*/
+#skipIntro .emby-button:hover,
+#skipIntro .emby-button:focus {
+    background-color: #cbebf7;
+    transform: scale(1.05);
+}
+
+.emby-input:focus,
+.emby-textarea:focus {
+    border-color: white;
+}
+
+.emby-select-withcolor:focus {
+    border-color: #cbebf7 !important;
+}
+
+.emby-select-tv-withcolor:focus {
+    background-color: #cbebf7 !important;
+    color: #fff !important;
+}
+
+.emby-checkbox:checked + span + .checkboxOutline {
+    border-color: #cbebf7;
+}
+
+.emby-checkbox:focus:not(:checked) + span + .checkboxOutline {
+    border-color: #cbebf7;
+}
+
+.itemProgressBarForeground-recording {
+    background-color: #cbebf7;
+}
+
+.countIndicator,
+.fullSyncIndicator,
+.mediaSourceIndicator,
+.playedIndicator {
+    background: #cbebf7;
+}
+
+.navMenuOption-selected {
+    background: #425359 !important;
+    color: #fff;
+}
+
+.emby-button.show-focus:focus {
+    background: #425359;
+    color: #fff;
+}
+
+.emby-tab-button.show-focus:focus {
+    color: #425359;
+}
+
+.emby-tab-button:hover {
+    color: #cbebf7;
+}
+
+.programCell-sports {
+    background: #425359 !important;
+}
+
+.programCell-movie {
+    background: #425359 !important;
+}
+
+.programCell-kids {
+    background: #425359 !important;
+}
+
+.programCell-news {
+    background: #425359 !important;
+}
+
+.guide-channelHeaderCell:focus,
+.programCell:focus {
+    background-color: #425359 !important;
+    color: #fff !important;
+}
+
+.guide-date-tab-button.emby-tab-button-active,
+.guide-date-tab-button:focus {
+    color: #425359;
+}
+
+.downloadbutton-icon-complete,
+.downloadbutton-icon-on {
+    color: #425359;
+}
+
+.buttonActive {
+    color: #cbebf7 !important;
+}
+
+.card:focus .cardBox.visualCardBox,
+.card:focus .cardBox:not(.visualCardBox) .cardScalable {
+    border-color: #425359 !important;
+}
+
+.itemsContainer > .card > .cardBox {
+  margin-left: 0.3em !important;
+  margin-right: 1.2em;
+  transition: color 1s;
+}
+
+.itemsContainer > .card > .cardBox:hover {
+  color: #cbebf7;
+}
+
+.cardText.cardTextCentered.cardText-secondary {
+  transition: color 1.6s;
+  font-weight: 700;
+}
+
+#indexPage .cardText.cardTextCentered.cardText-secondary {
+  font-weight: 500;
+}
+
+.itemsContainer > .card > .cardBox:hover .cardText.cardTextCentered.cardText-secondary {
+  color: #cbebf7;
+}
+
+.metadataSidebarIcon {
+    color: #cbebf7;
+}
+
+.layout-tv .emby-button.detailFloatingButton:focus {
+    background-color: #fff;
+    color: #425359;
+}
+
+#dialogToc .bookplayerButtonIcon:hover {
+    color: #425359;
+}
+
+#dialogToc .toc li a:active,
+#dialogToc .toc li a:hover {
+    color: #425359;
+}
+
+/*Make watched icon and count indicator dark and red*/
+.innerCardFooter,
+.countIndicator, 
+.playedIndicator {
+  background: linear-gradient(to right, rgba(26, 98, 125, 0.8) 0%, rgba(139, 212, 240, 0.8) 100%);
+  box-shadow: none;
+  color: #fff;
+}
+
+.ratingbutton-icon-withrating {
+    color: #8bd4f0;
+}
+
+.downloadbutton-icon-complete,
+.downloadbutton-icon-on {
+    color: #8bd4f0;
+}
+
+.playstatebutton-icon-played {
+    color: #8bd4f0;
+}
+
+.buttonActive {
+    color: #cbebf7 !important;
+}
+
+.layout-desktop #videoOsdPage .osdRatingsText {
+  opacity: 0;
+}
+
+
+
+
+
+
+
 
 .itemsContainer.padded-left::before {
     content: '';
@@ -77,8 +539,8 @@
 }
 
 .raised {
-	color: rgba(255, 255, 255, 0.87);
-	background: #0e1d1e9c;
+  color: rgba(255, 255, 255, 0.87);
+  background: #0e1d1e9c;
 }
 
 .layout-desktop .raised.button-submit.block.btnSave.emby-button {
