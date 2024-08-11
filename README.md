@@ -2,7 +2,7 @@
 
 768p :heavy_check_mark: 1080p :heavy_check_mark: 1440p :heavy_check_mark: 4k :heavy_check_mark: Mobile :soon: TV Mode :soon:
 
-![g4](https://github.com/user-attachments/assets/c0efc43d-7cbc-4966-9f6f-2dc2f98537f7)
+![g4](https://github.com/user-attachments/assets/f765035e-4a5b-4324-9685-3e6d39261d6d)
 
 Paste this line into your Custom CSS box
 
@@ -12,9 +12,9 @@ Paste this line into your Custom CSS box
 
 ```
 
-<img src="https://github.com/user-attachments/assets/ba27fdc6-5c81-4d9a-9bdf-b57ea4fe0c15" width="49.5%" height="49.5%" /> <img src="https://github.com/user-attachments/assets/f8b703e7-aead-4ddd-a605-1a4a45f1df4b" width="49.5%" height="49.5%" />
-<img src="https://github.com/user-attachments/assets/0646cd10-7564-4a3b-9b6c-acf2a7e25b64" width="49.5%" height="49.5%" /> <img src="https://github.com/user-attachments/assets/f060cb95-4bfc-4f06-a233-c1ec5e92f415" width="49.5%" height="49.5%" />
-<img src="https://github.com/user-attachments/assets/03eccfc6-de7c-481d-8590-24e9083305f4" width="49.5%" height="49.5%" /> <img src="https://github.com/user-attachments/assets/57046576-b39c-4fc8-a668-2599aa27ac7e" width="49.5%" height="49.5%" />
-<img src="https://github.com/user-attachments/assets/0c3fcd97-d7ac-42af-b601-543824ca7734" width="49.5%" height="49.5%" /> <img src="https://github.com/user-attachments/assets/b8472be3-5bab-4c49-87a5-5cf21fcbe515" width="49.5%" height="49.5%" />
+<img src="https://github.com/user-attachments/assets/dd0ca1a8-73eb-4184-8ebc-a61e33ad6080" width="49.5%" height="49.5%" /> <img src="https://github.com/user-attachments/assets/e051c728-de19-490e-a39b-923d7462364d" width="49.5%" height="49.5%" />
+<img src="https://github.com/user-attachments/assets/89ed1ca9-58db-41fa-bd0d-f6d2e92c02d8" width="49.5%" height="49.5%" /> <img src="https://github.com/user-attachments/assets/69d1ba57-c1a0-4c37-8592-c84031318959" width="49.5%" height="49.5%" />
+<img src="https://github.com/user-attachments/assets/7433144a-350e-4746-a50a-d25d6cd8cd91" width="49.5%" height="49.5%" /> <img src="https://github.com/user-attachments/assets/66f74416-6713-41c7-8f6f-865b27db50e0" width="49.5%" height="49.5%" />
+<img src="https://github.com/user-attachments/assets/adfe4689-ec6b-4033-b139-06fd5738d753" width="49.5%" height="49.5%" /> <img src="https://github.com/user-attachments/assets/ebcc9519-14f4-499f-ac33-aea1b10092a3" width="49.5%" height="49.5%" />
 
 [Featured Content Bar instructions](https://github.com/tedhinklater/finality?tab=readme-ov-file#featured-content-bar-by-bobhasnosoul-and-sethbacon)
