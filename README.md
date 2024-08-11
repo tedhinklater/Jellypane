@@ -2,7 +2,7 @@
 
 768p :heavy_check_mark: 1080p :heavy_check_mark: 1440p :heavy_check_mark: 4k :heavy_check_mark: Mobile :soon: TV Mode :soon:
 
-![g4](https://github.com/user-attachments/assets/48839d04-01dd-429f-bfbb-ed3fe2e0938a)
+![g4](https://github.com/user-attachments/assets/fc4fff36-2809-4c61-98a1-beca3b41726f)
 
 Paste this line into your Custom CSS box
 
