@@ -568,9 +568,9 @@ progress::-webkit-progress-value {
 }
 
 .layout-desktop #homeTab .sections.homeSectionsContainer {
-  margin-left: -2em;
-  max-width: 131em;
-  margin-top: 2em;
+	margin-left: -2em;
+	max-width: 102vw !important;
+	margin-top: 2em;
 }
 
 .alphaPicker-fixed-right {
