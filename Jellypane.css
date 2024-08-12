@@ -1035,6 +1035,10 @@ body {
 	.sectionTabs {
 		margin-top: -2em;
 	}
+	.layout-desktop .detailPagePrimaryContainer.padded-left.padded-right.detailRibbon::before {
+		top: -3.83em;
+		height: 3.83em;
+	}
 }
 
 /* 1440p */
@@ -1048,6 +1052,10 @@ body {
 	}
 	.layout-desktop .mainDrawer.transition.touch-menu-la.drawer-open {
 		width: 21em !important;
+	}
+	.layout-desktop .detailPagePrimaryContainer.padded-left.padded-right.detailRibbon::before {
+		top: -3.97em;
+		height: 3.97em;
 	}
 }
 
