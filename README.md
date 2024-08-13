@@ -2,7 +2,7 @@
 
 768p :heavy_check_mark: 1080p :heavy_check_mark: 1440p :heavy_check_mark: 4k :heavy_check_mark: Mobile :soon: TV Mode :soon:
 
-![g4](https://github.com/user-attachments/assets/fc4fff36-2809-4c61-98a1-beca3b41726f)
+![g4](https://github.com/user-attachments/assets/8ee4652b-84cf-4a4b-967a-3e8e592c0fdc)
 
 Paste this line into your Custom CSS box
 
@@ -11,10 +11,11 @@ Paste this line into your Custom CSS box
 @import url("https://cdn.jsdelivr.net/gh/tedhinklater/Jellypane@latest/Jellypane.css");
 
 ```
-<img src="https://github.com/user-attachments/assets/dd0ca1a8-73eb-4184-8ebc-a61e33ad6080" width="49.5%" height="49.5%" /> <img src="https://github.com/user-attachments/assets/e051c728-de19-490e-a39b-923d7462364d" width="49.5%" height="49.5%" />
-<img src="https://github.com/user-attachments/assets/89ed1ca9-58db-41fa-bd0d-f6d2e92c02d8" width="49.5%" height="49.5%" /> <img src="https://github.com/user-attachments/assets/9fc274aa-4d42-4527-9333-14cb55bc47ef" width="49.5%" height="49.5%" /> 
-<img src="https://github.com/user-attachments/assets/3c9d0b0b-614b-4a73-8e2a-051ae9ae668a" width="49.5%" height="49.5%" /> <img src="https://github.com/user-attachments/assets/57aef302-4e32-4721-b41c-a6d8d17becf7" width="49.5%" height="49.5%" />
+<img src="https://github.com/user-attachments/assets/fe87b79c-3187-4f40-9573-a096183d904c" width="49.5%" height="49.5%" /> <img src="https://github.com/user-attachments/assets/94d0d063-9b47-4807-b686-301d5e9e10bc" width="49.5%" height="49.5%" />
+<img src="https://github.com/user-attachments/assets/b2ceb49a-0c82-4934-934a-723b6000f738" width="49.5%" height="49.5%" /> <img src="https://github.com/user-attachments/assets/6809e8ec-0686-4da3-ae84-b085cf224837" width="49.5%" height="49.5%" /> 
+<img src="https://github.com/user-attachments/assets/7a1c4ac6-27b0-42c7-a381-10cdcf2d7c3d" width="49.5%" height="49.5%" /> <img src="https://github.com/user-attachments/assets/ba72fdbc-728a-410c-b2f8-abd9524e529c" width="49.5%" height="49.5%" />
+<img src="https://github.com/user-attachments/assets/ca7ad0c5-ac56-471a-ac2e-99ac7a7c9fb6" width="49.5%" height="49.5%" /> <img src="https://github.com/user-attachments/assets/af0c6253-cd3e-47d2-b4a1-3b618723a99b" width="49.5%" height="49.5%" />
 
-<img src="https://github.com/user-attachments/assets/ebcc9519-14f4-499f-ac33-aea1b10092a3" width="99.5%" height="99.5%" />
+<img src="https://github.com/user-attachments/assets/6f1974f6-102c-4cea-9e77-172ca3e23231" width="99.5%" height="99.5%" />
 
 [Featured Content Bar instructions](https://github.com/tedhinklater/finality?tab=readme-ov-file#featured-content-bar-by-bobhasnosoul-and-sethbacon)
