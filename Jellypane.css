@@ -1015,7 +1015,7 @@ body {
     margin-top: -4em;
 }
 
-.layout-desktop .flex.align-items-center.justify-content-center.flex-wrap-wrap.padded-top.padded-left.padded-right.padded-bottom.focuscontainer-x::before {
+.layout-desktop #musicRecommendedPage .flex.align-items-center.justify-content-center.flex-wrap-wrap.padded-top.padded-left.padded-right.padded-bottom.focuscontainer-x::before {
     content: '';
     position: absolute;
     left: 0;
