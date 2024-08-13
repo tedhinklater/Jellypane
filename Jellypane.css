@@ -1003,6 +1003,30 @@ body {
 	scroll-snap-align: start;
 }
 
+.layout-desktop #itemDetailPage .sectionTitle::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 4em;
+    background-color: transparent;
+    z-index: -1;
+    scroll-snap-align: start;
+    margin-top: -4em;
+}
+
+.layout-desktop .flex.align-items-center.justify-content-center.flex-wrap-wrap.padded-top.padded-left.padded-right.padded-bottom.focuscontainer-x::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 6em;
+    background-color: transparent;
+    z-index: -1;
+    scroll-snap-align: start;
+    margin-top: -6em;
+}
+
 #playlist .listItem {
 	background: #0e1d1e9c;
 }
