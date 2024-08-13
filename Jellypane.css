@@ -742,7 +742,7 @@ progress::-webkit-progress-value {
   margin: 0;
   padding-bottom: .2em;
   padding-top: .5em;
-  scroll-snap-align: start;
+  scroll-snap-align: unset;
   font-weight: 600;
 }
 
@@ -1056,6 +1056,20 @@ body {
   .sectionTabs {
     font-size: 100%;
   }
+}
+
+.layout-desktop .nextUpSection.verticalSection.detailVerticalSection {
+	position: absolute;
+	top: -25em;
+	right: 4.45em;
+}
+
+.layout-desktop #itemDetailPage .nextUpSection.verticalSection.detailVerticalSection .sectionTitle.sectionTitle-cards:before {
+	scroll-snap-align: unset !important;
+}
+
+.layout-desktop #itemDetailPage .nextUpSection.verticalSection.detailVerticalSection .cardBox.cardBox-bottompadded {
+	background: transparent;
 }
 
 /* 768p */
