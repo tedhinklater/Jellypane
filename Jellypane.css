@@ -932,7 +932,7 @@ body {
 }
 
 .cardOverlayContainer {
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(0, 0, 0, 0.25);
   border-radius: .2em;
   bottom: 0;
   left: 0;
