@@ -1041,6 +1041,11 @@ body {
 	background: #162b2bc7;
 }
 
+.layout-desktop .appfooter, .playlistSectionButton {
+  background: #0e1d1e9c;
+  backdrop-filter: blur(7px);
+}
+
 @media (min-width: 100em) {
   .pageWithAbsoluteTabs:not(.noSecondaryNavPage) {
     padding-top: 3.7em !important;
