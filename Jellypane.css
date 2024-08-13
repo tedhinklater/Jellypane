@@ -22,9 +22,7 @@
   height: 100%;
 }
 
-.layout-desktop .skinHeader.focuscontainer-x.skinHeader-withBackground.skinHeader-blurred.osdHeader {
-  background: linear-gradient(0deg, rgb(5.49% 11.373% 11.765% / 0) 0%, rgb(5.49% 11.373% 11.765% / 0.07508285522460938) 6.25%, rgb(5.49% 11.373% 11.765% / 0.13656005859375) 12.5%, rgb(5.49% 11.373% 11.765% / 0.18618392944335938) 18.75%, rgb(5.49% 11.373% 11.765% / 0.2255859375) 25%, rgb(5.49% 11.373% 11.765% / 0.2562767028808594) 31.25%, rgb(5.49% 11.373% 11.765% / 0.27964599609375) 37.5%, rgb(5.49% 11.373% 11.765% / 0.2969627380371094) 43.75%, rgb(5.49% 11.373% 11.765% / 0.309375) 50%, rgb(5.49% 11.373% 11.765% / 0.31791000366210936) 56.25%, rgb(5.49% 11.373% 11.765% / 0.32347412109375) 62.5%, rgb(5.49% 11.373% 11.765% / 0.3268528747558594) 68.75%, rgb(5.49% 11.373% 11.765% / 0.3287109375) 75%, rgb(5.49% 11.373% 11.765% / 0.3295921325683594) 81.25%, rgb(5.49% 11.373% 11.765% / 0.32991943359375003) 87.5%, rgb(5.49% 11.373% 11.765% / 0.32999496459960936) 93.75%, rgb(5.49% 11.373% 11.765% / 0.33) 100% );
-}
+.layout-desktop .skinHeader.focuscontainer-x.skinHeader-withBackground.skinHeader-blurred osdHeader osdHeader-hidden
 
 /* Edge & Chrome browser & JMP */
 
@@ -471,7 +469,7 @@ progress::-webkit-progress-value {
     color: #cbebf7 !important;
 }
 
- #videoOsdPage .osdRatingsText {
+.layout-desktop #videoOsdPage .osdRatingsText {
   opacity: 0;
 }
 
@@ -493,15 +491,15 @@ progress::-webkit-progress-value {
     backdrop-filter: blur(0px);
 }
 
- .dashboardSection, .content-primary {
+.layout-desktop .dashboardSection, .content-primary {
 	scroll-snap-align: start;
 }
 
- .backgroundContainer.withBackdrop {
+.layout-desktop .backgroundContainer.withBackdrop {
   background: linear-gradient(180deg, rgb(5.49% 11.373% 11.765% / 0) 0%, rgb(5.49% 11.373% 11.765% / 0.0000152587890625) 6.25%, rgb(5.49% 11.373% 11.765% / 0.000244140625) 12.5%, rgb(5.49% 11.373% 11.765% / 0.0012359619140625) 18.75%, rgb(5.49% 11.373% 11.765% / 0.00390625) 25%, rgb(5.49% 11.373% 11.765% / 0.0095367431640625) 31.25%, rgb(5.49% 11.373% 11.765% / 0.019775390625) 37.5%, rgb(5.49% 11.373% 11.765% / 0.0366363525390625) 43.75%, rgb(5.49% 11.373% 11.765% / 0.0625) 50%, rgb(5.49% 11.373% 11.765% / 0.1001129150390625) 56.25%, rgb(5.49% 11.373% 11.765% / 0.152587890625) 62.5%, rgb(5.49% 11.373% 11.765% / 0.2234039306640625) 68.75%, rgb(5.49% 11.373% 11.765% / 0.31640625) 75%, rgb(5.49% 11.373% 11.765% / 0.4358062744140625) 81.25%, rgb(5.49% 11.373% 11.765% / 0.586181640625) 87.5%, rgb(5.49% 11.373% 11.765% / 0.7724761962890625) 93.75%, rgb(5.49% 11.373% 11.765%) 100% );
 }
 
- .skinHeader-withBackground {
+.layout-desktop .skinHeader-withBackground {
 	background: #0e1d1e9c;
 	backdrop-filter: blur(7px);
 	position: fixed;
@@ -509,14 +507,14 @@ progress::-webkit-progress-value {
 	max-height: 4em;
 }
 
- .skinHeader.semiTransparent {
+.layout-desktop .skinHeader.semiTransparent {
 	background: transparent;
 	position: fixed;
 	top: 0em;
 	scroll-snap-align: start;
 }
   
- .skinHeader.semiTransparent::before {
+.layout-desktop .skinHeader.semiTransparent::before {
   content: '';
   position: absolute;
   top: 0;
@@ -529,7 +527,7 @@ progress::-webkit-progress-value {
   scroll-snap-align: start;
 }
 
- .homeLibraryButton {
+.layout-desktop .homeLibraryButton {
 	margin: .5em !important;
 	min-width: 11%;
 	justify-content: center;
@@ -538,11 +536,11 @@ progress::-webkit-progress-value {
 	transition: color 0.6s;
 }
 
- .homeLibraryButton:hover {
+.layout-desktop .homeLibraryButton:hover {
 	color: #cbebf7;
 }
 
- .homeLibraryText {
+.layout-desktop .homeLibraryText {
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
@@ -554,11 +552,11 @@ progress::-webkit-progress-value {
   background: #0e1d1e9c;
 }
 
- .raised.button-submit.block.btnSave.emby-button {
+.layout-desktop .raised.button-submit.block.btnSave.emby-button {
 	scroll-snap-align: unset;
 }
 
- #homeScreenPreferencesPage .listItem {
+.layout-desktop #homeScreenPreferencesPage .listItem {
 	scroll-snap-align: unset;
 }
 
@@ -571,10 +569,10 @@ progress::-webkit-progress-value {
   background-color: rgba(0, 164, 220, 0.2);
 }
 
- #homeTab .sections.homeSectionsContainer {
-  margin-left: -2em;
-  max-width: 131em;
-  margin-top: 2em;
+.layout-desktop #homeTab .sections.homeSectionsContainer {
+	margin-left: -2em;
+	max-width: 102vw !important;
+	margin-top: 2em;
 }
 
 .alphaPicker-fixed-right {
@@ -583,13 +581,13 @@ progress::-webkit-progress-value {
     z-index: 10;
   }
 
- .detailPageWrapperContainer {
+.layout-desktop .detailPageWrapperContainer {
 	position: absolute;
 	background: transparent;
 	top: 100vh;
 }
 
- .detailPageWrapperContainer::before {
+.layout-desktop .detailPageWrapperContainer::before {
   content: '';
   position: absolute;
   top: 0;
@@ -602,7 +600,7 @@ progress::-webkit-progress-value {
   pointer-events: none;
 }
 
- .detailLogo {
+.layout-desktop .detailLogo {
   position: fixed;
   left: 1.425em;
   display: block;
@@ -613,14 +611,14 @@ progress::-webkit-progress-value {
   width: 32em;
 }
 
- .detailImageContainer .card {
+.layout-desktop .detailImageContainer .card {
   left: 1%;
   max-height: none;
   top: 6.5em;
   width: 25vw;
 }
 
- .itemName.parentNameLast {
+.layout-desktop .itemName.parentNameLast {
 	position: absolute;
 	top: 0.85em;
 	font-size: 1.25em;
@@ -630,11 +628,11 @@ progress::-webkit-progress-value {
 	font-weight: 700;
 }
 
- #liveTvSuggestedPage .cardText {
+.layout-desktop #liveTvSuggestedPage .cardText {
 	background: transparent;
 }
 
- .itemName.originalTitle {
+.layout-desktop .itemName.originalTitle {
   margin: .2em 0 .2em;
   position: absolute;
   left: 16.4em;
@@ -642,7 +640,7 @@ progress::-webkit-progress-value {
   top: 0.2em;
 }
 
- .subtitle {
+.layout-desktop .subtitle {
   margin: 0em 0 0.2em;
     margin-left: 0px;
   margin-left: -1em;
@@ -653,7 +651,7 @@ progress::-webkit-progress-value {
 	background: transparent;
 }
 
- .mainDetailButtons.focuscontainer-x {
+.layout-desktop .mainDetailButtons.focuscontainer-x {
   position: absolute;
   bottom: -1.1em;
   left: 30vw;
@@ -662,27 +660,27 @@ progress::-webkit-progress-value {
   justify-content: space-between;
 }
 
- .mainDetailButtons.focuscontainer-x:hover {
+.layout-desktop .mainDetailButtons.focuscontainer-x:hover {
   opacity: 1;
   transition-delay: 0s;
 }
 
- .mainDetailButtons {
+.layout-desktop .mainDetailButtons {
   font-size: 138%;
   margin: 1.25em 0;
   position: relative;
 }
 
- .mainDetailButtons {
+.layout-desktop .mainDetailButtons {
     position: relative;
 }
 
- .mainDetailButtons:hover::before {
+.layout-desktop .mainDetailButtons:hover::before {
     height: 161%;
   transition-delay: 0s;
 }
 
- .itemMiscInfo.itemMiscInfo-primary {
+.layout-desktop .itemMiscInfo.itemMiscInfo-primary {
 	position: absolute;
 	right: 1em;
 	font-size: 1.1em;
@@ -692,7 +690,7 @@ progress::-webkit-progress-value {
 	justify-content: space-evenly;
 }
 
- .itemBackdrop {
+.layout-desktop .itemBackdrop {
   -webkit-animation: backdrop-fadein .8s ease-in normal both;
   animation: backdrop-fadein .8s ease-in normal both;
   background-attachment: fixed;
@@ -709,12 +707,12 @@ progress::-webkit-progress-value {
   }
 }
 
- .detailPagePrimaryContainer.padded-left.padded-right.detailRibbon {
+.layout-desktop .detailPagePrimaryContainer.padded-left.padded-right.detailRibbon {
   bottom: 0em;
   scroll-snap-align: end;
 }
 
- .detailPagePrimaryContainer.padded-left.padded-right.detailRibbon::before {
+.layout-desktop .detailPagePrimaryContainer.padded-left.padded-right.detailRibbon::before {
 	content: '';
 	position: absolute;
 	top: -4em;
@@ -726,7 +724,7 @@ progress::-webkit-progress-value {
 	scroll-snap-align: start;
 }
 
- .detailRibbon {
+.layout-desktop .detailRibbon {
   height: 5em;
   margin-top: -5em;
 }
@@ -736,7 +734,7 @@ progress::-webkit-progress-value {
   scroll-snap-type: y mandatory;
 }
 
- #itemDetailPage div:not(.sectionTitleContainer-cards) > .sectionTitle-cards {
+.layout-desktop #itemDetailPage div:not(.sectionTitleContainer-cards) > .sectionTitle-cards {
   margin: 0;
   padding-bottom: .2em;
   padding-top: .5em;
@@ -744,12 +742,12 @@ progress::-webkit-progress-value {
   font-weight: 600;
 }
 
- .detailPageSecondaryContainer {
+.layout-desktop .detailPageSecondaryContainer {
   padding-top: 1.25em;
   width: 100vw;
 }
 
- .listItem {
+.layout-desktop .listItem {
   padding: .25em .25em .25em .5em;
   text-align: left;
   scroll-snap-align: start;
@@ -760,7 +758,7 @@ progress::-webkit-progress-value {
   background: #0e1d1e9c;
 }
 
- #childrenContent .listItemImage-large {
+.layout-desktop #childrenContent .listItemImage-large {
 	background-position: 50%;
 	height: 7.875vw;
 	margin-right: .75em;
@@ -768,18 +766,18 @@ progress::-webkit-progress-value {
 	cursor: pointer;
 }
 
- #childrenContent .listItemBodyText.secondary.listItem-overview.listItemBodyText {
+.layout-desktop #childrenContent .listItemBodyText.secondary.listItem-overview.listItemBodyText {
   transition: filter 0.8s, opacity 0.8s;
   filter: blur(40px);
   opacity: 0.1;
 }
 
- #childrenContent .listItemBodyText.secondary.listItem-overview.listItemBodyText:hover {
+.layout-desktop #childrenContent .listItemBodyText.secondary.listItem-overview.listItemBodyText:hover {
 	filter: blur(0px);
 	opacity: 1;
 }
 
- .musicParentName {
+.layout-desktop .musicParentName {
 	margin: .15em 0 .2em;
 	position: absolute;
 	left: -0.5em;
@@ -797,19 +795,19 @@ body {
   font-weight: 600;
 }
 
- .trackSelections {
+.layout-desktop .trackSelections {
   max-width: 52em;
   width: 52em;
 }
 
- .detailsGroupItem, .trackSelections .selectContainer {
+.layout-desktop .detailsGroupItem, .trackSelections .selectContainer {
   display: -webkit-flex;
   display: flex;
   margin: 0 0 .5em !important;
   max-width: 52em;
 }
 
- .tagline {
+.layout-desktop .tagline {
   position: fixed;
   top: 50.5em;
   left: 1em;
@@ -818,18 +816,18 @@ body {
   text-align: center;
 }
 
- .detailRibbon {
+.layout-desktop .detailRibbon {
 	background: #0e1d1e9c;
 	backdrop-filter: blur(8px);
 }
 
- [dir="ltr"] .detailPageContent {
+.layout-desktop [dir="ltr"] .detailPageContent {
   padding-left: 28.45vw;
   padding-right: 0;
 }
 
 
- #childrenContent .childrenItemsContainer.itemsContainer.padded-right.vertical-wrap {
+.layout-desktop #childrenContent .childrenItemsContainer.itemsContainer.padded-right.vertical-wrap {
   display: flex;
   flex-wrap: nowrap;
   overflow-x: auto;
@@ -857,7 +855,7 @@ body {
 	font-weight: 400;
 }
 
- .nameContainer {
+.layout-desktop .nameContainer {
   display: -webkit-flex;
   display: flex;
   -webkit-flex-wrap: wrap;
@@ -867,7 +865,7 @@ body {
   top: 0.75em;
 }
 
- .detail-clamp-text {
+.layout-desktop .detail-clamp-text {
   display: -webkit-box;
   overflow: hidden;
   -webkit-box-orient: vertical;
@@ -875,7 +873,7 @@ body {
   font-size: 1.3em;
 }
 
- #childrenContent .starRatingContainer {
+.layout-desktop #childrenContent .starRatingContainer {
   -webkit-align-items: center;
   align-items: center;
   display: -webkit-flex;
@@ -888,18 +886,18 @@ body {
   opacity: 0;
 }
 
- .itemTags.focuscontainer-x {
+.layout-desktop .itemTags.focuscontainer-x {
   margin: .7em 0;
   font-size: 92%;
   font-style: italic;
   padding-bottom: 2em;
 }
 
- #itemDetailPage .verticalSection.detailVerticalSection.emby-scroller-container {
+.layout-desktop #itemDetailPage .verticalSection.detailVerticalSection.emby-scroller-container {
   padding-top: 0.37em;
 }
 
- .padded-bottom-page {
+.layout-desktop .padded-bottom-page {
   padding-bottom: 0em !important;
   padding-bottom: calc(env(safe-area-inset-bottom) + 0em) !important;
 }
@@ -979,7 +977,7 @@ body {
 }
 
 /* Hide My Media text on desktop */
- #homeTab .section0 .sectionTitle.sectionTitle-cards.padded-left {
+.layout-desktop #homeTab .section0 .sectionTitle.sectionTitle-cards.padded-left {
 	display: none;
 }
 
@@ -994,7 +992,7 @@ body {
 
 }
 
- .nowPlayingInfoContainer::before {
+.layout-desktop .nowPlayingInfoContainer::before {
 	content: '';
 	position: absolute;
 	top: 0;
@@ -1005,6 +1003,30 @@ body {
 	z-index: -1;
 	pointer-events: none;
 	scroll-snap-align: start;
+}
+
+.layout-desktop #itemDetailPage .sectionTitle::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 4em;
+    background-color: transparent;
+    z-index: -1;
+    scroll-snap-align: start;
+    margin-top: -4em;
+}
+
+.layout-desktop #musicRecommendedPage .flex.align-items-center.justify-content-center.flex-wrap-wrap.padded-top.padded-left.padded-right.padded-bottom.focuscontainer-x::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 6em;
+    background-color: transparent;
+    z-index: -1;
+    scroll-snap-align: start;
+    margin-top: -6em;
 }
 
 #playlist .listItem {
@@ -1033,13 +1055,13 @@ body {
 	body {
 		font-size: 73%;
 	}
-	 .detailPagePrimaryContent {
+	.layout-desktop .detailPagePrimaryContent {
 		font-size: 98.5%;
 	}
 	.sectionTabs {
 		margin-top: -2em;
 	}
-	 .detailPagePrimaryContainer.padded-left.padded-right.detailRibbon::before {
+	.layout-desktop .detailPagePrimaryContainer.padded-left.padded-right.detailRibbon::before {
 		top: -3.83em;
 		height: 3.83em;
 	}
@@ -1051,13 +1073,13 @@ body {
 	body {
 		font-size: 133.3333%;
 	}
-	 .detailPagePrimaryContent {
+	.layout-desktop .detailPagePrimaryContent {
 		font-size: 98.5%;
 	}
-	 .mainDrawer.transition.touch-menu-la.drawer-open {
+	.layout-desktop .mainDrawer.transition.touch-menu-la.drawer-open {
 		width: 21em !important;
 	}
-	 .detailPagePrimaryContainer.padded-left.padded-right.detailRibbon::before {
+	.layout-desktop .detailPagePrimaryContainer.padded-left.padded-right.detailRibbon::before {
 		top: -3.97em;
 		height: 3.97em;
 	}
@@ -1068,71 +1090,5 @@ body {
 @media (min-width: 2570px) {
 	body {
 		font-size: 200%;
-	}
-}
-
- #homeTab .sections.homeSectionsContainer {
-	margin-left: -2em;
-	max-width: 129em;
-        margin-top: 2em;
-}
-
- #homeTab .verticalSection-extrabottompadding {
-  margin-right: -5em !important;
-  justify-content: center !important;
-  display: flex;
-}
-
- #homeTab .verticalSection.section1.emby-scroller-container {
-	margin-top: -2.5em;
-}
-
- #homeTab .verticalSection.section2.emby-scroller-container {
-	margin-top: -2.5em;
-}
-
-@media only screen and (max-device-width: 767px) {.featurediframe {height: 33vh !important;}}
-
-.featurediframe {
-  width: 89vw;
-  height: 300px;
-  display: block;
-  border: transparent;
-  margin: 0 auto;
-  background: top;
-  filter: drop-shadow(11px 13px 3px rgba(2, 2, 2, 0.9));
-}
-
-.featured-content {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 50px;
-  background-color: transparent;
-  font-family: "Exo 2", sans-serif;
-  font-weight: 500;
-  color: #fff;
-  font-size: 1.5em;
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-  z-index: 3;
-}
-
-/* Mobile */
-@media (max-width: 1800px) {
-	.plot {
-		display: none !important;
-	}
-	
-	.featurediframe {
-		margin-top: 3em;
-	}
-}
-
-@media (orientation: landscape) and (max-width: 1200px) {
-	.featurediframe {
-		margin-top: 3em;
 	}
 }
