@@ -1070,6 +1070,11 @@ body {
 	background: transparent;
 }
 
+#scenesContent .innerCardFooter {
+	background: #07121e96;
+	min-width: 33.333%;
+}
+
 /* 768p */
 
 @media only screen and (min-width: 800px) and (max-width: 1400px) {
