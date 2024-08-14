@@ -500,11 +500,11 @@ progress::-webkit-progress-value {
 }
 
 .layout-desktop .backgroundContainer.withBackdrop {
-  background: linear-gradient(180deg, rgb(5.49% 11.373% 11.765% / 0) 0%, rgb(5.49% 11.373% 11.765% / 0.0000152587890625) 6.25%, rgb(5.49% 11.373% 11.765% / 0.000244140625) 12.5%, rgb(5.49% 11.373% 11.765% / 0.0012359619140625) 18.75%, rgb(5.49% 11.373% 11.765% / 0.00390625) 25%, rgb(5.49% 11.373% 11.765% / 0.0095367431640625) 31.25%, rgb(5.49% 11.373% 11.765% / 0.019775390625) 37.5%, rgb(5.49% 11.373% 11.765% / 0.0366363525390625) 43.75%, rgb(5.49% 11.373% 11.765% / 0.0625) 50%, rgb(5.49% 11.373% 11.765% / 0.1001129150390625) 56.25%, rgb(5.49% 11.373% 11.765% / 0.152587890625) 62.5%, rgb(5.49% 11.373% 11.765% / 0.2234039306640625) 68.75%, rgb(5.49% 11.373% 11.765% / 0.31640625) 75%, rgb(5.49% 11.373% 11.765% / 0.4358062744140625) 81.25%, rgb(5.49% 11.373% 11.765% / 0.586181640625) 87.5%, rgb(5.49% 11.373% 11.765% / 0.7724761962890625) 93.75%, rgb(5.49% 11.373% 11.765%) 100% );
+  background: linear-gradient(0deg, rgb(2.745% 7.059% 11.765%) 0%, rgb(2.745% 7.059% 11.765% / 0.823974609375) 6.25%, rgb(2.745% 7.059% 11.765% / 0.669921875) 12.5%, rgb(2.745% 7.059% 11.765% / 0.536376953125) 18.75%, rgb(2.745% 7.059% 11.765% / 0.421875) 25%, rgb(2.745% 7.059% 11.765% / 0.324951171875) 31.25%, rgb(2.745% 7.059% 11.765% / 0.244140625) 37.5%, rgb(2.745% 7.059% 11.765% / 0.177978515625) 43.75%, rgb(2.745% 7.059% 11.765% / 0.125) 50%, rgb(2.745% 7.059% 11.765% / 0.083740234375) 56.25%, rgb(2.745% 7.059% 11.765% / 0.052734375) 62.5%, rgb(2.745% 7.059% 11.765% / 0.030517578125) 68.75%, rgb(2.745% 7.059% 11.765% / 0.015625) 75%, rgb(2.745% 7.059% 11.765% / 0.006591796875) 81.25%, rgb(2.745% 7.059% 11.765% / 0.001953125) 87.5%, rgb(2.745% 7.059% 11.765% / 0.000244140625) 93.75%, rgb(2.745% 7.059% 11.765% / 0) 100% );
 }
 
 .layout-desktop .skinHeader-withBackground {
-	background: #0e1d1e9c;
+	background: #07121e96;
 	backdrop-filter: blur(7px);
 	position: fixed;
 	top: 0em;
@@ -525,7 +525,7 @@ progress::-webkit-progress-value {
   left: 0;
   right: 0;
   height: 4em;
-  background: #0e1d1e9c;
+  background: #07121e96;
   backdrop-filter: blur(7px);
   z-index: -1;
   scroll-snap-align: start;
@@ -535,7 +535,7 @@ progress::-webkit-progress-value {
 	margin: .5em !important;
 	min-width: 11%;
 	justify-content: center;
-	background: #0e1d1e7a;
+	background: #07121e96;
 	border-radius: 0.2em;
 	transition: color 0.6s;
 }
@@ -553,7 +553,7 @@ progress::-webkit-progress-value {
 
 .raised {
   color: rgba(255, 255, 255, 0.87);
-  background: #0e1d1e9c;
+  background: #07121e96;
 }
 
 .layout-desktop .raised.button-submit.block.btnSave.emby-button {
@@ -598,7 +598,7 @@ progress::-webkit-progress-value {
   left: 0;
   width: 100%;
   height: 100%;
-  background: #0e1d1e9c;
+  background: #07121e96;
   backdrop-filter: blur(7px);
   z-index: -1; 
   pointer-events: none;
@@ -759,7 +759,7 @@ progress::-webkit-progress-value {
 }
 
 .listItem:hover {
-  background: #0e1d1e9c;
+  background: #07121e96;
 }
 
 .layout-desktop #childrenContent .listItemImage-large {
@@ -821,7 +821,7 @@ body {
 }
 
 .layout-desktop .detailRibbon {
-	background: #0e1d1e9c;
+	background: #07121e96;
 	backdrop-filter: blur(8px);
 }
 
@@ -920,11 +920,11 @@ body {
 	transition: background 0.3s;
 	border-bottom-left-radius: 0.2em;
 	border-bottom-right-radius: 0.2em;
-	background: #0e1d1e7a;
+	background: #07121e96;
 }
 
 .cardBox.cardBox-bottompadded:hover {
-	background: #0e1d1e9c;
+	background: #07121e96;
 }
 
 .cardBox.cardBox-bottompadded:hover .cardOverlayButton-br.flex {
@@ -992,7 +992,7 @@ body {
   flex-direction: row;
   -webkit-flex-shrink: 0;
   flex-shrink: 0;
-  background: #0e1d1e9c;
+  background: #07121e96;
 
 }
 
@@ -1034,7 +1034,7 @@ body {
 }
 
 #playlist .listItem {
-	background: #0e1d1e9c;
+	background: #07121e96;
 }
 
 #playlist .listItem:hover {
@@ -1042,7 +1042,7 @@ body {
 }
 
 .layout-desktop .appfooter, .playlistSectionButton {
-  background: #0e1d1e9c;
+  background: #07121e96;
   backdrop-filter: blur(7px);
 }
 
