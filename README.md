@@ -1,4 +1,4 @@
-![g3](https://github.com/user-attachments/assets/be612230-4fbb-4d17-94ab-17f63ef48e73)# Jellypane
+# Jellypane
 
 768p :heavy_check_mark: 1080p :heavy_check_mark: 1440p :heavy_check_mark: 4k :heavy_check_mark: Mobile :soon: TV Mode :soon:
 
