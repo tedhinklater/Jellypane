@@ -890,11 +890,9 @@ body {
   opacity: 0;
 }
 
-.layout-desktop .itemTags.focuscontainer-x {
-  margin: .7em 0;
-  font-size: 92%;
+.layout-desktop .itemTags.focuscontainer-x .button-link.emby-button {
   font-style: italic;
-  padding-bottom: 2em;
+  padding-bottom: 1em;
 }
 
 .layout-desktop #itemDetailPage .verticalSection.detailVerticalSection.emby-scroller-container {
