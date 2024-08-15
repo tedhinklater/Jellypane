@@ -531,7 +531,7 @@ progress::-webkit-progress-value {
   scroll-snap-align: start;
 }
 
-.layout-desktop .homeLibraryButton {
+.homeLibraryButton {
 	margin: .5em !important;
 	min-width: 11%;
 	justify-content: center;
@@ -544,7 +544,7 @@ progress::-webkit-progress-value {
 	color: #cbebf7;
 }
 
-.layout-desktop .homeLibraryText {
+.homeLibraryText {
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
