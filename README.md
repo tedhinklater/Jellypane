@@ -1,6 +1,6 @@
 # Jellypane
 
-768p :heavy_check_mark: 1080p :heavy_check_mark: 1440p :heavy_check_mark: 4k :heavy_check_mark: Mobile :soon: TV Mode :soon:
+768p :heavy_check_mark: 1080p :heavy_check_mark: 1440p :heavy_check_mark: 4k :heavy_check_mark: Mobile :heavy_check_mark: TV Mode :soon:
 
 ![g4](https://github.com/user-attachments/assets/fa677b51-c3f9-4c02-ac2c-9d2958cee8c4)
 
