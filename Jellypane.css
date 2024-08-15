@@ -713,7 +713,6 @@ progress::-webkit-progress-value {
 
 .layout-desktop .detailPagePrimaryContainer.padded-left.padded-right.detailRibbon {
   bottom: 0em;
-  scroll-snap-align: end;
 }
 
 .layout-desktop .detailPagePrimaryContainer.padded-left.padded-right.detailRibbon::before {
@@ -1073,6 +1072,18 @@ body {
 #scenesContent .innerCardFooter {
 	background: #07121e96;
 	min-width: 33.333%;
+}
+
+
+.layout-desktop .itemMiscInfo.itemMiscInfo-primary::before {
+	content: '';
+	position: fixed;
+	top: -98vh;
+	left: 0;
+	right: 0;
+	height: 4em;
+	z-index: -1;
+	scroll-snap-align: end;
 }
 
 /* 768p */
