@@ -1118,3 +1118,61 @@ body {
 		font-size: 200%;
 	}
 }
+
+/* MOBILE */
+
+.layout-mobile .itemBackdrop {
+	display: block;
+	background-attachment: fixed;
+	background-position: 50%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100vh !important;
+	position: fixed !important;
+	top: 0em;
+	width: 100%;
+}
+
+@media (orientation: portrait) {
+	.layout-mobile  .itemDetailPage {
+		padding-top: 50vh !important;
+	}
+	.layout-mobile [dir="ltr"] .mainDetailButtons {
+		margin-bottom: 0;
+		padding-left: 0;
+		justify-content: space-between;
+	}
+}
+
+@media (orientation: landscape) {
+	.layout-mobile  .itemDetailPage {
+		padding-top: 50vh !important;
+	}
+	.layout-mobile [dir="ltr"] .infoWrapper {
+		padding-left: 29.5%;
+	}
+	.layout-mobile [dir="ltr"] .mainDetailButtons {
+		margin-left: 0;
+		padding-left: 29.5%;
+	}
+}
+
+@media (orientation: landscape) and (min-width: 50em) {
+	.layout-mobile [dir="ltr"] .infoWrapper {
+		padding-left: 0%;
+	}
+	.layout-mobile [dir="ltr"] .mainDetailButtons {
+		margin-left: 0;
+		padding-left: 0%;
+	}
+}
+
+.layout-mobile .detailPagePrimaryContainer.padded-left.padded-right.detailRibbon {
+	background: #07121e96;
+	backdrop-filter: blur(8px);
+}
+
+.layout-mobile .detailPageSecondaryContainer.padded-bottom-page {
+	background: #07121e96;
+	backdrop-filter: blur(8px);
+}
