@@ -8,7 +8,7 @@ Paste this line into your Custom CSS box
 
 ```css
 
-@import url("https://cdn.jsdelivr.net/gh/tedhinklater/Jellypane@latest/Jellypane.css");
+@import url("https://cdn.jsdelivr.net/gh/tedhinklater/Jellypane@main/Jellypane.css");
 
 ```
 <img src="https://github.com/user-attachments/assets/aee07281-033f-45c0-b429-e9331f9f802e" width="49.5%" height="49.5%" /> <img src="https://github.com/user-attachments/assets/541e029e-c004-46b6-936c-02f08ca1c89d" width="49.5%" height="49.5%" />
