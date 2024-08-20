@@ -1,0 +1,5 @@
+@import url("https://cdn.jsdelivr.net/gh/tedhinklater/Jellypane@main/Jellypane.css");
+
+.preload {
+  scroll-snap-type: unset !important;
+}
