@@ -1077,8 +1077,12 @@ body {
 }
 
 @media (max-width: 100em) {
-  .sectionTabs {
+  .layout-desktop .sectionTabs {
     font-size: 100%;
+    margin-top: 0em;
+    width: 50%;
+    left: 25%;
+    position: absolute;
   }
 }
 
@@ -1139,9 +1143,13 @@ body {
   margin-top: 4em !important;
 }
 
+.layout-desktop .libraryPage:not(.noSecondaryNavPage) {
+  padding-top: 4.5em !important;
+}
+
 /* 768p */
 
-@media only screen and (min-width: 800px) and (max-width: 1400px) {
+@media only screen and (min-width: 800px) and (max-width: 1400px) and (max-height: 800px) {
 	body {
 		font-size: 73%;
 	}
