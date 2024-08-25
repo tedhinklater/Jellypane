@@ -22,6 +22,8 @@ Or use this version if you don't want the scroll-snap feature (Firefox is great 
 
 ```
 
+Important: Click your User icon in Jellyfin, go to Display, scroll down and make sure the Theme is "Dark" and Backdrops are enabled.
+
 <img src="https://github.com/user-attachments/assets/aee07281-033f-45c0-b429-e9331f9f802e" width="49.5%" height="49.5%" /> <img src="https://github.com/user-attachments/assets/541e029e-c004-46b6-936c-02f08ca1c89d" width="49.5%" height="49.5%" />
 <img src="https://github.com/user-attachments/assets/a4766a42-1507-408c-96c7-7547e7e987e5" width="49.5%" height="49.5%" /> <img src="https://github.com/user-attachments/assets/33a5e3ab-00ce-4793-bd08-2a6911f225a8" width="49.5%" height="49.5%" /> 
 <img src="https://github.com/user-attachments/assets/ef609f5c-5ff5-43f6-b8aa-37c4ad45275b" width="49.5%" height="49.5%" /> <img src="https://github.com/user-attachments/assets/44b76cb9-e601-480c-bd78-2c2df3aa0aa3" width="49.5%" height="49.5%" />
