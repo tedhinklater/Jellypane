@@ -11,6 +11,69 @@
     height: auto !important;
 }
 
+.backgroundContainer, .nowPlayingPlaylist, .nowPlayingContextMenu, html {
+  background-color: #07121e96;
+}
+
+.dialog {
+	background-color: #07121e;
+}
+
+.collapseContent, .formDialogFooter:not(.formDialogFooter-clear), .formDialogHeader:not(.formDialogHeader-clear), .paperList, .visualCardBox {
+  background-color: #1c2630;
+  border-radius: 0.25em;
+}
+
+.css-fknfom {
+  background-color: rgb(28, 38, 48);
+  color: rgb(255, 255, 255);
+  transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1);
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 4px -1px, rgba(0, 0, 0, 0.14) 0px 4px 5px 0px, rgba(0, 0, 0, 0.12) 0px 1px 10px 0px;
+  background-image: linear-gradient(rgba(255, 255, 255, 0.09), rgba(255, 255, 255, 0.09));
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  box-sizing: border-box;
+  flex-shrink: 0;
+  position: fixed;
+  z-index: 1100;
+  top: 0px;
+  left: auto;
+  right: 0px;
+}
+
+.css-4yt2of {
+  background-color: rgb(18, 27, 38);
+  color: rgb(255, 255, 255);
+  transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1);
+  box-shadow: none;
+  background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0));
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  flex: 1 0 auto;
+  z-index: 1200;
+  position: fixed;
+  top: 0px;
+  outline: 0px;
+  left: 0px;
+  border-right: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+.emby-input, .emby-textarea {
+  color: inherit;
+  background: #303a45;
+  border: 0.16em solid #292929;
+  border-radius: 0.2em;
+}
+
+.emby-select-withcolor {
+  color: inherit;
+  background: #303a45;
+  border: 0.07em solid #292929;
+}
+
 /* Video Playback Progress Bar */
 .mdl-slider-background-lower {
     background: #add1de !important;
@@ -119,7 +182,7 @@ progress {
 
 .css-17c09up:hover {
   text-decoration: none;
-  background-color: rgba(28, 21, 21, 0.37);
+  background-color: rgba(34, 58, 85, 0.7);
 }
 
 .css-1ip8vbj.Mui-selected {
@@ -132,7 +195,7 @@ progress {
 
 .css-1ip8vbj:hover {
   text-decoration: none;
-  background-color: rgba(28, 21, 21, 0.37);
+  background-color: rgba(34, 58, 85, 0.7);
 }
 
 .css-77wcaa .MuiAlert-icon {
@@ -227,8 +290,12 @@ progress::-webkit-progress-value {
     color: #cbebf7;
 }
 
-.emby-checkbox:checked + span + .checkboxOutline, .itemProgressBarForeground {
+.itemProgressBarForeground {
   background-color: #cbebf7;
+}
+
+.emby-checkbox:checked + span + .checkboxOutline {
+  background-color: #6d8a95;
 }
 
 .button-submit {
@@ -556,6 +623,96 @@ progress::-webkit-progress-value {
   background: #07121e96;
 }
 
+#dashboardGeneralPage .raised {
+  color: rgba(255, 255, 255, 0.87);
+  background: #002955;
+}
+#editUserPage .raised {
+  color: rgba(255, 255, 255, 0.87);
+  background: #002955;
+}
+#mediaLibraryPage .raised {
+  color: rgba(255, 255, 255, 0.87);
+  background: #002955;
+}
+#libraryDisplayPage .raised {
+  color: rgba(255, 255, 255, 0.87);
+  background: #002955;
+}
+#metadataImagesConfigurationPage .raised {
+  color: rgba(255, 255, 255, 0.87);
+  background: #002955;
+}
+#metadataNfoPage .raised {
+  color: rgba(255, 255, 255, 0.87);
+  background: #002955;
+}
+#encodingSettingsPage .raised {
+  color: rgba(255, 255, 255, 0.87);
+  background: #002955;
+}
+#playbackConfigurationPage .raised {
+  color: rgba(255, 255, 255, 0.87);
+  background: #002955;
+}
+#streamingSettingsPage .raised {
+  color: rgba(255, 255, 255, 0.87);
+  background: #002955;
+}
+#trickplayConfigurationPage .raised {
+  color: rgba(255, 255, 255, 0.87);
+  background: #002955;
+}
+#devicePage .raised {
+  color: rgba(255, 255, 255, 0.87);
+  background: #002955;
+}
+#dlnaSettingsPage .raised {
+  color: rgba(255, 255, 255, 0.87);
+  background: #002955;
+}
+#liveTvStatusPage .raised {
+  color: rgba(255, 255, 255, 0.87);
+  background: #002955;
+}
+#liveTvSettingsPage .raised {
+  color: rgba(255, 255, 255, 0.87);
+  background: #002955;
+}
+#networkingPage .raised {
+  color: rgba(255, 255, 255, 0.87);
+  background: #002955;
+}
+#apiKeysPage .raised {
+  color: rgba(255, 255, 255, 0.87);
+  background: #002955;
+}
+#logPage .raised {
+  color: rgba(255, 255, 255, 0.87);
+  background: #002955;
+}
+#notificationSettingPage .raised {
+  color: rgba(255, 255, 255, 0.87);
+  background: #002955;
+}
+#pluginsPage .raised {
+  color: rgba(255, 255, 255, 0.87);
+  background: #002955;
+}
+#pluginTiles .raised {
+  color: rgba(255, 255, 255, 0.87);
+  background: #002955;
+}
+#repositories .raised {
+  color: rgba(255, 255, 255, 0.87);
+  background: #002955;
+}
+#scheduledTasksPage .raised {
+  color: rgba(255, 255, 255, 0.87);
+  background: #002955;
+}
+
+
 .layout-desktop .raised.button-submit.block.btnSave.emby-button {
 	scroll-snap-align: unset;
 }
@@ -733,7 +890,7 @@ progress::-webkit-progress-value {
 }
 
 .preload {
-  background-color: #101010;
+  background-color: #09111b;
   scroll-snap-type: y mandatory;
 }
 
