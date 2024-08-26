@@ -711,6 +711,30 @@ progress::-webkit-progress-value {
   color: rgba(255, 255, 255, 0.87);
   background: #002955;
 }
+#userProfilePage .raised {
+  color: rgba(255, 255, 255, 0.87);
+  background: #002955;
+}
+#displayPreferencesPage .raised {
+  color: rgba(255, 255, 255, 0.87);
+  background: #002955;
+}
+#homeScreenPreferencesPage .raised {
+  color: rgba(255, 255, 255, 0.87);
+  background: #002955;
+}
+#languagePreferencesPage .raised {
+  color: rgba(255, 255, 255, 0.87);
+  background: #002955;
+}
+#controlsPreferencesPage .raised {
+  color: rgba(255, 255, 255, 0.87);
+  background: #002955;
+}
+#editItemMetadataPage .raised {
+  color: rgba(255, 255, 255, 0.87);
+  background: #002955;
+}
 
 
 .layout-desktop .raised.button-submit.block.btnSave.emby-button {
