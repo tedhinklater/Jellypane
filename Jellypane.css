@@ -1333,7 +1333,7 @@ body {
   height: 46em;
   overflow-y: scroll;
   scroll-snap-type: y mandatory;
-  max-width: 88.5em;
+  max-width: 69vw;
 }
 
 .layout-desktop .collectionItems .card.portraitCard.card-hoverable.card-withuserdata {
