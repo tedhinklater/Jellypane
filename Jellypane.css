@@ -801,6 +801,7 @@ progress::-webkit-progress-value {
   max-height: none;
   top: 6.5em;
   width: 25vw;
+  padding-bottom: 14em;
 }
 
 .layout-desktop .itemName.parentNameLast {
@@ -1326,6 +1327,21 @@ body {
 
 .layout-desktop .libraryPage:not(.noSecondaryNavPage) {
   padding-top: 4.5em !important;
+}
+
+.layout-desktop .collectionItems .verticalSection {
+  height: 46em;
+  overflow-y: scroll;
+  scroll-snap-type: y mandatory;
+  max-width: 88.5em;
+}
+
+.layout-desktop .collectionItems .card.portraitCard.card-hoverable.card-withuserdata {
+	scroll-snap-align: start;
+}
+
+.layout-desktop .collectionItems .portraitCard {
+  width: 13.75em;
 }
 
 /* 768p */
