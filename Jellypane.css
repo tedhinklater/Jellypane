@@ -1344,6 +1344,11 @@ body {
   width: 13.75em;
 }
 
+#skipIntro .emby-button:hover, #skipIntro .emby-button:focus {
+  background-color: #07121e96;
+  transform: scale(1.05);
+}
+
 /* 768p */
 
 @media only screen and (min-width: 800px) and (max-width: 1400px) and (max-height: 800px) {
