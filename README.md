@@ -24,7 +24,7 @@ Or use this version if you don't want the scroll-snap feature (Firefox is great 
 
 Important: Click your User icon in Jellyfin, go to Display, scroll down and make sure the Theme is "Dark" and Backdrops are enabled.
 
-<img src="https://github.com/user-attachments/assets/aaddb9e5-ca9f-4957-8c2b-acba826e35cd" width="49.5%" height="49.5%" /> <img src="https://github.com/user-attachments/assets/293bb69d-a69f-4aee-91dc-e2a7f3a7b6e4" width="49.5%" height="49.5%" />
+<img src="https://github.com/user-attachments/assets/d99178da-069c-48af-9263-58a2b764e206" width="49.5%" height="49.5%" /> <img src="https://github.com/user-attachments/assets/4e551098-e1c5-4d2d-a583-20ca24273ab3" width="49.5%" height="49.5%" />
 <img src="https://github.com/user-attachments/assets/a4766a42-1507-408c-96c7-7547e7e987e5" width="49.5%" height="49.5%" /> <img src="https://github.com/user-attachments/assets/33a5e3ab-00ce-4793-bd08-2a6911f225a8" width="49.5%" height="49.5%" /> 
 <img src="https://github.com/user-attachments/assets/ef609f5c-5ff5-43f6-b8aa-37c4ad45275b" width="49.5%" height="49.5%" /> <img src="https://github.com/user-attachments/assets/44b76cb9-e601-480c-bd78-2c2df3aa0aa3" width="49.5%" height="49.5%" />
 <img src="https://github.com/user-attachments/assets/c13ddad0-b549-4fc5-9b2c-5de2265e07db" width="49.5%" height="49.5%" /> <img src="https://github.com/user-attachments/assets/c509227c-e040-4dc0-9d3d-6f73f2b84873" width="49.5%" height="49.5%" />
