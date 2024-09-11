@@ -1,6 +1,6 @@
 # Jellypane
 
-A feature-rich glassmorphism theme for Jellyfin 10.9.X with scroll-snap glass panels; go from a minimalist experience to full details with one increment of the mousewheel, accessible & sleek fonts, spoiler-free episode selection, responsive design and also an easy-to-setup [Featured Content bar](https://github.com/tedhinklater/finality?tab=readme-ov-file#featured-content-bar-by-bobhasnosoul-and-sethbacon) as a finishing touch.
+A feature-rich glassmorphism theme for Jellyfin 10.9.X with scroll-snap glass panels; go from a minimalist experience to full details with one increment of the mousewheel, accessible & sleek fonts, spoiler-free episode selection, responsive design and also an easy-to-setup [Featured Content Bar](https://github.com/tedhinklater/Jellyfin-Featured-Content-Bar/tree/main) as a finishing touch.
 
 768p :heavy_check_mark: 1080p :heavy_check_mark: 1440p :heavy_check_mark: 4k :heavy_check_mark: Mobile :heavy_check_mark: TV Mode :soon:
 
