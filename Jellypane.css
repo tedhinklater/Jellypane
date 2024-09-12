@@ -1099,7 +1099,7 @@ body {
 	transition: background 0.3s;
 	border-bottom-left-radius: 0.2em;
 	border-bottom-right-radius: 0.2em;
-	background: #07121e96;
+	background: transparent;
 }
 
 .cardBox.cardBox-bottompadded:hover {
