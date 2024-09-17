@@ -1,6 +1,6 @@
 # Jellypane
 
-A feature-rich glassmorphism theme for Jellyfin 10.9.X with scroll-snap glass panels; go from a minimalist experience to full details with one increment of the mousewheel, accessible & sleek fonts, spoiler-free episode selection, responsive design and also an easy-to-setup [Featured Content Bar](https://github.com/tedhinklater/Jellyfin-Featured-Content-Bar/tree/main) as a finishing touch.
+A feature-rich glassmorphism theme for Jellyfin 10.9.X with scroll-snap glass panels; go from a minimalist experience to full details with one increment of the mousewheel, accessible & sleek fonts, spoiler-free episode selection, and responsive design
 
 768p :heavy_check_mark: 1080p :heavy_check_mark: 1440p :heavy_check_mark: 4k :heavy_check_mark: Mobile :heavy_check_mark: TV Mode :soon:
 
@@ -24,8 +24,8 @@ Or use this version if you don't want the scroll-snap feature (Firefox is great 
 
 Important: Click your User icon in Jellyfin, go to Display, scroll down and make sure the Theme is "Dark" and Backdrops are enabled.
 
-<img src="https://github.com/user-attachments/assets/9d4fbe00-ab3b-4dcc-8717-94cb842945d7" width="100%" height="100%" /> <img src="https://github.com/user-attachments/assets/d2d09d46-68b2-4492-8b97-f431cdf10de5" width="100%" height="100%" />
-<img src="https://github.com/user-attachments/assets/5fc70237-7ebe-4ba0-a0eb-ae1ac4d94cc2" width="100%" height="100%" /> <img src="https://github.com/user-attachments/assets/33a5e3ab-00ce-4793-bd08-2a6911f225a8" width="100%" height="100%" /> 
-<img src="https://github.com/user-attachments/assets/ef609f5c-5ff5-43f6-b8aa-37c4ad45275b" width="100%" height="100%" /> <img src="https://github.com/user-attachments/assets/44b76cb9-e601-480c-bd78-2c2df3aa0aa3" width="100%" height="100%" />
-<img src="https://github.com/user-attachments/assets/c13ddad0-b549-4fc5-9b2c-5de2265e07db" width="100%" height="100%" /> <img src="https://github.com/user-attachments/assets/c509227c-e040-4dc0-9d3d-6f73f2b84873" width="100%" height="100%" />
-<img src="https://github.com/user-attachments/assets/4c346766-991d-40d6-b32e-fd792ec25ec4" width="100%" height="100%" /> <img src="https://github.com/user-attachments/assets/9764d9a5-9b99-4835-b395-b156dfd40bc5" width="100%" height="100%" />
+<img src="https://github.com/user-attachments/assets/4860182a-90b3-4372-9c34-b96c8429e7d2" width="100%" height="100%" /> <img src="https://github.com/user-attachments/assets/d35abbd7-1fbd-4d41-afc8-3f01e3697910" width="100%" height="100%" />
+<img src="https://github.com/user-attachments/assets/45be986c-fd24-4dbe-b10e-10eb86e4e3ad" width="100%" height="100%" /> <img src="https://github.com/user-attachments/assets/bdafe521-86f2-42de-b30d-631f984a1b1d" width="100%" height="100%" /> 
+<img src="https://github.com/user-attachments/assets/8e84a84f-014a-4bb9-9878-84ac48793c8d" width="100%" height="100%" /> <img src="https://github.com/user-attachments/assets/37e5bd15-a5bd-470f-8d61-77567aeec0e6" width="100%" height="100%" />
+<img src="https://github.com/user-attachments/assets/3342fa59-10ba-4f1c-81df-7736e893d943" width="100%" height="100%" /> <img src="https://github.com/user-attachments/assets/6be05917-316d-4bb0-8682-97cd4256746f" width="100%" height="100%" />
+<img src="https://github.com/user-attachments/assets/9764d9a5-9b99-4835-b395-b156dfd40bc5" width="100%" height="100%" />
