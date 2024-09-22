@@ -4,6 +4,9 @@ A feature-rich glassmorphism theme for Jellyfin 10.9.X with scroll-snap glass pa
 
 768p :heavy_check_mark: 1080p :heavy_check_mark: 1440p :heavy_check_mark: 4k :heavy_check_mark: Mobile :heavy_check_mark: TV Mode :soon:
 
+Also: Turn it up to 11 with the new ![Featured Content Bar](https://github.com/tedhinklater/Jellyfin-Featured-Content-Bar) 
+![feat16](https://github.com/user-attachments/assets/767dcd73-460b-43f9-8feb-6b0d7fbd703b)
+
 ![g4](https://github.com/user-attachments/assets/fa677b51-c3f9-4c02-ac2c-9d2958cee8c4)
 
 Paste this line into your Custom CSS box
