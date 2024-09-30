@@ -1372,7 +1372,7 @@ body {
 
 /* 1440p */
 
-@media (min-width: 1930px) {
+@media (min-width: 2000px) {
 	body {
 		font-size: 133.3333%;
 	}
@@ -1390,7 +1390,7 @@ body {
 
 /* 4k */
 
-@media (min-width: 2570px) {
+@media (min-width: 3000px) {
 	body {
 		font-size: 200%;
 	}
