@@ -17,7 +17,7 @@ Paste this line into your Custom CSS box
 
 ```
 
-Or use this version if you don't want the scroll-snap feature (Firefox is great but Jellyfin Media Player really does not like it, for example)
+Or use the version below if you don't want the scroll-snap feature (browsers are great but JMP really does not like it, for example)
 
 ```css
 
