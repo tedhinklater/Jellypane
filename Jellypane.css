@@ -12,7 +12,7 @@
 }
 
 .backgroundContainer, .nowPlayingPlaylist, .nowPlayingContextMenu, html {
-  background-color: #0b151591;
+  background-color: #06122266;
 }
 
 .dialog {
@@ -20,7 +20,7 @@
 }
 
 .collapseContent, .formDialogFooter:not(.formDialogFooter-clear), .formDialogHeader:not(.formDialogHeader-clear), .paperList, .visualCardBox {
-  background-color: #1c2630;
+  background-color: #010d1a;
   border-radius: 0.25em;
 }
 
@@ -43,7 +43,7 @@
 }
 
 .css-4yt2of {
-  background-color: rgb(18, 27, 38);
+  background-color: rgb(12, 22, 45);
   color: rgb(255, 255, 255);
   transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1);
   box-shadow: none;
@@ -63,15 +63,19 @@
 
 .emby-input, .emby-textarea {
   color: inherit;
-  background: #303a45;
-  border: 0.16em solid #292929;
+  background: #092748;
+  border: 0.16em solid #0c1231;
   border-radius: 0.2em;
 }
 
 .emby-select-withcolor {
-  color: inherit;
-  background: #303a45;
-  border: 0.07em solid #292929;
+	color: inherit;
+	background: #092748;
+	border: 0.07em solid #5295ea;
+}
+
+.programCell-active {
+  background: #002aa8 !important;
 }
 
 /* Video Playback Progress Bar */
@@ -80,14 +84,15 @@
 }
 
 .iconOsdProgressInner {
-  background: #cbebf7;
+  background: #9dd4f5;
   border-radius: .25em;
   height: 100%;
 }
 
 
 .layout-desktop .skinHeader.focuscontainer-x.skinHeader-withBackground.skinHeader-blurred.osdHeader {
-  background: linear-gradient(0deg, rgb(5.49% 11.373% 11.765% / 0) 0%, rgb(5.49% 11.373% 11.765% / 0.07508285522460938) 6.25%, rgb(5.49% 11.373% 11.765% / 0.13656005859375) 12.5%, rgb(5.49% 11.373% 11.765% / 0.18618392944335938) 18.75%, rgb(5.49% 11.373% 11.765% / 0.2255859375) 25%, rgb(5.49% 11.373% 11.765% / 0.2562767028808594) 31.25%, rgb(5.49% 11.373% 11.765% / 0.27964599609375) 37.5%, rgb(5.49% 11.373% 11.765% / 0.2969627380371094) 43.75%, rgb(5.49% 11.373% 11.765% / 0.309375) 50%, rgb(5.49% 11.373% 11.765% / 0.31791000366210936) 56.25%, rgb(5.49% 11.373% 11.765% / 0.32347412109375) 62.5%, rgb(5.49% 11.373% 11.765% / 0.3268528747558594) 68.75%, rgb(5.49% 11.373% 11.765% / 0.3287109375) 75%, rgb(5.49% 11.373% 11.765% / 0.3295921325683594) 81.25%, rgb(5.49% 11.373% 11.765% / 0.32991943359375003) 87.5%, rgb(5.49% 11.373% 11.765% / 0.32999496459960936) 93.75%, rgb(5.49% 11.373% 11.765% / 0.33) 100% );
+  background: #0413313d;
+  backdrop-filter: blur(0px);
 }
 
 
@@ -95,22 +100,22 @@
 
 .slider-browser-edge{margin-left:-.16em;margin-right:-.16em;width:150%}.mdl-slider::-webkit-slider-thumb{-webkit-appearance:none;appearance:none;background:#add1de;}
 .navMenuOption:hover {
-  background: rgba(0, 164, 220, 0.2);
+  background: #0e152b40;
   color: white;
   padding-left: 15% !important;
   font-weight: 700 !important;
 }
 
 .mdl-slider::-moz-range-thumb {
-  background: #cbebf7 !important;
+  background: #9dd4f5 !important;
 }
 * {
   scrollbar-width: thin;
-  scrollbar-color: #cbebf7 #0000 !important;
+  scrollbar-color: #9dd4f5 #0000 !important;
 }
 
 .sliderMarker.watched {
-  background-color: #cbebf7;
+  background-color: #9dd4f5;
 }
 
 .pageTitleWithDefaultLogo {
@@ -122,7 +127,7 @@
 .mdl-spinner__layer-2,
 .mdl-spinner__layer-3,
 .mdl-spinner__layer-4 {
-    border-color: #cbebf7 !important;
+    border-color: #9dd4f5 !important;
 }
 
 .starIcon {
@@ -146,7 +151,7 @@ progress {
 
 /* Progress ring */
 .progressring-spiner {
-  border-color: #cbebf7;
+  border-color: #9dd4f5;
   border-width: .35em;
 }
 .progressring {
@@ -164,7 +169,7 @@ progress {
 /* Dashboard & button colours */
 
 .css-17c09up.Mui-selected {
-  background-color: #425359;
+  background-color: #13436c;
   font-weight: 700 !important;
 }
 
@@ -177,25 +182,25 @@ progress {
 }
 
 .css-17c09up.Mui-selected:hover {
-  background-color: #425359;
+  background-color: #3959a4b2;
 }
 
 .css-17c09up:hover {
   text-decoration: none;
-  background-color: rgba(34, 58, 85, 0.7);
+  background-color: rgba(23, 59, 100, 0.16);
 }
 
 .css-1ip8vbj.Mui-selected {
-  background-color: #425359;
+  background-color: #13436c;
 }
 
 .css-1ip8vbj.Mui-selected:hover {
-  background-color: #425359;
+  background-color: #3959a4b2;
 }
 
 .css-1ip8vbj:hover {
   text-decoration: none;
-  background-color: rgba(34, 58, 85, 0.7);
+  background-color: rgba(23, 59, 100, 0.16);
 }
 
 .css-77wcaa .MuiAlert-icon {
@@ -207,7 +212,7 @@ progress {
 }
 
 .css-1fv02xh:hover {
-  background-color: #cbebf7;
+  background-color: #9dd4f5;
 }
 
 .css-77wcaa {
@@ -223,11 +228,11 @@ progress {
 }
 
 .css-1jmiiw3 .MuiDataGrid-row.Mui-selected {
-  background-color: #cbebf7;
+  background-color: #9dd4f5;
 }
 
 .css-1jmiiw3 .MuiDataGrid-row.Mui-selected:hover {
-  background-color: #cbebf7;
+  background-color: #9dd4f5;
 }
 
 #dashboardPage .listItemIcon.material-icons.notifications {
@@ -248,16 +253,16 @@ filter: drop-shadow(0px 0px 1px rgb(0, 0, 0));
 }
 
 progress::-moz-progress-bar {
-  background-color: #cbebf7;
+  background-color: #9dd4f5;
 }
 progress::-webkit-progress-value {
-  background-color: #cbebf7;
+  background-color: #9dd4f5;
 }
 .taskProgressInner {
-  background: #cbebf7 !important;
+  background: #9dd4f5 !important;
 }
 #divRunningTasks span {
-    color: #cbebf7 !important;
+    color: #9dd4f5 !important;
 }
 
 .listItemIcon:not(.listItemIcon-transparent) {
@@ -269,29 +274,29 @@ progress::-webkit-progress-value {
 
 @media (hover: hover) and (pointer: fine) {
     .paper-icon-button-light:hover:not(:disabled) {
-        color: #cbebf7;
+        color: #9dd4f5;
         background-color: #425359;
     }
 }
 
 @media (hover: hover) and (pointer: fine) {
     .paper-icon-button-light:hover:not(:disabled) {
-        color: #cbebf7;
+        color: #9dd4f5;
         background-color: #42535970;
     }
 }
 
 .paper-icon-button-light:active:not(:disabled) {
-    color: #cbebf7;
+    color: #9dd4f5;
     background-color: #425359;
 }
 
 .paper-icon-button-light.show-focus:focus {
-    color: #cbebf7;
+    color: #9dd4f5;
 }
 
 .itemProgressBarForeground {
-  background-color: #cbebf7;
+  background-color: #9dd4f5;
 }
 
 .emby-checkbox:checked + span + .checkboxOutline {
@@ -311,40 +316,40 @@ progress::-webkit-progress-value {
 .inputLabelFocused,
 .selectLabelFocused,
 .textareaLabelFocused {
-    color: #cbebf7;
+    color: #9dd4f5;
 }
 
 .defaultCardBackground1 {
-    background-color: #425359;
+    background-color: #092e557a;
 }
 
 .defaultCardBackground2 {
-    background-color: #182c33;
+    background-color: #0e26407a;
 }
 
 .defaultCardBackground3 {
-    background-color: #194554;
+    background-color: #23568c7a;
 }
 
 .defaultCardBackground4 {
-    background-color: #397082;
+    background-color: #2153887a;
 }
 
 .defaultCardBackground5 {
-    background-color: #125b73;
+    background-color: #0816247a;
 }
 
 .itemSelectionPanel {
-    border: 1px solid #cbebf7;
+    border: 1px solid #9dd4f5;
 }
 
 .selectionCommandsPanel {
-    background: #cbebf7;
+    background: #9dd4f5;
     color: #fff;
 }
 
 .upNextDialog-countdownText {
-    color: #cbebf7;
+    color: #9dd4f5;
 }
 
 .alphaPickerButton {
@@ -363,11 +368,11 @@ progress::-webkit-progress-value {
 }
 
 .progressring-spiner {
-    border-color: #cbebf7;
+    border-color: #9dd4f5;
 }
 
 .button-flat:hover {
-    color: #cbebf7;
+    color: #9dd4f5;
 }
 
 .button-link {
@@ -377,7 +382,7 @@ progress::-webkit-progress-value {
 /*Change Intro Skip Color*/
 #skipIntro .emby-button:hover,
 #skipIntro .emby-button:focus {
-    background-color: #cbebf7;
+    background-color: #9dd4f5;
     transform: scale(1.05);
 }
 
@@ -387,31 +392,31 @@ progress::-webkit-progress-value {
 }
 
 .emby-select-withcolor:focus {
-    border-color: #cbebf7 !important;
+    border-color: #9dd4f5 !important;
 }
 
 .emby-select-tv-withcolor:focus {
-    background-color: #cbebf7 !important;
+    background-color: #9dd4f5 !important;
     color: #fff !important;
 }
 
 .emby-checkbox:checked + span + .checkboxOutline {
-    border-color: #cbebf7;
+    border-color: #9dd4f5;
 }
 
 .emby-checkbox:focus:not(:checked) + span + .checkboxOutline {
-    border-color: #cbebf7;
+    border-color: #9dd4f5;
 }
 
 .itemProgressBarForeground-recording {
-    background-color: #cbebf7;
+    background-color: #9dd4f5;
 }
 
 .countIndicator,
 .fullSyncIndicator,
 .mediaSourceIndicator,
 .playedIndicator {
-    background: #cbebf7;
+    background: #9dd4f5;
 }
 
 .navMenuOption-selected {
@@ -429,7 +434,7 @@ progress::-webkit-progress-value {
 }
 
 .emby-tab-button:hover {
-    color: #cbebf7;
+    color: #9dd4f5;
 }
 
 .programCell-sports {
@@ -465,7 +470,7 @@ progress::-webkit-progress-value {
 }
 
 .buttonActive {
-    color: #cbebf7 !important;
+    color: #9dd4f5 !important;
 }
 
 .card:focus .cardBox.visualCardBox,
@@ -480,7 +485,7 @@ progress::-webkit-progress-value {
 }
 
 .itemsContainer > .card > .cardBox:hover {
-  color: #cbebf7;
+  color: #9dd4f5;
 }
 
 .cardText.cardTextCentered.cardText-secondary {
@@ -493,11 +498,11 @@ progress::-webkit-progress-value {
 }
 
 .itemsContainer > .card > .cardBox:hover .cardText.cardTextCentered.cardText-secondary {
-  color: #cbebf7;
+  color: #9dd4f5;
 }
 
 .metadataSidebarIcon {
-    color: #cbebf7;
+    color: #9dd4f5;
 }
 
 .layout-tv .emby-button.detailFloatingButton:focus {
@@ -537,7 +542,7 @@ progress::-webkit-progress-value {
 }
 
 .buttonActive {
-    color: #cbebf7 !important;
+    color: #9dd4f5 !important;
 }
 
 .layout-desktop #videoOsdPage .osdRatingsText {
@@ -567,11 +572,11 @@ progress::-webkit-progress-value {
 }
 
 .layout-desktop .backgroundContainer.withBackdrop {
-  background: linear-gradient(0deg, rgb(2.745% 7.059% 11.765%) 0%, rgb(2.745% 7.059% 11.765% / 0.823974609375) 6.25%, rgb(2.745% 7.059% 11.765% / 0.669921875) 12.5%, rgb(2.745% 7.059% 11.765% / 0.536376953125) 18.75%, rgb(2.745% 7.059% 11.765% / 0.421875) 25%, rgb(2.745% 7.059% 11.765% / 0.324951171875) 31.25%, rgb(2.745% 7.059% 11.765% / 0.244140625) 37.5%, rgb(2.745% 7.059% 11.765% / 0.177978515625) 43.75%, rgb(2.745% 7.059% 11.765% / 0.125) 50%, rgb(2.745% 7.059% 11.765% / 0.083740234375) 56.25%, rgb(2.745% 7.059% 11.765% / 0.052734375) 62.5%, rgb(2.745% 7.059% 11.765% / 0.030517578125) 68.75%, rgb(2.745% 7.059% 11.765% / 0.015625) 75%, rgb(2.745% 7.059% 11.765% / 0.006591796875) 81.25%, rgb(2.745% 7.059% 11.765% / 0.001953125) 87.5%, rgb(2.745% 7.059% 11.765% / 0.000244140625) 93.75%, rgb(2.745% 7.059% 11.765% / 0) 100% );
+  background: linear-gradient(0deg, rgb(2.353% 7.059% 13.333%) 0%, rgb(2.353% 7.059% 13.333% / 0.823974609375) 6.25%, rgb(2.353% 7.059% 13.333% / 0.669921875) 12.5%, rgb(2.353% 7.059% 13.333% / 0.536376953125) 18.75%, rgb(2.353% 7.059% 13.333% / 0.421875) 25%, rgb(2.353% 7.059% 13.333% / 0.324951171875) 31.25%, rgb(2.353% 7.059% 13.333% / 0.244140625) 37.5%, rgb(2.353% 7.059% 13.333% / 0.177978515625) 43.75%, rgb(2.353% 7.059% 13.333% / 0.125) 50%, rgb(2.353% 7.059% 13.333% / 0.083740234375) 56.25%, rgb(2.353% 7.059% 13.333% / 0.052734375) 62.5%, rgb(2.353% 7.059% 13.333% / 0.030517578125) 68.75%, rgb(2.353% 7.059% 13.333% / 0.015625) 75%, rgb(2.353% 7.059% 13.333% / 0.006591796875) 81.25%, rgb(2.353% 7.059% 13.333% / 0.001953125) 87.5%, rgb(2.353% 7.059% 13.333% / 0.000244140625) 93.75%, rgb(2.353% 7.059% 13.333% / 0) 100% );
 }
 
 .layout-desktop .skinHeader-withBackground {
-	background: #0b151591;
+	background: #04133173;
 	backdrop-filter: blur(7px);
 	position: fixed;
 	top: 0em;
@@ -592,7 +597,7 @@ progress::-webkit-progress-value {
   left: 0;
   right: 0;
   height: 4em;
-  background: #0b151591;
+  background: #04133173;
   backdrop-filter: blur(7px);
   z-index: -1;
   scroll-snap-align: start;
@@ -602,13 +607,13 @@ progress::-webkit-progress-value {
 	margin: .5em !important;
 	min-width: 11%;
 	justify-content: center;
-	background: #0b151591;
+	background: #04133173;
 	border-radius: 0.2em;
 	transition: color 0.6s;
 }
 
 .layout-desktop .homeLibraryButton:hover {
-	color: #cbebf7;
+	color: #9dd4f5;
 }
 
 .homeLibraryText {
@@ -620,7 +625,7 @@ progress::-webkit-progress-value {
 
 .raised {
   color: rgba(255, 255, 255, 0.87);
-  background: #0b151559;
+  background: #04133138;
 }
 
 #dashboardGeneralPage .raised {
@@ -746,12 +751,12 @@ progress::-webkit-progress-value {
 }
 
 .mainDrawer, .drawer-open {
-	background: #0b151591;
+	background: #04133173;
 	backdrop-filter: blur(7px);
 }
 
 .navMenuOption:hover {
-  background-color: rgba(0, 164, 220, 0.2);
+  background-color: #0e152b40;
 }
 
 .layout-desktop #homeTab .sections.homeSectionsContainer {
@@ -779,7 +784,7 @@ progress::-webkit-progress-value {
   left: 0;
   width: 100%;
   height: 100%;
-  background: #0b151591;
+  background: #04133173;
   backdrop-filter: blur(7px);
   z-index: -1; 
   pointer-events: none;
@@ -915,7 +920,7 @@ progress::-webkit-progress-value {
 }
 
 .preload {
-  background-color: #09111b;
+  background-color: #000;
   scroll-snap-type: y mandatory;
 }
 
@@ -940,7 +945,7 @@ progress::-webkit-progress-value {
 }
 
 .listItem:hover {
-  background: #0b151591;
+  background: #04133173;
 }
 
 .layout-desktop #childrenContent .listItemImage-large {
@@ -1002,7 +1007,7 @@ body {
 }
 
 .layout-desktop .detailRibbon {
-	background: #0b151591;
+	background: #04133173;
 	backdrop-filter: blur(8px);
 }
 
@@ -1103,7 +1108,7 @@ body {
 }
 
 .cardBox.cardBox-bottompadded:hover {
-	background: #0b151559;
+	background: #04133129;
 }
 
 .cardBox.cardBox-bottompadded:hover .cardOverlayButton-br.flex {
@@ -1111,7 +1116,7 @@ body {
 }
 
 .cardOverlayContainer {
-  background: rgba(0, 0, 0, 0.25);
+  background: rgba(140, 140, 140, 0.1);
   border-radius: .2em;
   bottom: 0;
   left: 0;
@@ -1137,11 +1142,11 @@ body {
 .textActionButton:hover {
   -webkit-text-decoration: none;
   text-decoration: none;
-  color: #cbebf7;
+  color: #9dd4f5;
 }
 
 .itemsContainer > .card > .cardBox:hover .cardText {
-  color: #cbebf7;
+  color: #9dd4f5;
 }
 
 .cardText.cardTextCentered.cardText-first {
@@ -1194,7 +1199,7 @@ body {
 	left: 0;
 	width: 100%;
 	height: 100%;
-	background: #0b151591;
+	background: #04133173;
 	background-size: cover;
 	z-index: -1;
 	pointer-events: none;
@@ -1240,11 +1245,11 @@ body {
 }
 
 #playlist .listItem:hover {
-	background: #0b151591;
+	background: #04133173;
 }
 
 .layout-desktop .appfooter {
-  background: #0b151591;
+  background: #04133173;
   backdrop-filter: blur(7px);
 }
 
@@ -1283,7 +1288,7 @@ body {
 }
 
 #scenesContent .innerCardFooter {
-	background: #0b151591;
+	background: #04133173;
 	min-width: 33.333%;
 }
 
@@ -1345,7 +1350,7 @@ body {
 }
 
 #skipIntro .emby-button:hover, #skipIntro .emby-button:focus {
-  background-color: #0b151591;
+  background-color: #04133173;
   transform: scale(1.05);
 }
 
@@ -1445,11 +1450,11 @@ body {
 }
 
 .layout-mobile .detailPagePrimaryContainer.padded-left.padded-right.detailRibbon {
-	background: #0b151591;
+	background: #04133173;
 	backdrop-filter: blur(8px);
 }
 
 .layout-mobile .detailPageSecondaryContainer.padded-bottom-page {
-	background: #0b151591;
+	background: #04133173;
 	backdrop-filter: blur(8px);
 }
