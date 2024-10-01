@@ -27,8 +27,11 @@ Or use this version if you don't want the scroll-snap feature (Firefox is great 
 
 Important: Click your User icon in Jellyfin, go to Display, scroll down and make sure the Theme is "Dark" and Backdrops are enabled.
 
-<img src="https://github.com/user-attachments/assets/4860182a-90b3-4372-9c34-b96c8429e7d2" width="100%" height="100%" />
-<img src="https://github.com/user-attachments/assets/45be986c-fd24-4dbe-b10e-10eb86e4e3ad" width="100%" height="100%" /> <img src="https://github.com/user-attachments/assets/bdafe521-86f2-42de-b30d-631f984a1b1d" width="100%" height="100%" /> 
-<img src="https://github.com/user-attachments/assets/8e84a84f-014a-4bb9-9878-84ac48793c8d" width="100%" height="100%" /> <img src="https://github.com/user-attachments/assets/37e5bd15-a5bd-470f-8d61-77567aeec0e6" width="100%" height="100%" />
-<img src="https://github.com/user-attachments/assets/3342fa59-10ba-4f1c-81df-7736e893d943" width="100%" height="100%" /> <img src="https://github.com/user-attachments/assets/6be05917-316d-4bb0-8682-97cd4256746f" width="100%" height="100%" />
-<img src="https://github.com/user-attachments/assets/9764d9a5-9b99-4835-b395-b156dfd40bc5" width="100%" height="100%" />
+<img src="https://github.com/user-attachments/assets/c5ec141a-1d52-4d49-830e-f73475d5028a" width="100%" height="100%" />
+<img src="https://github.com/user-attachments/assets/4d21b101-7da2-48e4-87da-155a006fef74" width="100%" height="100%" />
+<img src="https://github.com/user-attachments/assets/452a22f5-776b-43d1-9e1a-d7f66f525639" width="100%" height="100%" />
+<img src="https://github.com/user-attachments/assets/5464bc5b-bf2d-4412-b8d6-58175f961a00" width="100%" height="100%" />
+<img src="https://github.com/user-attachments/assets/4ad84fa5-e7a7-4e6d-bc98-1d30fdae3845" width="100%" height="100%" />
+<img src="https://github.com/user-attachments/assets/e56da762-01b6-4476-9950-88b4e280e77c" width="100%" height="100%" />
+<img src="https://github.com/user-attachments/assets/038e4cf7-72bc-4484-95a2-3de08764be2d" width="100%" height="100%" />
+<img src="https://github.com/user-attachments/assets/9977611d-ba9d-4e70-ba1a-e72a0d66496a" width="100%" height="100%" />
