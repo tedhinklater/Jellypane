@@ -31,7 +31,7 @@ Important: Click your User icon in Jellyfin, go to Display, scroll down and make
 <img src="https://github.com/user-attachments/assets/4d21b101-7da2-48e4-87da-155a006fef74" width="100%" height="100%" />
 <img src="https://github.com/user-attachments/assets/452a22f5-776b-43d1-9e1a-d7f66f525639" width="100%" height="100%" />
 <img src="https://github.com/user-attachments/assets/5464bc5b-bf2d-4412-b8d6-58175f961a00" width="100%" height="100%" />
-<img src="https://github.com/user-attachments/assets/4ad84fa5-e7a7-4e6d-bc98-1d30fdae3845" width="100%" height="100%" />
+<img src="https://github.com/user-attachments/assets/82f9b84c-75fe-42d1-b7ab-e8338bc0c7e3" width="100%" height="100%" />
 <img src="https://github.com/user-attachments/assets/e56da762-01b6-4476-9950-88b4e280e77c" width="100%" height="100%" />
 <img src="https://github.com/user-attachments/assets/038e4cf7-72bc-4484-95a2-3de08764be2d" width="100%" height="100%" />
 <img src="https://github.com/user-attachments/assets/9977611d-ba9d-4e70-ba1a-e72a0d66496a" width="100%" height="100%" />
