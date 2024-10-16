@@ -561,6 +561,7 @@ progress::-webkit-progress-value {
     z-index: -1;
     background-attachment: fixed;
     backdrop-filter: blur(10px) brightness(80%);
+	background-color: #03102980;
 }
 
 #itemDetailPage .itemsContainer.padded-left::before {
@@ -576,8 +577,8 @@ progress::-webkit-progress-value {
 }
 
 .layout-desktop .skinHeader-withBackground {
-	background: #04133173;
-	backdrop-filter: blur(7px);
+	background: #04133199;
+	backdrop-filter: blur(0px);
 	position: fixed;
 	top: 0em;
 	max-height: 4em;
@@ -597,8 +598,8 @@ progress::-webkit-progress-value {
   left: 0;
   right: 0;
   height: 4em;
-  background: #04133173;
-  backdrop-filter: blur(7px);
+  background: #04133199;
+  backdrop-filter: blur(0px);
   z-index: -1;
   scroll-snap-align: start;
 }
@@ -607,7 +608,7 @@ progress::-webkit-progress-value {
 	margin: .5em !important;
 	min-width: 11%;
 	justify-content: center;
-	background: #04133173;
+	background: #04133199;
 	border-radius: 0.2em;
 	transition: color 0.6s;
 }
@@ -625,7 +626,7 @@ progress::-webkit-progress-value {
 
 .raised {
   color: rgba(255, 255, 255, 0.87);
-  background: #04133138;
+  background: #00153e69;
 }
 
 #dashboardGeneralPage .raised {
@@ -751,7 +752,7 @@ progress::-webkit-progress-value {
 }
 
 .mainDrawer, .drawer-open {
-	background: #04133173;
+	background: #04133199;
 	backdrop-filter: blur(7px);
 }
 
@@ -784,8 +785,8 @@ progress::-webkit-progress-value {
   left: 0;
   width: 100%;
   height: 100%;
-  background: #04133173;
-  backdrop-filter: blur(7px);
+  background: #04133199;
+  backdrop-filter: blur(0px);
   z-index: -1; 
   pointer-events: none;
 }
@@ -945,7 +946,7 @@ progress::-webkit-progress-value {
 }
 
 .listItem:hover {
-  background: #04133173;
+  background: #04133199;
 }
 
 .layout-desktop #childrenContent .listItemImage-large {
@@ -958,8 +959,8 @@ progress::-webkit-progress-value {
 
 .layout-desktop #childrenContent .listItemBodyText.secondary.listItem-overview.listItemBodyText {
   transition: filter 0.8s, opacity 0.8s;
-  filter: blur(40px);
-  opacity: 0.1;
+  filter: blur(3px);
+  opacity: 0.7;
 }
 
 .layout-desktop #childrenContent .listItemBodyText.secondary.listItem-overview.listItemBodyText:hover {
@@ -1007,8 +1008,8 @@ body {
 }
 
 .layout-desktop .detailRibbon {
-	background: #04133173;
-	backdrop-filter: blur(8px);
+	background: #04133199;
+	backdrop-filter: blur(0px);
 }
 
 .layout-desktop [dir="ltr"] .detailPageContent {
@@ -1199,7 +1200,7 @@ body {
 	left: 0;
 	width: 100%;
 	height: 100%;
-	background: #04133173;
+	background: #04133199;
 	background-size: cover;
 	z-index: -1;
 	pointer-events: none;
@@ -1245,11 +1246,11 @@ body {
 }
 
 #playlist .listItem:hover {
-	background: #04133173;
+	background: #04133199;
 }
 
 .layout-desktop .appfooter {
-  background: #04133173;
+  background: #04133199;
   backdrop-filter: blur(7px);
 }
 
@@ -1288,7 +1289,7 @@ body {
 }
 
 #scenesContent .innerCardFooter {
-	background: #04133173;
+	background: #04133199;
 	min-width: 33.333%;
 }
 
@@ -1350,12 +1351,34 @@ body {
 }
 
 #skipIntro .emby-button:hover, #skipIntro .emby-button:focus {
-  background-color: #04133173;
+  background-color: #04133199;
   transform: scale(1.05);
 }
 
 /* Hide Watched Counter on Collections */
 [data-type="BoxSet"] .countIndicator { display: none; }
+
+#homeTab .sections.homeSectionsContainer .section0::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    opacity: 1;
+    z-index: -1;
+    background-attachment: fixed;
+    background-color: #4f699db2;
+}
+
+.raised:focus {
+  background: #0413316b;
+}
+
+.layout-desktop #homeTab .overflowPortraitCard, .overflowSquareCard {
+    width: 9.35vw !important;
+}
 
 /* 768p */
 
@@ -1450,11 +1473,11 @@ body {
 }
 
 .layout-mobile .detailPagePrimaryContainer.padded-left.padded-right.detailRibbon {
-	background: #04133173;
+	background: #04133199;
 	backdrop-filter: blur(8px);
 }
 
 .layout-mobile .detailPageSecondaryContainer.padded-bottom-page {
-	background: #04133173;
+	background: #04133199;
 	backdrop-filter: blur(8px);
 }
