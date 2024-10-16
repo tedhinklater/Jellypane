@@ -1,5 +1,7 @@
 # Jellypane
 
+![Screenshot 2024-10-16 070000](https://github.com/user-attachments/assets/70eaf76c-f3c0-4f22-84fa-4ae77750c7ec)
+
 A feature-rich glassmorphism theme for Jellyfin 10.9.X with scroll-snap glass panels; go from a minimalist experience to full details with one increment of the mousewheel, accessible & sleek fonts, spoiler-free episode selection, and responsive design
 
 768p :heavy_check_mark: 1080p :heavy_check_mark: 1440p :heavy_check_mark: 4k :heavy_check_mark: Mobile :heavy_check_mark: TV Mode :soon:
