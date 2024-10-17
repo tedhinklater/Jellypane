@@ -1,7 +1,5 @@
 # Jellypane
 
-![Screenshot 2024-10-16 070000](https://github.com/user-attachments/assets/70eaf76c-f3c0-4f22-84fa-4ae77750c7ec)
-
 A feature-rich glassmorphism theme for Jellyfin 10.9.X with scroll-snap glass panels; go from a minimalist experience to full details with one increment of the mousewheel, accessible & sleek fonts, spoiler-free episode selection, and responsive design
 
 768p :heavy_check_mark: 1080p :heavy_check_mark: 1440p :heavy_check_mark: 4k :heavy_check_mark: Mobile :heavy_check_mark: TV Mode :soon:
@@ -27,11 +25,9 @@ Or use the version below if you don't want the scroll-snap feature (browsers are
 
 Important: Click your User icon in Jellyfin, go to Display, scroll down and make sure the Theme is "Dark" and Backdrops are enabled.
 
-<img src="https://github.com/user-attachments/assets/1ee01db8-aa91-433b-8215-04c2e82aea00" width="100%" height="100%" />
-<img src="https://github.com/user-attachments/assets/4b156457-65ee-423e-9580-5d5d086ee7ea" width="100%" height="100%" />
-<img src="https://github.com/user-attachments/assets/02b2c2c5-c755-49c5-b09d-de4dafe00968" width="100%" height="100%" />
-<img src="https://github.com/user-attachments/assets/ff3abdf7-4be8-4838-b1b9-38554dc2e163" width="100%" height="100%" />
-<img src="https://github.com/user-attachments/assets/eeb5f3f2-84bb-4f7e-afa3-a1a5dedca596" width="100%" height="100%" />
-<img src="https://github.com/user-attachments/assets/4a0f2f18-0530-4c7c-9577-78c06b40bf36" width="100%" height="100%" />
-<img src="https://github.com/user-attachments/assets/cf96e878-7ea9-4e7c-b473-6af97d195ab0" width="100%" height="100%" />
+<img src="https://github.com/user-attachments/assets/743bb661-35e0-4f31-8e41-0d2e2bf343db" width="100%" height="100%" />
+<img src="https://github.com/user-attachments/assets/16a9cb70-507f-4824-ad8c-b95b41d27362" width="100%" height="100%" />
+<img src="https://github.com/user-attachments/assets/efa6edb9-73ab-4679-babc-03ecb56aed8a" width="100%" height="100%" />
+<img src="https://github.com/user-attachments/assets/cba6c6cb-5eaf-45e6-8f35-dca4528a7c77" width="100%" height="100%" />
+<img src="https://github.com/user-attachments/assets/c868ecb0-1ae5-4356-bb0c-a7bdad56dc7e" width="100%" height="100%" />
 <img src="https://github.com/user-attachments/assets/9977611d-ba9d-4e70-ba1a-e72a0d66496a" width="100%" height="100%" />
