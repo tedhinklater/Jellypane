@@ -29,5 +29,5 @@ Important: Click your User icon in Jellyfin, go to Display, scroll down and make
 <img src="https://github.com/user-attachments/assets/c4a188b5-79bd-4734-87b7-213dcfb0f116" width="100%" height="100%" />
 <img src="https://github.com/user-attachments/assets/eec7e61e-4849-42aa-b946-d0c52d96ede6" width="100%" height="100%" />
 <img src="https://github.com/user-attachments/assets/cba6c6cb-5eaf-45e6-8f35-dca4528a7c77" width="100%" height="100%" />
-<img src="https://github.com/user-attachments/assets/c868ecb0-1ae5-4356-bb0c-a7bdad56dc7e" width="100%" height="100%" />
+<img src="https://github.com/user-attachments/assets/b7c49a98-a296-4309-bc51-298c21d229c3" width="100%" height="100%" />
 <img src="https://github.com/user-attachments/assets/9977611d-ba9d-4e70-ba1a-e72a0d66496a" width="100%" height="100%" />
