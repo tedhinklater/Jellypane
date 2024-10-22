@@ -417,7 +417,7 @@ progress::-webkit-progress-value {
 .fullSyncIndicator,
 .mediaSourceIndicator,
 .playedIndicator {
-    background: #9dd4f5;
+    background: linear-gradient(11deg, rgb(32.549% 85.49% 99.608%) 0%, rgb(32.312% 79.697% 96.901%) 6.25%, rgb(32.089% 74.277% 94.369%) 12.5%, rgb(31.883% 69.231% 92.011%) 18.75%, rgb(31.691% 64.559% 89.828%) 25%, rgb(31.515% 60.26% 87.82%) 31.25%, rgb(31.354% 56.336% 85.987%) 37.5%, rgb(31.209% 52.785% 84.328%) 43.75%, rgb(31.078% 49.608% 82.843%) 50%, rgb(30.964% 46.805% 81.533%) 56.25%, rgb(30.864% 44.375% 80.398%) 62.5%, rgb(30.78% 42.319% 79.438%) 68.75%, rgb(30.711% 40.637% 78.652%) 75%, rgb(30.657% 39.329% 78.041%) 81.25%, rgb(30.619% 38.395% 77.604%) 87.5%, rgb(30.596% 37.834% 77.342%) 93.75%, rgb(30.588% 37.647% 77.255%) 100% );
 }
 
 .navMenuOption-selected {
@@ -521,9 +521,7 @@ progress::-webkit-progress-value {
 }
 
 /*Make watched icon and count indicator dark and red*/
-.innerCardFooter,
-.countIndicator, 
-.playedIndicator {
+.innerCardFooter {
   background: transparent;
   box-shadow: none;
   color: #fff;
