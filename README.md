@@ -26,7 +26,7 @@ Or use the version below if you don't want the scroll-snap feature (browsers are
 Important: Click your User icon in Jellyfin, go to Display, scroll down and make sure the Theme is "Dark" and Backdrops are enabled.
 
 <img src="https://github.com/user-attachments/assets/f9565518-4f46-478a-8d2f-0307b4b622bd" width="100%" height="100%" />
-<img src="https://github.com/user-attachments/assets/16a9cb70-507f-4824-ad8c-b95b41d27362" width="100%" height="100%" />
+<img src="https://github.com/user-attachments/assets/c4a188b5-79bd-4734-87b7-213dcfb0f116" width="100%" height="100%" />
 <img src="https://github.com/user-attachments/assets/efa6edb9-73ab-4679-babc-03ecb56aed8a" width="100%" height="100%" />
 <img src="https://github.com/user-attachments/assets/cba6c6cb-5eaf-45e6-8f35-dca4528a7c77" width="100%" height="100%" />
 <img src="https://github.com/user-attachments/assets/c868ecb0-1ae5-4356-bb0c-a7bdad56dc7e" width="100%" height="100%" />
