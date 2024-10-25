@@ -80,11 +80,11 @@
 
 /* Video Playback Progress Bar */
 .mdl-slider-background-lower {
-    background: #add1de !important;
+    background: #5bc2ff !important;
 }
 
 .iconOsdProgressInner {
-  background: #9dd4f5;
+  background: #5bc2ff;
   border-radius: .25em;
   height: 100%;
 }
@@ -98,7 +98,7 @@
 
 /* Edge & Chrome browser & JMP */
 
-.slider-browser-edge{margin-left:-.16em;margin-right:-.16em;width:150%}.mdl-slider::-webkit-slider-thumb{-webkit-appearance:none;appearance:none;background:#add1de;}
+.slider-browser-edge{margin-left:-.16em;margin-right:-.16em;width:150%}.mdl-slider::-webkit-slider-thumb{-webkit-appearance:none;appearance:none;background:#5bc2ff;}
 .navMenuOption:hover {
   background: #0e152b40;
   color: white;
@@ -107,19 +107,19 @@
 }
 
 .mdl-slider::-moz-range-thumb {
-  background: #9dd4f5 !important;
+  background: #5bc2ff !important;
 }
 * {
   scrollbar-width: thin;
-  scrollbar-color: #9dd4f5 #0000 !important;
+  scrollbar-color: #5bc2ff #0000 !important;
 }
 
 .sliderMarker.watched {
-  background-color: #9dd4f5;
+  background-color: #5bc2ff;
 }
 
 .pageTitleWithDefaultLogo {
-  background-image: url(https://i.imgur.com/gp44vKV.png);
+  background-image: url(https://i.imgur.com/jzFL8zZ.png);
 }
 
 /*Spinner*/
@@ -127,7 +127,7 @@
 .mdl-spinner__layer-2,
 .mdl-spinner__layer-3,
 .mdl-spinner__layer-4 {
-    border-color: #9dd4f5 !important;
+    border-color: #5bc2ff !important;
 }
 
 .starIcon {
@@ -151,7 +151,7 @@ progress {
 
 /* Progress ring */
 .progressring-spiner {
-  border-color: #9dd4f5;
+  border-color: #5bc2ff;
   border-width: .35em;
 }
 .progressring {
@@ -212,7 +212,7 @@ progress {
 }
 
 .css-1fv02xh:hover {
-  background-color: #9dd4f5;
+  background-color: #5bc2ff;
 }
 
 .css-77wcaa {
@@ -228,11 +228,11 @@ progress {
 }
 
 .css-1jmiiw3 .MuiDataGrid-row.Mui-selected {
-  background-color: #9dd4f5;
+  background-color: #5bc2ff;
 }
 
 .css-1jmiiw3 .MuiDataGrid-row.Mui-selected:hover {
-  background-color: #9dd4f5;
+  background-color: #5bc2ff;
 }
 
 #dashboardPage .listItemIcon.material-icons.notifications {
@@ -253,16 +253,16 @@ filter: drop-shadow(0px 0px 1px rgb(0, 0, 0));
 }
 
 progress::-moz-progress-bar {
-  background-color: #9dd4f5;
+  background-color: #5bc2ff;
 }
 progress::-webkit-progress-value {
-  background-color: #9dd4f5;
+  background-color: #5bc2ff;
 }
 .taskProgressInner {
-  background: #9dd4f5 !important;
+  background: #5bc2ff !important;
 }
 #divRunningTasks span {
-    color: #9dd4f5 !important;
+    color: #5bc2ff !important;
 }
 
 .listItemIcon:not(.listItemIcon-transparent) {
@@ -274,25 +274,25 @@ progress::-webkit-progress-value {
 
 @media (hover: hover) and (pointer: fine) {
     .paper-icon-button-light:hover:not(:disabled) {
-        color: #9dd4f5;
+        color: #5bc2ff;
         background-color: #425359;
     }
 }
 
 @media (hover: hover) and (pointer: fine) {
     .paper-icon-button-light:hover:not(:disabled) {
-        color: #9dd4f5;
-        background-color: #42535970;
+        color: #5bc2ff;
+        background-color: #04133199;
     }
 }
 
 .paper-icon-button-light:active:not(:disabled) {
-    color: #9dd4f5;
+    color: #5bc2ff;
     background-color: #425359;
 }
 
 .paper-icon-button-light.show-focus:focus {
-    color: #9dd4f5;
+    color: #5bc2ff;
 }
 
 .itemProgressBarForeground {
@@ -317,7 +317,7 @@ progress::-webkit-progress-value {
 .inputLabelFocused,
 .selectLabelFocused,
 .textareaLabelFocused {
-    color: #9dd4f5;
+    color: #5bc2ff;
 }
 
 .defaultCardBackground1 {
@@ -341,16 +341,16 @@ progress::-webkit-progress-value {
 }
 
 .itemSelectionPanel {
-    border: 1px solid #9dd4f5;
+    border: 1px solid #5bc2ff;
 }
 
 .selectionCommandsPanel {
-    background: #9dd4f5;
+    background: #5bc2ff;
     color: #fff;
 }
 
 .upNextDialog-countdownText {
-    color: #9dd4f5;
+    color: #5bc2ff;
 }
 
 .alphaPickerButton {
@@ -369,11 +369,11 @@ progress::-webkit-progress-value {
 }
 
 .progressring-spiner {
-    border-color: #9dd4f5;
+    border-color: #5bc2ff;
 }
 
 .button-flat:hover {
-    color: #9dd4f5;
+    color: #5bc2ff;
 }
 
 .button-link {
@@ -383,7 +383,7 @@ progress::-webkit-progress-value {
 /*Change Intro Skip Color*/
 #skipIntro .emby-button:hover,
 #skipIntro .emby-button:focus {
-    background-color: #9dd4f5;
+    background-color: #5bc2ff;
     transform: scale(1.05);
 }
 
@@ -393,24 +393,24 @@ progress::-webkit-progress-value {
 }
 
 .emby-select-withcolor:focus {
-    border-color: #9dd4f5 !important;
+    border-color: #5bc2ff !important;
 }
 
 .emby-select-tv-withcolor:focus {
-    background-color: #9dd4f5 !important;
+    background-color: #5bc2ff !important;
     color: #fff !important;
 }
 
 .emby-checkbox:checked + span + .checkboxOutline {
-    border-color: #9dd4f5;
+    border-color: #5bc2ff;
 }
 
 .emby-checkbox:focus:not(:checked) + span + .checkboxOutline {
-    border-color: #9dd4f5;
+    border-color: #5bc2ff;
 }
 
 .itemProgressBarForeground-recording {
-    background-color: #9dd4f5;
+    background-color: #5bc2ff;
 }
 
 .countIndicator,
@@ -435,7 +435,7 @@ progress::-webkit-progress-value {
 }
 
 .emby-tab-button:hover {
-    color: #9dd4f5;
+    color: #5bc2ff;
 }
 
 .programCell-sports {
@@ -471,7 +471,7 @@ progress::-webkit-progress-value {
 }
 
 .buttonActive {
-    color: #9dd4f5 !important;
+    color: #5bc2ff !important;
 }
 
 .card:focus .cardBox.visualCardBox,
@@ -486,7 +486,7 @@ progress::-webkit-progress-value {
 }
 
 .itemsContainer > .card > .cardBox:hover {
-  color: #9dd4f5;
+  color: #5bc2ff;
 }
 
 .cardText.cardTextCentered.cardText-secondary {
@@ -499,11 +499,11 @@ progress::-webkit-progress-value {
 }
 
 .itemsContainer > .card > .cardBox:hover .cardText.cardTextCentered.cardText-secondary {
-  color: #9dd4f5;
+  color: #5bc2ff;
 }
 
 .metadataSidebarIcon {
-    color: #9dd4f5;
+    color: #5bc2ff;
 }
 
 .layout-tv .emby-button.detailFloatingButton:focus {
@@ -548,7 +548,7 @@ progress::-webkit-progress-value {
 }
 
 .buttonActive {
-    color: #9dd4f5 !important;
+    color: #5bc2ff !important;
 }
 
 .layout-desktop #videoOsdPage .osdRatingsText {
@@ -620,7 +620,7 @@ progress::-webkit-progress-value {
 }
 
 .layout-desktop .homeLibraryButton:hover {
-	color: #9dd4f5;
+	color: #5bc2ff;
 }
 
 .homeLibraryText {
@@ -1148,6 +1148,12 @@ body {
   user-select: none;
 }
 
+.cardOverlayContainer > .cardOverlayFab-primary {
+  background-color: #04133199;
+}
+
+
+
 .cardOverlayButton-br {
   width: -moz-available;
   justify-content: space-evenly;
@@ -1160,11 +1166,11 @@ body {
 .textActionButton:hover {
   -webkit-text-decoration: none;
   text-decoration: none;
-  color: #9dd4f5;
+  color: #5bc2ff;
 }
 
 .itemsContainer > .card > .cardBox:hover .cardText {
-  color: #9dd4f5;
+  color: #5bc2ff;
 }
 
 .cardText.cardTextCentered.cardText-first {
