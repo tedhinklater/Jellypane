@@ -34,6 +34,9 @@ Library
 Movie
 <img src="https://i.imgur.com/dfjmF4i.png" width="100%" height="100%" />
 
+Movie (scrolled down)
+<img src="https://i.imgur.com/bHcB7Kh.png" width="100%" height="100%" />
+
 Show
 <img src="https://i.imgur.com/3TjABMx.png" width="100%" height="100%" />
 
