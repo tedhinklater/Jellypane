@@ -1155,7 +1155,7 @@ body {
 
 
 .cardOverlayButton-br {
-  width: -moz-available;
+  width: 100%;
   justify-content: space-evenly;
 }
 
