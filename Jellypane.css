@@ -286,6 +286,12 @@ progress::-webkit-progress-value {
     }
 }
 
+.layout-mobile {
+    .paper-icon-button-light:hover:not(:disabled) {
+        background-color: transparent;
+    }
+}
+
 .paper-icon-button-light:active:not(:disabled) {
     color: #5bc2ff;
     background-color: #425359;
