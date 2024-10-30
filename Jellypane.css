@@ -1402,11 +1402,17 @@ body {
 }
 
 .raised:focus {
-  background: #0413316b;
+	background: #0413316b;
 }
 
 .layout-desktop #homeTab .overflowPortraitCard, .overflowSquareCard {
     width: 9.35vw !important;
+}
+
+.layout-desktop .itemsContainer.padded-left.padded-right.padded-right-withalphapicker.vertical-list {
+	margin-top: -9em;
+	padding-top: 8em;
+	scroll-snap-align: start;
 }
 
 /* 768p */
