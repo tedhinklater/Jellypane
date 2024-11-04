@@ -1388,7 +1388,7 @@ body {
 
 #skipIntro {
   position: absolute;
-  bottom: 7em;
+  bottom: 2em;
   right: 7em;
   background-color: transparent;
 }
@@ -1414,7 +1414,8 @@ body {
     opacity: 1;
     z-index: -1;
     background-attachment: fixed;
-    background-color: #4f699db2;
+    background-color: #101e3de5;
+    backdrop-filter: blur(7px);
 }
 
 .raised:focus {
