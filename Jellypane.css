@@ -1388,7 +1388,7 @@ body {
 
 #skipIntro {
   position: absolute;
-  bottom: 2em;
+  bottom: 7em;
   right: 7em;
   background-color: transparent;
 }
@@ -1430,6 +1430,22 @@ body {
 	margin-top: -9em;
 	padding-top: 8em;
 	scroll-snap-align: start;
+}
+
+.skip-button {
+  display: none;
+}
+
+.upNextContainer {
+  bottom: 5em;
+}
+
+.raised.raised-mini.btnHide.upNextDialog-button.emby-button:hover {
+  background: rgb(var(--accent));
+  box-shadow: 0 0 8px rgba(var(--accent), 0.6);
+  filter: brightness(1.2);
+  background-color: #041331;
+  transform: scale(1.05);
 }
 
 /* 768p */
