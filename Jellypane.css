@@ -393,6 +393,8 @@ progress::-webkit-progress-value {
     transform: scale(1.05);
 }
 
+
+
 .emby-input:focus,
 .emby-textarea:focus {
     border-color: white;
@@ -1380,8 +1382,22 @@ body {
 }
 
 #skipIntro .emby-button:hover, #skipIntro .emby-button:focus {
-  background-color: #04133199;
+  background-color: #041331;
   transform: scale(1.05);
+}
+
+#skipIntro {
+  position: absolute;
+  bottom: 2em;
+  right: 7em;
+  background-color: transparent;
+}
+
+#skipIntro .emby-button {
+  color: #ffffff;
+  font-size: 100%;
+  background: rgba(0, 8, 25, 1);
+  border: 1px solid #2c4177;
 }
 
 /* Hide Watched Counter on Collections */
