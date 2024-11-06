@@ -1448,6 +1448,34 @@ body {
   transform: scale(1.05);
 }
 
+/*Iskelderon's cleaner Scenes & Specials grid */
+@media (min-width:1800px) and (min-height:900px) {
+  #specialsCollapsible .emby-scroller,
+  #musicVideosCollapsible.emby-scroller,
+  #scenesCollapsible.emby-scroller {
+    margin-right: 0;
+  }
+
+  #specialsCollapsible .emby-scrollbuttons,
+  #musicVideosCollapsible .emby-scrollbuttons,
+  #scenesCollapsible .emby-scrollbuttons  {
+    display: none;
+  }
+
+  #specialsCollapsible .itemsContainer,
+  #musicVideosCollapsible .itemsContainer,
+  #scenesCollapsible .itemsContainer {
+    flex-wrap: wrap;
+  }
+
+  #specialsCollapsible .overflowBackdropCard,
+  #musicVideosCollapsible .overflowBackdropCard,
+  #scenesCollapsible .overflowBackdropCard {
+    max-width: 16.4vw;
+  }
+}
+
+
 /* 768p */
 
 @media only screen and (min-width: 800px) and (max-width: 1400px) and (max-height: 800px) {
