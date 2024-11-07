@@ -3002,7 +3002,13 @@ body {
 	transform: translateX(-50%) translateY(-50%);
 }
 
-.videoOsdBottom .paper-icon-button-light:hover {
+.videoOsdBottom .btnPreviousTrack:hover,
+.videoOsdBottom .btnPreviousChapter:hover,
+.videoOsdBottom .btnRewind:hover,
+.videoOsdBottom .btnPause:hover,
+.videoOsdBottom .btnFastForward:hover,
+.videoOsdBottom .btnNextChapter:hover,
+.videoOsdBottom .btnNextTrack:hover {
   font-size: 2.2vw !important;
 }
 
@@ -3010,7 +3016,13 @@ body {
 	.videoOsdBottom .paper-icon-button-light {
 		font-size: 3vw !important;
 	}
-  .videoOsdBottom .paper-icon-button-light:hover {
+	.videoOsdBottom .btnPreviousTrack:hover,
+	.videoOsdBottom .btnPreviousChapter:hover,
+	.videoOsdBottom .btnRewind:hover,
+	.videoOsdBottom .btnPause:hover,
+	.videoOsdBottom .btnFastForward:hover,
+	.videoOsdBottom .btnNextChapter:hover,
+	.videoOsdBottom .btnNextTrack:hover {
 		font-size: 3.2vw !important;
 	}
 }
