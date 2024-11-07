@@ -386,15 +386,6 @@ progress::-webkit-progress-value {
   color: #fff;
 }
 
-/*Change Intro Skip Color*/
-#skipIntro .emby-button:hover,
-#skipIntro .emby-button:focus {
-    background-color: #5bc2ff;
-    transform: scale(1.05);
-}
-
-
-
 .emby-input:focus,
 .emby-textarea:focus {
     border-color: white;
@@ -1381,25 +1372,6 @@ body {
   width: 13.75em;
 }
 
-#skipIntro .emby-button:hover, #skipIntro .emby-button:focus {
-  background-color: #041331;
-  transform: scale(1.05);
-}
-
-#skipIntro {
-  position: absolute;
-  bottom: 7em;
-  right: 7em;
-  background-color: transparent;
-}
-
-#skipIntro .emby-button {
-  color: #ffffff;
-  font-size: 100%;
-  background: rgba(0, 8, 25, 1);
-  border: 1px solid #2c4177;
-}
-
 /* Hide Watched Counter on Collections */
 [data-type="BoxSet"] .countIndicator { display: none; }
 
@@ -1437,42 +1409,76 @@ body {
 }
 
 .upNextContainer {
-  bottom: 5em;
+	bottom: 5em;
+}
+
+@media (orientation:portrait) {
+	.upNextContainer {
+		font-size: 65%;
+	}
 }
 
 .raised.raised-mini.btnHide.upNextDialog-button.emby-button:hover {
-  background: rgb(var(--accent));
-  box-shadow: 0 0 8px rgba(var(--accent), 0.6);
-  filter: brightness(1.2);
-  background-color: #041331;
-  transform: scale(1.05);
+	background: rgb(var(--accent));
+	box-shadow: 0 0 8px rgba(var(--accent), 0.6);
+	filter: brightness(1.2);
+	background-color: #041331;
+	transform: scale(1.05);
+}
+/*Change Intro Skip Color*/
+#skipIntro .emby-button:hover,
+#skipIntro .emby-button:focus {
+	background-color: #5bc2ff;
+	transform: scale(1.05);
+}
+#skipIntro .emby-button:hover, #skipIntro .emby-button:focus {
+	background-color: #041331;
+	transform: scale(1.05);
+}
+
+#skipIntro {
+	position: absolute;
+	bottom: 7em;
+	right: 6.8em;
+	background-color: transparent;
+}
+
+#skipIntro.upNextContainer {
+	width: 7.2em;
+}
+
+#skipIntro .emby-button {
+	color: #ffffff;
+	font-size: 100%;
+	background: rgba(0, 8, 25, 1);
+	border: 1px solid #2c4177;
 }
 
 /*Iskelderon's cleaner Scenes & Specials grid */
 @media (min-width:1800px) and (min-height:900px) {
-  #specialsCollapsible .emby-scroller,
-  #musicVideosCollapsible.emby-scroller,
-  #scenesCollapsible.emby-scroller {
-    margin-right: 0;
-  }
+	#specialsCollapsible .emby-scroller,
+	#musicVideosCollapsible.emby-scroller,
+	#scenesCollapsible.emby-scroller {
+		margin-right: 0;
+	}
 
-  #specialsCollapsible .emby-scrollbuttons,
-  #musicVideosCollapsible .emby-scrollbuttons,
-  #scenesCollapsible .emby-scrollbuttons  {
-    display: none;
-  }
+	#specialsCollapsible .emby-scrollbuttons,
+	#musicVideosCollapsible .emby-scrollbuttons,
+	#scenesCollapsible .emby-scrollbuttons  {
+		display: none;
+	}
 
-  #specialsCollapsible .itemsContainer,
-  #musicVideosCollapsible .itemsContainer,
-  #scenesCollapsible .itemsContainer {
-    flex-wrap: wrap;
-  }
+	#specialsCollapsible .itemsContainer,
+	#musicVideosCollapsible .itemsContainer,
+	#scenesCollapsible .itemsContainer {
+		flex-wrap: wrap;
+	}
 
-  #specialsCollapsible .overflowBackdropCard,
-  #musicVideosCollapsible .overflowBackdropCard,
-  #scenesCollapsible .overflowBackdropCard {
-    max-width: 16.4vw;
-  }
+	#specialsCollapsible .overflowBackdropCard,
+	#musicVideosCollapsible .overflowBackdropCard,
+	#scenesCollapsible .overflowBackdropCard {
+		max-width: 16.4vw;
+	}
 }
 
 
@@ -1576,4 +1582,39 @@ body {
 .layout-mobile .detailPageSecondaryContainer.padded-bottom-page {
 	background: #04133199;
 	backdrop-filter: blur(8px);
+}
+
+.videoOsdBottom .osdControls [dir="ltr"] .paper-icon-button-light {
+	position: fixed;
+	top: 45vh;
+	left: 30vw;
+	font-size: 2vw;
+}
+
+@media (max-width: 33.75em) {
+  .videoOsdBottom .paper-icon-button-light {
+    font-size: 3vw !important;
+  }
+}
+
+.osdControls .btnPreviousTrack {
+	left: 24% !important;
+}
+.osdControls .btnPreviousChapter {
+	left: 24% !important;
+}
+.osdControls .btnRewind {
+	left: 35% !important;
+}
+.osdControls .btnPause {
+	left: 47% !important;
+}
+.osdControls .btnFastForward  {
+	left: 59% !important;
+}
+.osdControls .btnNextChapter {
+	left: 69% !important;
+}
+.osdControls .btnNextTrack {
+	left: 69% !important;
 }
