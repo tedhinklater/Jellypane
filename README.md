@@ -15,7 +15,7 @@ Paste this line into your Custom CSS box
 
 ```
 
-Or use the version below if you don't want the scroll-snap feature (browsers are great but JMP really does not like it, for example)
+Or use the version below if you don't want the scroll-snap feature (desktop/mobile browsers are great and so is JMP on mobile, but desktop JMP really does not like the snap version)
 
 ```css
 
