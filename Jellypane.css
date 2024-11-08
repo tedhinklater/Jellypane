@@ -2727,6 +2727,7 @@ body {
 	top: -20em;
 	right: 0em;
 	width: 65.5%;
+	z-index: 10;
 }
 
 .layout-desktop #itemDetailPage .verticalSection.detailVerticalSection.moreFromSeasonSection.emby-scroller-container .card.overflowBackdropCard.card-hoverable.card-withuserdata {
@@ -3117,6 +3118,14 @@ body {
 	#scenesCollapsible .overflowBackdropCard {
 		max-width: 16.4vw;
 	}
+}
+.cardOverlayContainer > .cardOverlayFab-primary {
+  font-size: 100%;
+}
+.cardOverlayContainer > .cardOverlayFab-primary:hover {
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+  transition: .2s;
 }
 
 
