@@ -3078,7 +3078,11 @@ body {
 }
 
 #skipIntro.upNextContainer {
-	width: 7.2em;
+	width: 9.3em;
+}
+
+#skipIntro.show .emby-button {
+  justify-content: center;
 }
 
 #skipIntro .emby-button {
