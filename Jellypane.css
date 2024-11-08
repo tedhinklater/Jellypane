@@ -3022,7 +3022,7 @@ body {
 	filter: drop-shadow(-3px 0px 2px rgba(2, 2, 2, 0.8));
 }
 .osdControls .btnPreviousChapter {
-	left: 31% !important;
+	left: 31.5% !important;
 	filter: drop-shadow(-3px 0px 2px rgba(2, 2, 2, 0.8));
 }
 .osdControls .btnRewind {
@@ -3038,11 +3038,11 @@ body {
 	filter: drop-shadow(3px 0px 2px rgba(2, 2, 2, 0.8));
 }
 .osdControls .btnNextChapter {
-	left: 63% !important;
+	left: 63.5% !important;
 	filter: drop-shadow(3px 0px 2px rgba(2, 2, 2, 0.8));
 }
 .osdControls .btnNextTrack {
-	left: 69% !important;
+	left: 71% !important;
 	filter: drop-shadow(3px 0px 2px rgba(2, 2, 2, 0.8));
 }
 .skip-button {
