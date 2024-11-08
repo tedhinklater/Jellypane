@@ -972,6 +972,12 @@ progress::-webkit-progress-value {
 	cursor: pointer;
 }
 
+.layout-desktop #childrenContent .listItemBodyText.secondary.listItem-overview.listItemBodyText {
+  transition: filter 0.8s, opacity 0.8s;
+  filter: blur(3px);
+  opacity: 0.7;
+}
+
 .layout-desktop #childrenContent .listItemBodyText.secondary.listItem-overview.listItemBodyText:hover {
 	filter: blur(0px);
 	opacity: 1;
@@ -2019,7 +2025,8 @@ progress::-webkit-progress-value {
 }
 
 .layout-desktop .homeLibraryButton:hover {
-	color: #5bc2ff;
+  color: #fff;
+  border: 1px solid #4181ff;
 }
 
 .homeLibraryText {
@@ -2372,6 +2379,12 @@ progress::-webkit-progress-value {
 	cursor: pointer;
 }
 
+.layout-desktop #childrenContent .listItemBodyText.secondary.listItem-overview.listItemBodyText {
+  transition: filter 0.8s, opacity 0.8s;
+  filter: blur(3px);
+  opacity: 0.7;
+}
+
 .layout-desktop #childrenContent .listItemBodyText.secondary.listItem-overview.listItemBodyText:hover {
 	filter: blur(0px);
 	opacity: 1;
@@ -2535,10 +2548,14 @@ body {
   position: absolute;
   right: 0;
   top: 0;
-  transition: opacity .2s;
+  transition: opacity .2s, border 0.3s;
   -webkit-user-select: none;
   -ms-user-select: none;
   user-select: none;
+}
+
+.cardOverlayContainer:hover {
+  border: 1px solid #4181ff;
 }
 
 .cardOverlayContainer > .cardOverlayFab-primary {
@@ -3077,7 +3094,7 @@ body {
 }
 
 #skipIntro.upNextContainer {
-	width: 9.5em;
+	width: 7.2em;
 }
 
 #skipIntro .emby-button {
@@ -3085,17 +3102,6 @@ body {
 	font-size: 100%;
 	background: rgba(0, 8, 25, 1);
 	border: 1px solid #2c4177;
-}
-
-#skipIntro.show .emby-button {
-  opacity: 1;
-  transform: translateY(0);
-  justify-content: center;
-}
-
-#btnSkipSegmentText {
-  letter-spacing: 0.5px;
-  padding: 0 5px 0 5px;
 }
 
 /*Iskelderon's cleaner Scenes & Specials grid */
