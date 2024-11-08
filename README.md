@@ -44,4 +44,4 @@ Season
 <img src="https://github.com/user-attachments/assets/c4a40dbc-477f-4afe-9343-1fabe4603deb" width="100%" height="100%" />
 
 Player
-<img src="https://i.imgur.com/VAvqYLH.png" width="100%" height="100%" />
+<img src="https://github.com/user-attachments/assets/9ec0d2ed-56fd-4a40-a5eb-a53647b36df6" width="100%" height="100%" />
