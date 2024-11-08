@@ -972,11 +972,6 @@ progress::-webkit-progress-value {
 	cursor: pointer;
 }
 
-.layout-desktop #childrenContent .listItemBodyText.secondary.listItem-overview.listItemBodyText {
-  transition: filter 0.8s, opacity 0.8s;
-  filter: blur(3px);
-  opacity: 0.7;
-}
 
 .layout-desktop #childrenContent .listItemBodyText.secondary.listItem-overview.listItemBodyText:hover {
 	filter: blur(0px);
@@ -2377,17 +2372,6 @@ progress::-webkit-progress-value {
 	margin-right: .75em;
 	width: 14vw;
 	cursor: pointer;
-}
-
-.layout-desktop #childrenContent .listItemBodyText.secondary.listItem-overview.listItemBodyText {
-  transition: filter 0.8s, opacity 0.8s;
-  filter: blur(3px);
-  opacity: 0.7;
-}
-
-.layout-desktop #childrenContent .listItemBodyText.secondary.listItem-overview.listItemBodyText:hover {
-	filter: blur(0px);
-	opacity: 1;
 }
 
 .layout-desktop .musicParentName {
