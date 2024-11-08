@@ -41,7 +41,7 @@ Show
 <img src="https://i.imgur.com/3TjABMx.png" width="100%" height="100%" />
 
 Season
-<img src="https://github.com/user-attachments/assets/c4a40dbc-477f-4afe-9343-1fabe4603deb" width="100%" height="100%" />
+<img src="https://github.com/user-attachments/assets/6c0bd374-1e74-4a33-bdd9-421c7f0be87c" width="100%" height="100%" />
 
 Player
 <img src="https://github.com/user-attachments/assets/9ec0d2ed-56fd-4a40-a5eb-a53647b36df6" width="100%" height="100%" />
