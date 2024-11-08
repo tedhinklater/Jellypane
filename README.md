@@ -29,7 +29,7 @@ Homepage
 <img src="https://i.imgur.com/aoqMOQE.png" width="100%" height="100%" />
 
 Library
-<img src="https://i.imgur.com/kb1KHx7.png" width="100%" height="100%" />
+<img src="https://i.imgur.com/KWx7zdi.png" width="100%" height="100%" />
 
 Movie
 <img src="https://i.imgur.com/dfjmF4i.png" width="100%" height="100%" />
