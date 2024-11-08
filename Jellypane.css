@@ -498,7 +498,7 @@ progress::-webkit-progress-value {
 }
 
 .itemsContainer > .card > .cardBox:hover .cardText.cardTextCentered.cardText-secondary {
-  color: #5bc2ff;
+  color: #fff;
 }
 
 .metadataSidebarIcon {
@@ -1164,7 +1164,7 @@ body {
 }
 
 .itemsContainer > .card > .cardBox:hover .cardText {
-  color: #5bc2ff;
+  color: #fff;
 }
 
 .cardText.cardTextCentered.cardText-first {
@@ -1899,7 +1899,7 @@ progress::-webkit-progress-value {
 }
 
 .itemsContainer > .card > .cardBox:hover .cardText.cardTextCentered.cardText-secondary {
-  color: #5bc2ff;
+  color: #fff;
 }
 
 .metadataSidebarIcon {
@@ -2543,10 +2543,8 @@ body {
 }
 
 .cardOverlayContainer > .cardOverlayFab-primary {
-  background-color: #04133199;
+  background-color: #0816396e;
 }
-
-
 
 .cardOverlayButton-br {
   width: 100%;
@@ -2560,15 +2558,17 @@ body {
 .textActionButton:hover {
   -webkit-text-decoration: none;
   text-decoration: none;
-  color: #5bc2ff;
+  color: #fff;
 }
 
 .itemsContainer > .card > .cardBox:hover .cardText {
-  color: #5bc2ff;
+  color: #fff;
 }
 
 .cardText.cardTextCentered.cardText-first {
 	transition: color 0.6s;
+	color: #fff;
+	white-space: normal;
 }
 
 .cardText.cardTextCentered.cardText-secondary {
@@ -3169,6 +3169,19 @@ a[href*="themoviedb.org"]::before {
 a[href*="themoviedb.org"] {
     font-size: 0;
 }
+
+.cardOverlayButton {
+  color: #fffc;
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .paper-icon-button-light:hover:not(:disabled) {
+    color: #fff;
+    background-color: #041331cc;
+  }
+}
+
+
 
 /* 768p */
 
