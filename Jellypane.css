@@ -3128,6 +3128,47 @@ body {
   transition: .2s;
 }
 
+.cardText-secondary, .fieldDescription, .guide-programNameCaret, .listItem .secondary, .nowPlayingBarSecondaryText, .programSecondaryTitle, .secondaryText {
+  color: rgb(255, 255, 255);
+}
+
+#itemDetailPage .itemTags {
+	display: none;
+}
+
+/* IMDb link replaced with logo */
+a[href*="imdb.com"]::before {
+    content: "";
+    display: inline-block;
+    width: 50px;
+    height: 25px;
+    background-image: url('https://i.imgur.com/pbNvPMX.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+a[href*="imdb.com"] {
+    font-size: 0;
+}
+
+/* TheMovieDb link replaced with logo */
+a[href*="themoviedb.org"]::before {
+    content: "";
+    display: inline-block;
+    width: 50px;
+    height: 25px;
+    background-image: url('https://i.imgur.com/RlC69qy.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+a[href*="themoviedb.org"] {
+    font-size: 0;
+}
 
 /* 768p */
 
