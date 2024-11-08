@@ -3077,7 +3077,7 @@ body {
 }
 
 #skipIntro.upNextContainer {
-	width: 7.2em;
+	width: 9.5em;
 }
 
 #skipIntro .emby-button {
@@ -3085,6 +3085,17 @@ body {
 	font-size: 100%;
 	background: rgba(0, 8, 25, 1);
 	border: 1px solid #2c4177;
+}
+
+#skipIntro.show .emby-button {
+  opacity: 1;
+  transform: translateY(0);
+  justify-content: center;
+}
+
+#btnSkipSegmentText {
+  letter-spacing: 0.5px;
+  padding: 0 5px 0 5px;
 }
 
 /*Iskelderon's cleaner Scenes & Specials grid */
