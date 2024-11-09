@@ -3180,7 +3180,15 @@ a[href*="themoviedb.org"] {
   }
 }
 
+#childrenContent .listItem-content .listItemBodyText {
+	color: #fff;
+	font-weight: 600;
+}
 
+#childrenContent .listItem-content .secondary.listItemBodyText {
+	color: #fff;
+	font-weight: 500;
+}
 
 /* 768p */
 
