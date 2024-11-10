@@ -42,7 +42,7 @@
   right: 0px;
 }
 
-.css-4yt2of {
+.css-4yt2of, .css-139vfv2 {
   background-color: rgb(12, 22, 45);
   color: rgb(255, 255, 255);
   transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -3290,6 +3290,10 @@ a[href*="themoviedb.org"] {
 .layout-mobile .detailPageSecondaryContainer.padded-bottom-page {
 	background: #04133199;
 	backdrop-filter: blur(8px);
+}
+
+.layout-mobile .skinHeader-withBackground {
+  background-color: #020b1e;
 }
 
 /* hide Live TV text on Homepage */
