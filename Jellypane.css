@@ -3292,10 +3292,6 @@ a[href*="themoviedb.org"] {
 	backdrop-filter: blur(8px);
 }
 
-.layout-mobile .skinHeader-withBackground {
-  background-color: #020b1e;
-}
-
 /* hide Live TV text on Homepage */
 .sectionTitleContainer.sectionTitleContainer-cards.padded-left > .sectionTitle.sectionTitle-cards {
     display: none;
