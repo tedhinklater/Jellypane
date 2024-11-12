@@ -2782,7 +2782,7 @@ body {
     opacity: 1;
     z-index: -1;
     background-attachment: fixed;
-    background-color: #101e3de5;
+    background-color: #101e3d52;
     backdrop-filter: blur(7px);
 }
 
