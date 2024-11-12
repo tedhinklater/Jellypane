@@ -2805,7 +2805,7 @@ body {
 }
 
 .upNextContainer {
-	bottom: 5em;
+
 }
 
 @media (orientation:portrait) {
@@ -2815,32 +2815,25 @@ body {
 }
 
 .raised.raised-mini.btnHide.upNextDialog-button.emby-button:hover {
-	background: rgb(var(--accent));
-	box-shadow: 0 0 8px rgba(var(--accent), 0.6);
-	filter: brightness(1.2);
-	background-color: #041331;
-	transform: scale(1.05);
+
 }
 /*Change Intro Skip Color*/
-#skipIntro .emby-button:hover,
-#skipIntro .emby-button:focus {
-	background-color: #5bc2ff;
-	transform: scale(1.05);
-}
 #skipIntro .emby-button:hover, #skipIntro .emby-button:focus {
 	background-color: #041331;
 	transform: scale(1.05);
 }
 
+.raised:hover {
+	background-color: #041331;
+	transform: scale(1.05);
+}
+
 #skipIntro {
-	position: absolute;
-	bottom: 7em;
-	right: 6.8em;
-	background-color: transparent;
+
 }
 
 #skipIntro.upNextContainer {
-	width: 7.2em;
+
 }
 
 #skipIntro .emby-button {
@@ -2878,7 +2871,6 @@ body {
 }
 
 .osdTimeText {
-	margin-left: 2.4em;
 }
 
 /* 768p */
@@ -3042,7 +3034,7 @@ body {
 }
 
 .upNextContainer {
-	bottom: 5em;
+
 }
 
 @media (orientation:portrait) {
@@ -3052,11 +3044,7 @@ body {
 }
 
 .raised.raised-mini.btnHide.upNextDialog-button.emby-button:hover {
-	background: rgb(var(--accent));
-	box-shadow: 0 0 8px rgba(var(--accent), 0.6);
-	filter: brightness(1.2);
-	background-color: #041331;
-	transform: scale(1.05);
+
 }
 
 /*Change Intro Skip Color*/
@@ -3071,25 +3059,19 @@ body {
 }
 
 #skipIntro {
-	position: absolute;
-	bottom: 7em;
-	right: 6.8em;
-	background-color: transparent;
+
 }
 
 #skipIntro.upNextContainer {
-	width: 9.3em;
+
 }
 
 #skipIntro.show .emby-button {
-  justify-content: center;
+
 }
 
 #skipIntro .emby-button {
-	color: #ffffff;
-	font-size: 100%;
-	background: rgba(0, 8, 25, 1);
-	border: 1px solid #2c4177;
+
 }
 
 /*Iskelderon's cleaner Scenes & Specials grid */
