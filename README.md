@@ -26,7 +26,7 @@ Or use the version below if you don't want the scroll-snap feature (desktop/mobi
 Important: Click your User icon in Jellyfin, go to Display, scroll down and make sure the Theme is "Dark" and Backdrops are enabled.
 
 Homepage
-<img src="https://github.com/user-attachments/assets/2868fac8-6ca7-4198-abf8-d575c19b7ca2" width="100%" height="100%" />
+<img src="https://github.com/user-attachments/assets/3daeacc6-5f1e-4a84-93ae-7df9c03c5cc6" width="100%" height="100%" />
 
 Library
 <img src="https://i.imgur.com/KWx7zdi.png" width="100%" height="100%" />
