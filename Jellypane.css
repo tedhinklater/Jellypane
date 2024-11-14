@@ -2801,6 +2801,20 @@ body {
 }
 
 .skip-button {
+	background-color: #041331;
+	transition: transform 0.1s ease-in-out, border 0.3s ease-in-out;
+	border-radius: 0;
+	color: #fff;
+	font-weight: 500;
+	border: 1px solid #aac0f775;
+	bottom: 8em;
+	right: 9.35em;
+}
+
+.skip-button:hover,
+.skip-button:focus {
+	transform: scale(1.05);
+	border: 1px solid #4181ff;
 }
 
 .upNextContainer {
