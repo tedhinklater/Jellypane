@@ -90,9 +90,17 @@
 }
 
 
-.layout-desktop .skinHeader.focuscontainer-x.skinHeader-withBackground.skinHeader-blurred.osdHeader {
-  background: #0413313d;
-  backdrop-filter: blur(0px);
+.layout-desktop .skinHeader-withBackground.osdHeader {
+  -webkit-backdrop-filter: none;
+  backdrop-filter: none;
+  background: linear-gradient(180deg,hsla(0,0%,6%,.75),hsla(0,0%,6%,0));
+    background-color: rgba(0, 0, 0, 0);
+  color: #eee;
+  height: 7.5em;
+  pointer-events: none;
+  position: relative;
+  transition: opacity .3s ease-out;
+  z-index: 1;
 }
 
 
@@ -1491,9 +1499,17 @@ body {
 }
 
 
-.layout-desktop .skinHeader.focuscontainer-x.skinHeader-withBackground.skinHeader-blurred.osdHeader {
-  background: #0413313d;
-  backdrop-filter: blur(0px);
+.layout-desktop .skinHeader-withBackground.osdHeader {
+  -webkit-backdrop-filter: none;
+  backdrop-filter: none;
+  background: linear-gradient(180deg,hsla(0,0%,6%,.75),hsla(0,0%,6%,0));
+    background-color: rgba(0, 0, 0, 0);
+  color: #eee;
+  height: 7.5em;
+  pointer-events: none;
+  position: relative;
+  transition: opacity .3s ease-out;
+  z-index: 1;
 }
 
 
