@@ -2834,7 +2834,8 @@ body {
 }
 
 .upNextContainer {
-
+  background: #041331;
+  z-index: 50;
 }
 
 @media (orientation:portrait) {
