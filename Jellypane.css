@@ -2020,7 +2020,7 @@ progress::-webkit-progress-value {
   left: 0;
   right: 0;
   height: 4em;
-  background: #04133199;
+  background: transparent !important;
   backdrop-filter: blur(0px);
   z-index: -1;
   scroll-snap-align: start;
