@@ -2020,7 +2020,7 @@ progress::-webkit-progress-value {
   left: 0;
   right: 0;
   height: 4em;
-  background: transparent !important;
+  background: #04133199 !important;
   backdrop-filter: blur(0px);
   z-index: -1;
   scroll-snap-align: start;
@@ -2709,7 +2709,7 @@ body {
 
 .layout-desktop .nextUpSection.verticalSection.detailVerticalSection {
 	position: absolute;
-	top: -25em;
+	top: -27em;
 	right: 4.45em;
 }
 
