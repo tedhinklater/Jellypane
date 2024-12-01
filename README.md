@@ -26,22 +26,22 @@ Or use the version below if you don't want the scroll-snap feature (desktop/mobi
 Important: Click your User icon in Jellyfin, go to Display, scroll down and make sure the Theme is "Dark" and Backdrops are enabled.
 
 Homepage
-<img src="https://github.com/user-attachments/assets/3daeacc6-5f1e-4a84-93ae-7df9c03c5cc6" width="100%" height="100%" />
+![Screenshot 2024-12-01 201324](https://github.com/user-attachments/assets/77db30b5-baae-4526-b57d-d5922fa07915)
 
 Library
 <img src="https://i.imgur.com/KWx7zdi.png" width="100%" height="100%" />
 
 Movie
-<img src="https://i.imgur.com/dfjmF4i.png" width="100%" height="100%" />
+![Screenshot 2024-12-01 201152](https://github.com/user-attachments/assets/610046e3-7243-4088-8741-41b5dccc48b4)
 
 Movie (scrolled down)
-<img src="https://i.imgur.com/exM9QZX.png" width="100%" height="100%" />
+![Screenshot 2024-12-01 201215](https://github.com/user-attachments/assets/62b9a986-db7c-4dd3-be95-0d524005a7e3)
 
 Show
-<img src="https://i.imgur.com/3TjABMx.png" width="100%" height="100%" />
+![Screenshot 2024-12-01 201346](https://github.com/user-attachments/assets/a00dff1b-14c4-46fd-ad11-b725e50ef94d)
 
 Season
-<img src="https://github.com/user-attachments/assets/81aef9d4-ad14-4b29-8d2b-cf1b65f1d85b" width="100%" height="100%" />
+![Screenshot 2024-12-01 201403](https://github.com/user-attachments/assets/c9d27a37-b2ef-4c9d-a3e1-8ff10f31a93e)
 
 Player
 <img src="https://github.com/user-attachments/assets/6f612981-9f97-48d2-8920-ac2b8be0f535" width="100%" height="100%" />
