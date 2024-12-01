@@ -814,17 +814,6 @@ progress::-webkit-progress-value {
   pointer-events: none;
 }
 
-.layout-desktop .detailLogo {
-  position: fixed;
-  left: 1.425em;
-  display: block;
-  filter: drop-shadow(-6px 2px 4px rgba(2, 2, 2, 0.85));
-  top: 42.8em;
-  padding-top: 0em;
-  height: 16em;
-  width: 32em;
-}
-
 .layout-desktop .detailImageContainer .card {
   left: 1%;
   max-height: none;
@@ -2008,7 +1997,7 @@ progress::-webkit-progress-value {
 
 .layout-desktop .skinHeader.semiTransparent {
 	background: transparent;
-	position: fixed;
+	position: absolute;
 	top: 0em;
 	scroll-snap-align: start;
 }
@@ -2020,7 +2009,7 @@ progress::-webkit-progress-value {
   left: 0;
   right: 0;
   height: 4em;
-  background: #04133199 !important;
+  background: transparent !important;
   backdrop-filter: blur(0px);
   z-index: -1;
   scroll-snap-align: start;
@@ -2229,7 +2218,7 @@ progress::-webkit-progress-value {
   left: 1.425em;
   display: block;
   filter: drop-shadow(-6px 2px 4px rgba(2, 2, 2, 0.85));
-  top: 42.8em;
+  top: 37.8em;
   padding-top: 0em;
   height: 16em;
   width: 32em;
@@ -2339,7 +2328,7 @@ progress::-webkit-progress-value {
 .layout-desktop .detailPagePrimaryContainer.padded-left.padded-right.detailRibbon::before {
 	content: '';
 	position: absolute;
-	top: -4em;
+	top: 0em;
 	left: 0;
 	right: 0;
 	height: 4em;
@@ -2422,7 +2411,7 @@ body {
 
 .layout-desktop .tagline {
   position: fixed;
-  top: 50.5em;
+  top: 48.5em;
   left: 1em;
   font-weight: 600;
   width: 27.65em;
