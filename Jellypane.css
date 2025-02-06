@@ -1473,7 +1473,10 @@ body {
 }
 
 .programCell-active {
-  background: #002aa8 !important;
+  background: #00153e69 !important;
+  border: 1px solid #6086e475;
+  color: #ffdf32;
+  font-weight: 800 !important;
 }
 
 /* Video Playback Progress Bar */
