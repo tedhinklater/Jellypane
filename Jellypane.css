@@ -2800,7 +2800,7 @@ body {
 }
 
 .layout-desktop #homeTab .overflowPortraitCard, 
-.layout-tv #homeTab .overflowSquareCard {
+.layout-desktop #homeTab .overflowSquareCard {
     width: 9.35vw !important;
 }
 
