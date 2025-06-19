@@ -1386,7 +1386,8 @@ body {
 	background: #0413316b;
 }
 
-.layout-desktop #homeTab .overflowPortraitCard, .overflowSquareCard {
+.layout-desktop #homeTab .overflowPortraitCard, 
+.layout-desktop #homeTab .overflowSquareCard {
     width: 9.35vw !important;
 }
 
@@ -2798,7 +2799,8 @@ body {
 	background: #0413316b;
 }
 
-.layout-desktop #homeTab .overflowPortraitCard, .overflowSquareCard {
+.layout-desktop #homeTab .overflowPortraitCard, 
+.layout-tv #homeTab .overflowSquareCard {
     width: 9.35vw !important;
 }
 
