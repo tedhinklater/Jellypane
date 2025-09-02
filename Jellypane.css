@@ -90,7 +90,8 @@
 }
 
 
-.layout-desktop .skinHeader-withBackground.osdHeader {
+.layout-desktop .skinHeader-withBackground.osdHeader,
+.layout-tv .skinHeader-withBackground.osdHeader {
   -webkit-backdrop-filter: none;
   backdrop-filter: none;
   background: linear-gradient(180deg,hsla(0,0%,6%,.75),hsla(0,0%,6%,0));
@@ -558,7 +559,8 @@ progress::-webkit-progress-value {
     color: #5bc2ff !important;
 }
 
-.layout-desktop #videoOsdPage .osdRatingsText {
+.layout-desktop #videoOsdPage .osdRatingsText,
+.layout-tv #videoOsdPage .osdRatingsText {
   opacity: 0;
 }
 
@@ -581,15 +583,18 @@ progress::-webkit-progress-value {
     backdrop-filter: blur(0px);
 }
 
-.layout-desktop .dashboardSection, .content-primary {
+.layout-desktop .dashboardSection, .content-primary,
+.layout-tv .dashboardSection, .content-primary {
 	scroll-snap-align: start;
 }
 
-.layout-desktop .backgroundContainer.withBackdrop {
+.layout-desktop .backgroundContainer.withBackdrop,
+.layout-tv .backgroundContainer.withBackdrop {
   background: transparent;
 }
 
-.layout-desktop .skinHeader-withBackground {
+.layout-desktop .skinHeader-withBackground,
+.layout-tv .skinHeader-withBackground {
 	background: #04133199;
 	backdrop-filter: blur(0px);
 	position: fixed;
@@ -597,14 +602,16 @@ progress::-webkit-progress-value {
 	max-height: 4em;
 }
 
-.layout-desktop .skinHeader.semiTransparent {
+.layout-desktop .skinHeader.semiTransparent,
+.layout-tv .skinHeader.semiTransparent {
 	background: transparent;
 	position: fixed;
 	top: 0em;
 	scroll-snap-align: start;
 }
   
-.layout-desktop .skinHeader.semiTransparent::before {
+.layout-desktop .skinHeader.semiTransparent::before,
+.layout-tv .skinHeader.semiTransparent {
   content: '';
   position: absolute;
   top: 0;
@@ -626,7 +633,8 @@ progress::-webkit-progress-value {
 	transition: border 0.15s;
 }
 
-.layout-desktop .homeLibraryButton:hover {
+.layout-desktop .homeLibraryButton:hover,
+.layout-tv .homeLibraryButton:hover {
 	color: #5bc2ff;
 }
 
@@ -757,11 +765,13 @@ progress::-webkit-progress-value {
 }
 
 
-.layout-desktop .raised.button-submit.block.btnSave.emby-button {
+.layout-desktop .raised.button-submit.block.btnSave.emby-button,
+.layout-tv .raised.button-submit.block.btnSave.emby-button {
 	scroll-snap-align: unset;
 }
 
-.layout-desktop #homeScreenPreferencesPage .listItem {
+.layout-desktop #homeScreenPreferencesPage .listItem,
+.layout-tv #homeScreenPreferencesPage .listItem {
 	scroll-snap-align: unset;
 }
 
@@ -774,7 +784,8 @@ progress::-webkit-progress-value {
   background-color: #0e152b40;
 }
 
-.layout-desktop #homeTab .itemsContainer.padded-left.padded-right.vertical-wrap.focuscontainer-x {
+.layout-desktop #homeTab .itemsContainer.padded-left.padded-right.vertical-wrap.focuscontainer-x,
+.layout-tv #homeTab .itemsContainer.padded-left.padded-right.vertical-wrap.focuscontainer-x {
 	justify-content: center;
 }
 
@@ -783,7 +794,8 @@ progress::-webkit-progress-value {
   padding-right: max(env(safe-area-inset-right),1.3%);
 }
 
-.layout-desktop #homeTab .sections.homeSectionsContainer {
+.layout-desktop #homeTab .sections.homeSectionsContainer,
+.layout-tv #homeTab .sections.homeSectionsContainer {
 	margin-left: -2em;
 	max-width: 102vw !important;
 	margin-top: 2em;
@@ -795,13 +807,15 @@ progress::-webkit-progress-value {
     z-index: 10;
   }
 
-.layout-desktop .detailPageWrapperContainer {
+.layout-desktop .detailPageWrapperContainer,
+.layout-tv .detailPageWrapperContainer {
 	position: absolute;
 	background: transparent;
 	top: 100vh;
 }
 
-.layout-desktop .detailPageWrapperContainer::before {
+.layout-desktop .detailPageWrapperContainer::before,
+.layout-tv .detailPageWrapperContainer::before {
   content: '';
   position: absolute;
   top: 0;
@@ -814,7 +828,8 @@ progress::-webkit-progress-value {
   pointer-events: none;
 }
 
-.layout-desktop .detailImageContainer .card {
+.layout-desktop .detailImageContainer .card,
+.layout-tv .detailImageContainer .card {
   left: 1%;
   max-height: none;
   top: 6.5em;
@@ -822,7 +837,8 @@ progress::-webkit-progress-value {
   padding-bottom: 14em;
 }
 
-.layout-desktop .itemName.parentNameLast {
+.layout-desktop .itemName.parentNameLast,
+.layout-tv .itemName.parentNameLast {
 	position: absolute;
 	top: 0.85em;
 	font-size: 1.25em;
@@ -832,11 +848,13 @@ progress::-webkit-progress-value {
 	font-weight: 700;
 }
 
-.layout-desktop #liveTvSuggestedPage .cardText {
+.layout-desktop #liveTvSuggestedPage .cardText,
+.layout-tv #liveTvSuggestedPage .cardText {
 	background: transparent;
 }
 
-.layout-desktop .itemName.originalTitle {
+.layout-desktop .itemName.originalTitle,
+.layout-tv .itemName.originalTitle {
   margin: .2em 0 .2em;
   position: absolute;
   left: 16.4em;
@@ -844,7 +862,8 @@ progress::-webkit-progress-value {
   top: 0.2em;
 }
 
-.layout-desktop .subtitle {
+.layout-desktop .subtitle,
+.layout-tv .subtitle {
   margin: 0em 0 0.2em;
     margin-left: 0px;
   margin-left: -1em;
@@ -855,7 +874,8 @@ progress::-webkit-progress-value {
 	background: transparent;
 }
 
-.layout-desktop .mainDetailButtons.focuscontainer-x {
+.layout-desktop .mainDetailButtons.focuscontainer-x,
+.layout-tv .mainDetailButtons.focuscontainer-x {
   position: absolute;
   bottom: -1.1em;
   left: 30vw;
@@ -864,27 +884,32 @@ progress::-webkit-progress-value {
   justify-content: space-between;
 }
 
-.layout-desktop .mainDetailButtons.focuscontainer-x:hover {
+.layout-desktop .mainDetailButtons.focuscontainer-x:hover,
+.layout-tv .mainDetailButtons.focuscontainer-x:hover {
   opacity: 1;
   transition-delay: 0s;
 }
 
-.layout-desktop .mainDetailButtons {
+.layout-desktop .mainDetailButtons,
+.layout-tv .mainDetailButtons {
   font-size: 138%;
   margin: 1.25em 0;
   position: relative;
 }
 
-.layout-desktop .mainDetailButtons {
+.layout-desktop .mainDetailButtons,
+.layout-tv .mainDetailButtons {
     position: relative;
 }
 
-.layout-desktop .mainDetailButtons:hover::before {
+.layout-desktop .mainDetailButtons:hover::before,
+.layout-tv .mainDetailButtons:hover::before {
     height: 161%;
   transition-delay: 0s;
 }
 
-.layout-desktop .itemMiscInfo.itemMiscInfo-primary {
+.layout-desktop .itemMiscInfo.itemMiscInfo-primary,
+.layout-tv .itemMiscInfo.itemMiscInfo-primary {
 	position: absolute;
 	right: 1em;
 	font-size: 1.1em;
@@ -894,7 +919,8 @@ progress::-webkit-progress-value {
 	justify-content: space-evenly;
 }
 
-.layout-desktop .itemBackdrop {
+.layout-desktop .itemBackdrop,
+.layout-tv .itemBackdrop {
   -webkit-animation: backdrop-fadein .8s ease-in normal both;
   animation: backdrop-fadein .8s ease-in normal both;
   background-attachment: fixed;
@@ -911,11 +937,13 @@ progress::-webkit-progress-value {
   }
 }
 
-.layout-desktop .detailPagePrimaryContainer.padded-left.padded-right.detailRibbon {
+.layout-desktop .detailPagePrimaryContainer.padded-left.padded-right.detailRibbon,
+.layout-tv .detailPagePrimaryContainer.padded-left.padded-right.detailRibbon {
   bottom: 0em;
 }
 
-.layout-desktop .detailPagePrimaryContainer.padded-left.padded-right.detailRibbon::before {
+.layout-desktop .detailPagePrimaryContainer.padded-left.padded-right.detailRibbon::before,
+.layout-tv .detailPagePrimaryContainer.padded-left.padded-right.detailRibbon::before {
 	content: '';
 	position: absolute;
 	top: -4em;
@@ -927,7 +955,8 @@ progress::-webkit-progress-value {
 	scroll-snap-align: start;
 }
 
-.layout-desktop .detailRibbon {
+.layout-desktop .detailRibbon,
+.layout-tv .detailRibbon {
   height: 5em;
   margin-top: -5em;
 }
@@ -945,12 +974,23 @@ progress::-webkit-progress-value {
   font-weight: 600;
 }
 
-.layout-desktop .detailPageSecondaryContainer {
+
+.layout-tv #itemDetailPage div:not(.sectionTitleContainer-cards) > .sectionTitle-cards {
+  margin: 0;
+  padding-bottom: .2em;
+  padding-top: .5em;
+  scroll-snap-align: unset;
+  font-weight: 600;
+}
+
+.layout-desktop .detailPageSecondaryContainer,
+.layout-tv .detailPageSecondaryContainer {
   padding-top: 1.25em;
   width: 100vw;
 }
 
-.layout-desktop .listItem {
+.layout-desktop .listItem,
+.layout-tv .listItem {
   padding: .25em .25em .25em .5em;
   text-align: left;
   scroll-snap-align: start;
@@ -961,7 +1001,8 @@ progress::-webkit-progress-value {
   background: #04133199;
 }
 
-.layout-desktop #childrenContent .listItemImage-large {
+.layout-desktop #childrenContent .listItemImage-large,
+.layout-tv #childrenContent .listItemImage-large {
 	background-position: 50%;
 	height: 7.875vw;
 	margin-right: .75em;
@@ -970,12 +1011,14 @@ progress::-webkit-progress-value {
 }
 
 
-.layout-desktop #childrenContent .listItemBodyText.secondary.listItem-overview.listItemBodyText:hover {
+.layout-desktop #childrenContent .listItemBodyText.secondary.listItem-overview.listItemBodyText:hover,
+.layout-tv #childrenContent .listItemBodyText.secondary.listItem-overview.listItemBodyText:hover {
 	filter: blur(0px);
 	opacity: 1;
 }
 
-.layout-desktop .musicParentName {
+.layout-desktop .musicParentName,
+.layout-tv .musicParentName {
 	margin: .15em 0 .2em;
 	position: absolute;
 	left: -0.5em;
@@ -993,19 +1036,22 @@ body {
   font-weight: 600;
 }
 
-.layout-desktop .trackSelections {
+.layout-desktop .trackSelections,
+.layout-tv .trackSelections {
   max-width: 52em;
   width: 52em;
 }
 
-.layout-desktop .detailsGroupItem, .trackSelections .selectContainer {
+.layout-desktop .detailsGroupItem, .trackSelections .selectContainer,
+.layout-tv .detailsGroupItem, .trackSelections .selectContainer {
   display: -webkit-flex;
   display: flex;
   margin: 0 0 .5em !important;
   max-width: 52em;
 }
 
-.layout-desktop .tagline {
+.layout-desktop .tagline,
+.layout-tv .tagline {
   position: fixed;
   top: 50.5em;
   left: 1em;
@@ -1015,18 +1061,21 @@ body {
   text-shadow: -2px 1px 4px rgba(0, 0, 0, 0.69);
 }
 
-.layout-desktop .detailRibbon {
+.layout-desktop .detailRibbon,
+.layout-tv .detailRibbon {
 	background: #04133199;
 	backdrop-filter: blur(0px);
 }
 
-.layout-desktop [dir="ltr"] .detailPageContent {
+.layout-desktop [dir="ltr"] .detailPageContent,
+.layout-tv [dir="ltr"] .detailPageContent {
   padding-left: 28.45vw;
   padding-right: 0;
 }
 
 
-.layout-desktop #childrenContent .childrenItemsContainer.itemsContainer.padded-right.vertical-wrap {
+.layout-desktop #childrenContent .childrenItemsContainer.itemsContainer.padded-right.vertical-wrap,
+.layout-tv #childrenContent .childrenItemsContainer.itemsContainer.padded-right.vertical-wrap {
   display: flex;
   flex-wrap: nowrap;
   overflow-x: auto;
@@ -1054,7 +1103,8 @@ body {
 	font-weight: 400;
 }
 
-.layout-desktop .nameContainer {
+.layout-desktop .nameContainer,
+.layout-tv .nameContainer {
   display: -webkit-flex;
   display: flex;
   -webkit-flex-wrap: wrap;
@@ -1064,7 +1114,8 @@ body {
   top: 0.75em;
 }
 
-.layout-desktop .detail-clamp-text {
+.layout-desktop .detail-clamp-text,
+.layout-tv .detail-clamp-text {
   display: -webkit-box;
   overflow: hidden;
   -webkit-box-orient: vertical;
@@ -1072,7 +1123,8 @@ body {
   font-size: 1.3em;
 }
 
-.layout-desktop #childrenContent .starRatingContainer {
+.layout-desktop #childrenContent .starRatingContainer,
+.layout-tv #childrenContent .starRatingContainer {
   -webkit-align-items: center;
   align-items: center;
   display: -webkit-flex;
@@ -1085,16 +1137,19 @@ body {
   opacity: 0;
 }
 
-.layout-desktop .itemTags.focuscontainer-x .button-link.emby-button {
+.layout-desktop .itemTags.focuscontainer-x .button-link.emby-button,
+.layout-tv .itemTags.focuscontainer-x .button-link.emby-button {
   font-style: italic;
   padding-bottom: 1em;
 }
 
-.layout-desktop #itemDetailPage .verticalSection.detailVerticalSection.emby-scroller-container {
+.layout-desktop #itemDetailPage .verticalSection.detailVerticalSection.emby-scroller-container,
+.layout-tv #itemDetailPage .verticalSection.detailVerticalSection.emby-scroller-container {
   padding-top: 0.37em;
 }
 
-.layout-desktop .padded-bottom-page {
+.layout-desktop .padded-bottom-page,
+.layout-tv .padded-bottom-page {
   padding-bottom: 0em !important;
   padding-bottom: calc(env(safe-area-inset-bottom) + 0em) !important;
 }
@@ -1180,7 +1235,8 @@ body {
 }
 
 /* Hide My Media text on desktop */
-.layout-desktop #homeTab .section0 .sectionTitle.sectionTitle-cards.padded-left {
+.layout-desktop #homeTab .section0 .sectionTitle.sectionTitle-cards.padded-left,
+.layout-tv #homeTab .section0 .sectionTitle.sectionTitle-cards.padded-left {
 	display: none;
 }
 
@@ -1195,7 +1251,8 @@ body {
 
 }
 
-.layout-desktop .nowPlayingInfoContainer::before {
+.layout-desktop .nowPlayingInfoContainer::before,
+.layout-tv .nowPlayingInfoContainer::before {
 	content: '';
 	position: absolute;
 	top: 0;
@@ -1207,7 +1264,8 @@ body {
 	scroll-snap-align: start;
 }
 
-.layout-desktop .nowPlayingInfoContainer::after {
+.layout-desktop .nowPlayingInfoContainer::after,
+.layout-tv .nowPlayingInfoContainer::after {
 	content: '';
 	position: fixed;
 	top: 0;
@@ -1220,7 +1278,8 @@ body {
 	pointer-events: none;
 }
 
-.layout-desktop #itemDetailPage .sectionTitle::before {
+.layout-desktop #itemDetailPage .sectionTitle::before,
+.layout-tv #itemDetailPage .sectionTitle::before {
     content: '';
     position: absolute;
     left: 0;
@@ -1232,7 +1291,8 @@ body {
     margin-top: -4em;
 }
 
-.layout-desktop #musicRecommendedPage .flex.align-items-center.justify-content-center.flex-wrap-wrap.padded-top.padded-left.padded-right.padded-bottom.focuscontainer-x::before {
+.layout-desktop #musicRecommendedPage .flex.align-items-center.justify-content-center.flex-wrap-wrap.padded-top.padded-left.padded-right.padded-bottom.focuscontainer-x::before,
+.layout-tv #musicRecommendedPage .flex.align-items-center.justify-content-center.flex-wrap-wrap.padded-top.padded-left.padded-right.padded-bottom.focuscontainer-x::before {
     content: '';
     position: absolute;
     left: 0;
@@ -1243,7 +1303,8 @@ body {
     margin-top: -6em;
 }
 
-.layout-desktop #songsTab .flex.align-items-center.justify-content-center.flex-wrap-wrap.padded-top.padded-left.padded-right.padded-bottom.focuscontainer-x::before {
+.layout-desktop #songsTab .flex.align-items-center.justify-content-center.flex-wrap-wrap.padded-top.padded-left.padded-right.padded-bottom.focuscontainer-x::before,
+.layout-tv #songsTab .flex.align-items-center.justify-content-center.flex-wrap-wrap.padded-top.padded-left.padded-right.padded-bottom.focuscontainer-x::before {
     content: '';
     position: absolute;
     left: 0;
@@ -1263,12 +1324,14 @@ body {
 	background: #04133199;
 }
 
-.layout-desktop .appfooter {
+.layout-desktop .appfooter,
+.layout-tv .appfooter {
   background: #04133199;
   backdrop-filter: blur(7px);
 }
 
-.layout-desktop .playlistSectionButton {
+.layout-desktop .playlistSectionButton,
+.layout-tv .playlistSectionButton {
   background: #07121e12;
 }
 
@@ -1279,7 +1342,8 @@ body {
 }
 
 @media (max-width: 100em) {
-  .layout-desktop .sectionTabs {
+  .layout-desktop .sectionTabs,
+  .layout-tv .sectionTabs {
     font-size: 100%;
     margin-top: 0em;
     width: 50%;
@@ -1288,17 +1352,20 @@ body {
   }
 }
 
-.layout-desktop .nextUpSection.verticalSection.detailVerticalSection {
+.layout-desktop .nextUpSection.verticalSection.detailVerticalSection,
+.layout-tv .nextUpSection.verticalSection.detailVerticalSection {
 	position: absolute;
 	top: -25em;
 	right: 4.45em;
 }
 
-.layout-desktop #itemDetailPage .nextUpSection.verticalSection.detailVerticalSection .sectionTitle.sectionTitle-cards:before {
+.layout-desktop #itemDetailPage .nextUpSection.verticalSection.detailVerticalSection .sectionTitle.sectionTitle-cards:before,
+.layout-tv #itemDetailPage .nextUpSection.verticalSection.detailVerticalSection .sectionTitle.sectionTitle-cards:before {
 	scroll-snap-align: unset !important;
 }
 
-.layout-desktop #itemDetailPage .nextUpSection.verticalSection.detailVerticalSection .cardBox.cardBox-bottompadded {
+.layout-desktop #itemDetailPage .nextUpSection.verticalSection.detailVerticalSection .cardBox.cardBox-bottompadded,
+.layout-tv #itemDetailPage .nextUpSection.verticalSection.detailVerticalSection .cardBox.cardBox-bottompadded {
 	background: transparent;
 }
 
@@ -1308,7 +1375,8 @@ body {
 }
 
 
-.layout-desktop .itemMiscInfo.itemMiscInfo-primary::before {
+.layout-desktop .itemMiscInfo.itemMiscInfo-primary::before,
+.layout-tv .itemMiscInfo.itemMiscInfo-primary::before {
 	content: '';
 	position: fixed;
 	top: -98vh;
@@ -1319,27 +1387,32 @@ body {
 	scroll-snap-align: end;
 }
 
-.layout-desktop #itemDetailPage .verticalSection.detailVerticalSection.moreFromSeasonSection.emby-scroller-container {
+.layout-desktop #itemDetailPage .verticalSection.detailVerticalSection.moreFromSeasonSection.emby-scroller-container,
+.layout-tv #itemDetailPage .verticalSection.detailVerticalSection.moreFromSeasonSection.emby-scroller-container {
 	position: absolute;
 	top: -20em;
 	right: 0em;
 	width: 65.5%;
 }
 
-.layout-desktop #itemDetailPage .verticalSection.detailVerticalSection.moreFromSeasonSection.emby-scroller-container .card.overflowBackdropCard.card-hoverable.card-withuserdata {
+.layout-desktop #itemDetailPage .verticalSection.detailVerticalSection.moreFromSeasonSection.emby-scroller-container .card.overflowBackdropCard.card-hoverable.card-withuserdata,
+.layout-tv #itemDetailPage .verticalSection.detailVerticalSection.moreFromSeasonSection.emby-scroller-container .card.overflowBackdropCard.card-hoverable.card-withuserdata {
 	width: 12.5vw;
 }
 
-.layout-desktop #itemDetailPage .verticalSection.detailVerticalSection.moreFromSeasonSection.emby-scroller-container .sectionTitle {
+.layout-desktop #itemDetailPage .verticalSection.detailVerticalSection.moreFromSeasonSection.emby-scroller-container .sectionTitle,
+.layout-tv #itemDetailPage .verticalSection.detailVerticalSection.moreFromSeasonSection.emby-scroller-container .sectionTitle {
 	filter: drop-shadow(0px 0px 1px rgb(0, 0, 0));
 }
 
-.layout-desktop #itemDetailPage .verticalSection.detailVerticalSection.moreFromSeasonSection.emby-scroller-container .sectionTitle.sectionTitle-cards.padded-right::before {
+.layout-desktop #itemDetailPage .verticalSection.detailVerticalSection.moreFromSeasonSection.emby-scroller-container .sectionTitle.sectionTitle-cards.padded-right::before,
+.layout-tv #itemDetailPage .verticalSection.detailVerticalSection.moreFromSeasonSection.emby-scroller-container .sectionTitle.sectionTitle-cards.padded-right::before {
 	filter: drop-shadow(0px 0px 1px rgb(0, 0, 0));
 	scroll-snap-align: unset;
 }
 
-.layout-desktop .subtitleSync {
+.layout-desktop .subtitleSync,
+.layout-tv .subtitleSync {
   position: absolute;
   width: 100%;
   margin-top: 4em !important;
@@ -1349,18 +1422,25 @@ body {
   padding-top: 4.5em !important;
 }
 
-.layout-desktop .collectionItems .verticalSection {
+.layout-tv .libraryPage:not(.noSecondaryNavPage) {
+  padding-top: 4.5em !important;
+}
+
+.layout-desktop .collectionItems .verticalSection,
+.layout-tv .collectionItems .verticalSection {
   height: 46em;
   overflow-y: scroll;
   scroll-snap-type: y mandatory;
   max-width: 69vw;
 }
 
-.layout-desktop .collectionItems .card.portraitCard.card-hoverable.card-withuserdata {
+.layout-desktop .collectionItems .card.portraitCard.card-hoverable.card-withuserdata,
+.layout-tv .collectionItems .card.portraitCard.card-hoverable.card-withuserdata {
 	scroll-snap-align: start;
 }
 
-.layout-desktop .collectionItems .portraitCard {
+.layout-desktop .collectionItems .portraitCard,
+.layout-tv .collectionItems .portraitCard {
   width: 13.75em;
 }
 
@@ -1387,11 +1467,14 @@ body {
 }
 
 .layout-desktop #homeTab .overflowPortraitCard, 
-.layout-desktop #homeTab .overflowSquareCard {
+.layout-desktop #homeTab .overflowSquareCard,
+.layout-tv #homeTab .overflowPortraitCard, 
+.layout-tv #homeTab .overflowSquareCard {
     width: 9.35vw !important;
 }
 
-.layout-desktop .itemsContainer.padded-left.padded-right.padded-right-withalphapicker.vertical-list {
+.layout-desktop .itemsContainer.padded-left.padded-right.padded-right-withalphapicker.vertical-list,
+.layout-tv .itemsContainer.padded-left.padded-right.padded-right-withalphapicker.vertical-list {
 	margin-top: -9em;
 	padding-top: 8em;
 	scroll-snap-align: start;
@@ -1492,7 +1575,8 @@ body {
 }
 
 
-.layout-desktop .skinHeader-withBackground.osdHeader {
+.layout-desktop .skinHeader-withBackground.osdHeader,
+.layout-tv .skinHeader-withBackground.osdHeader {
   -webkit-backdrop-filter: none;
   backdrop-filter: none;
   background: linear-gradient(180deg,hsla(0,0%,6%,.75),hsla(0,0%,6%,0));
@@ -1834,13 +1918,18 @@ progress::-webkit-progress-value {
     color: #fff;
 }
 
+.card:focus .cardBox {
+  background: #04133199;
+}
+
 .emby-button.show-focus:focus {
-    background: #425359;
-    color: #fff;
+  background: #04133199;
+  color: #fff;
 }
 
 .emby-tab-button.show-focus:focus {
-    color: #425359;
+  background: #04133199;
+  color: #fff;
 }
 
 .emby-tab-button:hover {
@@ -1960,7 +2049,8 @@ progress::-webkit-progress-value {
     color: #5bc2ff !important;
 }
 
-.layout-desktop #videoOsdPage .osdRatingsText {
+.layout-desktop #videoOsdPage .osdRatingsText,
+.layout-tv #videoOsdPage .osdRatingsText {
   opacity: 0;
 }
 
@@ -1983,15 +2073,18 @@ progress::-webkit-progress-value {
     backdrop-filter: blur(0px);
 }
 
-.layout-desktop .dashboardSection, .content-primary {
+.layout-desktop .dashboardSection, .content-primary,
+.layout-tv .dashboardSection, .content-primary {
 	scroll-snap-align: start;
 }
 
-.layout-desktop .backgroundContainer.withBackdrop {
+.layout-desktop .backgroundContainer.withBackdrop,
+.layout-tv .backgroundContainer.withBackdrop {
   background: transparent;
 }
 
-.layout-desktop .skinHeader-withBackground {
+.layout-desktop .skinHeader-withBackground,
+.layout-tv .skinHeader-withBackground {
 	background: #04133199;
 	backdrop-filter: blur(0px);
 	position: fixed;
@@ -1999,14 +2092,16 @@ progress::-webkit-progress-value {
 	max-height: 4em;
 }
 
-.layout-desktop .skinHeader.semiTransparent {
+.layout-desktop .skinHeader.semiTransparent,
+.layout-tv .skinHeader.semiTransparent {
 	background: transparent;
 	position: absolute;
 	top: 0em;
 	scroll-snap-align: start;
 }
   
-.layout-desktop .skinHeader.semiTransparent::before {
+.layout-desktop .skinHeader.semiTransparent::before,
+.layout-tv .skinHeader.semiTransparent::before {
   content: '';
   position: absolute;
   top: 0;
@@ -2028,7 +2123,8 @@ progress::-webkit-progress-value {
 	transition: border 0.15s;
 }
 
-.layout-desktop .homeLibraryButton:hover {
+.layout-desktop .homeLibraryButton:hover,
+.layout-tv .homeLibraryButton:hover {
   color: #fff;
   border: 1px solid #4181ff;
 }
@@ -2160,11 +2256,13 @@ progress::-webkit-progress-value {
 }
 
 
-.layout-desktop .raised.button-submit.block.btnSave.emby-button {
+.layout-desktop .raised.button-submit.block.btnSave.emby-button,
+.layout-tv .raised.button-submit.block.btnSave.emby-button {
 	scroll-snap-align: unset;
 }
 
-.layout-desktop #homeScreenPreferencesPage .listItem {
+.layout-desktop #homeScreenPreferencesPage .listItem,
+.layout-tv #homeScreenPreferencesPage .listItem {
 	scroll-snap-align: unset;
 }
 
@@ -2177,7 +2275,8 @@ progress::-webkit-progress-value {
   background-color: #0e152b40;
 }
 
-.layout-desktop #homeTab .itemsContainer.padded-left.padded-right.vertical-wrap.focuscontainer-x {
+.layout-desktop #homeTab .itemsContainer.padded-left.padded-right.vertical-wrap.focuscontainer-x,
+.layout-tv #homeTab .itemsContainer.padded-left.padded-right.vertical-wrap.focuscontainer-x {
 	justify-content: center;
 }
 
@@ -2186,7 +2285,8 @@ progress::-webkit-progress-value {
   padding-right: max(env(safe-area-inset-right),1.3%);
 }
 
-.layout-desktop #homeTab .sections.homeSectionsContainer {
+.layout-desktop #homeTab .sections.homeSectionsContainer,
+.layout-tv #homeTab .sections.homeSectionsContainer {
 	margin-left: -2em;
 	max-width: 102vw !important;
 	margin-top: 2em;
@@ -2198,13 +2298,15 @@ progress::-webkit-progress-value {
     z-index: 10;
   }
 
-.layout-desktop .detailPageWrapperContainer {
+.layout-desktop .detailPageWrapperContainer,
+.layout-tv .detailPageWrapperContainer {
 	position: absolute;
 	background: transparent;
 	top: 100vh;
 }
 
-.layout-desktop .detailPageWrapperContainer::before {
+.layout-desktop .detailPageWrapperContainer::before,
+.layout-tv .detailPageWrapperContainer::before {
   content: '';
   position: absolute;
   top: 0;
@@ -2217,7 +2319,8 @@ progress::-webkit-progress-value {
   pointer-events: none;
 }
 
-.layout-desktop .detailLogo {
+.layout-desktop .detailLogo,
+.layout-tv .detailLogo {
   position: fixed;
   left: 1.425em;
   display: block;
@@ -2228,7 +2331,12 @@ progress::-webkit-progress-value {
   width: 32em;
 }
 
-.layout-desktop .detailImageContainer .card {
+.layout-tv body {
+	font-size: 0.75em;
+}
+
+.layout-desktop .detailImageContainer .card,
+.layout-tv .detailImageContainer .card {
   left: 1%;
   max-height: none;
   top: 6.5em;
@@ -2236,7 +2344,14 @@ progress::-webkit-progress-value {
   padding-bottom: 14em;
 }
 
-.layout-desktop .itemName.parentNameLast {
+.layout-tv .detailImageContainer .card {
+  left: 1%;
+  max-height: none;
+  top: 37.5em;
+}
+
+.layout-desktop .itemName.parentNameLast,
+.layout-tv .itemName.parentNameLast {
 	position: absolute;
 	top: 0.85em;
 	font-size: 1.25em;
@@ -2246,11 +2361,13 @@ progress::-webkit-progress-value {
 	font-weight: 700;
 }
 
-.layout-desktop #liveTvSuggestedPage .cardText {
+.layout-desktop #liveTvSuggestedPage .cardText,
+.layout-tv #liveTvSuggestedPage .cardText {
 	background: transparent;
 }
 
-.layout-desktop .itemName.originalTitle {
+.layout-desktop .itemName.originalTitle,
+.layout-tv .itemName.originalTitle {
   margin: .2em 0 .2em;
   position: absolute;
   left: 16.4em;
@@ -2258,7 +2375,8 @@ progress::-webkit-progress-value {
   top: 0.2em;
 }
 
-.layout-desktop .subtitle {
+.layout-desktop .subtitle,
+.layout-tv .subtitle {
   margin: 0em 0 0.2em;
     margin-left: 0px;
   margin-left: -1em;
@@ -2269,7 +2387,8 @@ progress::-webkit-progress-value {
 	background: transparent;
 }
 
-.layout-desktop .mainDetailButtons.focuscontainer-x {
+.layout-desktop .mainDetailButtons.focuscontainer-x,
+.layout-tv .mainDetailButtons.focuscontainer-x {
   position: absolute;
   bottom: -1.1em;
   left: 30vw;
@@ -2278,27 +2397,32 @@ progress::-webkit-progress-value {
   justify-content: space-between;
 }
 
-.layout-desktop .mainDetailButtons.focuscontainer-x:hover {
+.layout-desktop .mainDetailButtons.focuscontainer-x:hover,
+.layout-tv .mainDetailButtons.focuscontainer-x:hover {
   opacity: 1;
   transition-delay: 0s;
 }
 
-.layout-desktop .mainDetailButtons {
+.layout-desktop .mainDetailButtons,
+.layout-tv .mainDetailButtons {
   font-size: 138%;
   margin: 1.25em 0;
   position: relative;
 }
 
-.layout-desktop .mainDetailButtons {
+.layout-desktop .mainDetailButtons,
+.layout-tv .mainDetailButtons {
     position: relative;
 }
 
-.layout-desktop .mainDetailButtons:hover::before {
+.layout-desktop .mainDetailButtons:hover::before,
+.layout-tv .mainDetailButtons:hover::before {
     height: 161%;
   transition-delay: 0s;
 }
 
-.layout-desktop .itemMiscInfo.itemMiscInfo-primary {
+.layout-desktop .itemMiscInfo.itemMiscInfo-primary,
+.layout-tv .itemMiscInfo.itemMiscInfo-primary {
 	position: absolute;
 	right: 1em;
 	font-size: 1.1em;
@@ -2308,7 +2432,8 @@ progress::-webkit-progress-value {
 	justify-content: space-evenly;
 }
 
-.layout-desktop .itemBackdrop {
+.layout-desktop .itemBackdrop,
+.layout-tv .itemBackdrop {
   -webkit-animation: backdrop-fadein .8s ease-in normal both;
   animation: backdrop-fadein .8s ease-in normal both;
   background-attachment: fixed;
@@ -2325,11 +2450,13 @@ progress::-webkit-progress-value {
   }
 }
 
-.layout-desktop .detailPagePrimaryContainer.padded-left.padded-right.detailRibbon {
+.layout-desktop .detailPagePrimaryContainer.padded-left.padded-right.detailRibbon,
+.layout-tv .detailPagePrimaryContainer.padded-left.padded-right.detailRibbon {
   bottom: 0em;
 }
 
-.layout-desktop .detailPagePrimaryContainer.padded-left.padded-right.detailRibbon::before {
+.layout-desktop .detailPagePrimaryContainer.padded-left.padded-right.detailRibbon::before,
+.layout-tv .detailPagePrimaryContainer.padded-left.padded-right.detailRibbon::before {
 	content: '';
 	position: absolute;
 	top: 0em;
@@ -2341,7 +2468,8 @@ progress::-webkit-progress-value {
 	scroll-snap-align: start;
 }
 
-.layout-desktop .detailRibbon {
+.layout-desktop .detailRibbon,
+.layout-tv .detailRibbon {
   height: 5em;
   margin-top: -5em;
 }
@@ -2359,12 +2487,22 @@ progress::-webkit-progress-value {
   font-weight: 600;
 }
 
-.layout-desktop .detailPageSecondaryContainer {
+.layout-tv #itemDetailPage div:not(.sectionTitleContainer-cards) > .sectionTitle-cards {
+  margin: 0;
+  padding-bottom: .2em;
+  padding-top: .5em;
+  scroll-snap-align: unset;
+  font-weight: 600;
+}
+
+.layout-desktop .detailPageSecondaryContainer,
+.layout-tv .detailPageSecondaryContainer {
   padding-top: 1.25em;
   width: 100vw;
 }
 
-.layout-desktop .listItem {
+.layout-desktop .listItem,
+.layout-tv .listItem {
   padding: .25em .25em .25em .5em;
   text-align: left;
   scroll-snap-align: start;
@@ -2375,7 +2513,8 @@ progress::-webkit-progress-value {
   background: #04133199;
 }
 
-.layout-desktop #childrenContent .listItemImage-large {
+.layout-desktop #childrenContent .listItemImage-large,
+.layout-tv #childrenContent .listItemImage-large {
 	background-position: 50%;
 	height: 7.875vw;
 	margin-right: .75em;
@@ -2383,7 +2522,8 @@ progress::-webkit-progress-value {
 	cursor: pointer;
 }
 
-.layout-desktop .musicParentName {
+.layout-desktop .musicParentName,
+.layout-tv .musicParentName {
 	margin: .15em 0 .2em;
 	position: absolute;
 	left: -0.5em;
@@ -2401,19 +2541,22 @@ body {
   font-weight: 600;
 }
 
-.layout-desktop .trackSelections {
+.layout-desktop .trackSelections,
+.layout-tv .trackSelections {
   max-width: 52em;
   width: 52em;
 }
 
-.layout-desktop .detailsGroupItem, .trackSelections .selectContainer {
+.layout-desktop .detailsGroupItem, .trackSelections .selectContainer,
+.layout-tv .detailsGroupItem, .trackSelections .selectContainer {
   display: -webkit-flex;
   display: flex;
   margin: 0 0 .5em !important;
   max-width: 52em;
 }
 
-.layout-desktop .tagline {
+.layout-desktop .tagline,
+.layout-tv .tagline {
   position: fixed;
   top: 48.5em;
   left: 1em;
@@ -2423,18 +2566,21 @@ body {
   text-shadow: -2px 1px 4px rgba(0, 0, 0, 0.69);
 }
 
-.layout-desktop .detailRibbon {
+.layout-desktop .detailRibbon,
+.layout-tv .detailRibbon {
 	background: #04133199;
 	backdrop-filter: blur(0px);
 }
 
-.layout-desktop [dir="ltr"] .detailPageContent {
+.layout-desktop [dir="ltr"] .detailPageContent,
+.layout-tv [dir="ltr"] .detailPageContent {
   padding-left: 28.45vw;
   padding-right: 0;
 }
 
 
-.layout-desktop #childrenContent .childrenItemsContainer.itemsContainer.padded-right.vertical-wrap {
+.layout-desktop #childrenContent .childrenItemsContainer.itemsContainer.padded-right.vertical-wrap,
+.layout-tv #childrenContent .childrenItemsContainer.itemsContainer.padded-right.vertical-wrap {
   display: flex;
   flex-wrap: nowrap;
   overflow-x: auto;
@@ -2462,7 +2608,8 @@ body {
 	font-weight: 400;
 }
 
-.layout-desktop .nameContainer {
+.layout-desktop .nameContainer,
+.layout-tv .nameContainer {
   display: -webkit-flex;
   display: flex;
   -webkit-flex-wrap: wrap;
@@ -2472,7 +2619,8 @@ body {
   top: 0.75em;
 }
 
-.layout-desktop .detail-clamp-text {
+.layout-desktop .detail-clamp-text,
+.layout-tv .detail-clamp-text {
   display: -webkit-box;
   overflow: hidden;
   -webkit-box-orient: vertical;
@@ -2480,7 +2628,8 @@ body {
   font-size: 1.3em;
 }
 
-.layout-desktop #childrenContent .starRatingContainer {
+.layout-desktop #childrenContent .starRatingContainer,
+.layout-tv #childrenContent .starRatingContainer {
   -webkit-align-items: center;
   align-items: center;
   display: -webkit-flex;
@@ -2493,16 +2642,19 @@ body {
   opacity: 0;
 }
 
-.layout-desktop .itemTags.focuscontainer-x .button-link.emby-button {
+.layout-desktop .itemTags.focuscontainer-x .button-link.emby-button,
+.layout-tv .itemTags.focuscontainer-x .button-link.emby-button {
   font-style: italic;
   padding-bottom: 1em;
 }
 
-.layout-desktop #itemDetailPage .verticalSection.detailVerticalSection.emby-scroller-container {
+.layout-desktop #itemDetailPage .verticalSection.detailVerticalSection.emby-scroller-container,
+.layout-tv #itemDetailPage .verticalSection.detailVerticalSection.emby-scroller-container {
   padding-top: 0.37em;
 }
 
-.layout-desktop .padded-bottom-page {
+.layout-desktop .padded-bottom-page,
+.layout-tv .padded-bottom-page {
   padding-bottom: 0em !important;
   padding-bottom: calc(env(safe-area-inset-bottom) + 0em) !important;
 }
@@ -2592,7 +2744,8 @@ body {
 }
 
 /* Hide My Media text on desktop */
-.layout-desktop #homeTab .section0 .sectionTitle.sectionTitle-cards.padded-left {
+.layout-desktop #homeTab .section0 .sectionTitle.sectionTitle-cards.padded-left,
+.layout-tv #homeTab .section0 .sectionTitle.sectionTitle-cards.padded-left {
 	display: none;
 }
 
@@ -2607,7 +2760,8 @@ body {
 
 }
 
-.layout-desktop .nowPlayingInfoContainer::before {
+.layout-desktop .nowPlayingInfoContainer::before,
+.layout-tv .nowPlayingInfoContainer::before {
 	content: '';
 	position: absolute;
 	top: 0;
@@ -2619,7 +2773,8 @@ body {
 	scroll-snap-align: start;
 }
 
-.layout-desktop .nowPlayingInfoContainer::after {
+.layout-desktop .nowPlayingInfoContainer::after,
+.layout-tv .nowPlayingInfoContainer::after {
 	content: '';
 	position: fixed;
 	top: 0;
@@ -2632,7 +2787,8 @@ body {
 	pointer-events: none;
 }
 
-.layout-desktop #itemDetailPage .sectionTitle::before {
+.layout-desktop #itemDetailPage .sectionTitle::before,
+.layout-tv #itemDetailPage .sectionTitle::before {
     content: '';
     position: absolute;
     left: 0;
@@ -2644,7 +2800,8 @@ body {
     margin-top: -4em;
 }
 
-.layout-desktop #musicRecommendedPage .flex.align-items-center.justify-content-center.flex-wrap-wrap.padded-top.padded-left.padded-right.padded-bottom.focuscontainer-x::before {
+.layout-desktop #musicRecommendedPage .flex.align-items-center.justify-content-center.flex-wrap-wrap.padded-top.padded-left.padded-right.padded-bottom.focuscontainer-x::before,
+.layout-tv #musicRecommendedPage .flex.align-items-center.justify-content-center.flex-wrap-wrap.padded-top.padded-left.padded-right.padded-bottom.focuscontainer-x::before {
     content: '';
     position: absolute;
     left: 0;
@@ -2655,7 +2812,8 @@ body {
     margin-top: -6em;
 }
 
-.layout-desktop #songsTab .flex.align-items-center.justify-content-center.flex-wrap-wrap.padded-top.padded-left.padded-right.padded-bottom.focuscontainer-x::before {
+.layout-desktop #songsTab .flex.align-items-center.justify-content-center.flex-wrap-wrap.padded-top.padded-left.padded-right.padded-bottom.focuscontainer-x::before,
+.layout-tv #songsTab .flex.align-items-center.justify-content-center.flex-wrap-wrap.padded-top.padded-left.padded-right.padded-bottom.focuscontainer-x::before {
     content: '';
     position: absolute;
     left: 0;
@@ -2675,12 +2833,14 @@ body {
 	background: #04133199;
 }
 
-.layout-desktop .appfooter {
+.layout-desktop .appfooter,
+.layout-tv .appfooter {
   background: #04133199;
   backdrop-filter: blur(7px);
 }
 
-.layout-desktop .playlistSectionButton {
+.layout-desktop .playlistSectionButton,
+.layout-tv .playlistSectionButton {
   background: #07121e12;
 }
 
@@ -2691,7 +2851,8 @@ body {
 }
 
 @media (max-width: 100em) {
-  .layout-desktop .sectionTabs {
+  .layout-desktop .sectionTabs
+  .layout-tv .sectionTabs {
     font-size: 100%;
     margin-top: 0em;
     width: 50%;
@@ -2700,17 +2861,20 @@ body {
   }
 }
 
-.layout-desktop .nextUpSection.verticalSection.detailVerticalSection {
+.layout-desktop .nextUpSection.verticalSection.detailVerticalSection,
+.layout-tv .nextUpSection.verticalSection.detailVerticalSection {
 	position: absolute;
 	top: -27em;
 	right: 4.45em;
 }
 
-.layout-desktop #itemDetailPage .nextUpSection.verticalSection.detailVerticalSection .sectionTitle.sectionTitle-cards:before {
+.layout-desktop #itemDetailPage .nextUpSection.verticalSection.detailVerticalSection .sectionTitle.sectionTitle-cards:before,
+.layout-tv #itemDetailPage .nextUpSection.verticalSection.detailVerticalSection .sectionTitle.sectionTitle-cards:before {
 	scroll-snap-align: unset !important;
 }
 
-.layout-desktop #itemDetailPage .nextUpSection.verticalSection.detailVerticalSection .cardBox.cardBox-bottompadded {
+.layout-desktop #itemDetailPage .nextUpSection.verticalSection.detailVerticalSection .cardBox.cardBox-bottompadded,
+.layout-tv #itemDetailPage .nextUpSection.verticalSection.detailVerticalSection .cardBox.cardBox-bottompadded {
 	background: transparent;
 }
 
@@ -2720,7 +2884,8 @@ body {
 }
 
 
-.layout-desktop .itemMiscInfo.itemMiscInfo-primary::before {
+.layout-desktop .itemMiscInfo.itemMiscInfo-primary::before,
+.layout-tv .itemMiscInfo.itemMiscInfo-primary::before {
 	content: '';
 	position: fixed;
 	top: -98vh;
@@ -2731,7 +2896,8 @@ body {
 	scroll-snap-align: end;
 }
 
-.layout-desktop #itemDetailPage .verticalSection.detailVerticalSection.moreFromSeasonSection.emby-scroller-container {
+.layout-desktop #itemDetailPage .verticalSection.detailVerticalSection.moreFromSeasonSection.emby-scroller-container,
+.layout-tv #itemDetailPage .verticalSection.detailVerticalSection.moreFromSeasonSection.emby-scroller-container {
 	position: absolute;
 	top: -20em;
 	right: 0em;
@@ -2739,20 +2905,24 @@ body {
 	z-index: 10;
 }
 
-.layout-desktop #itemDetailPage .verticalSection.detailVerticalSection.moreFromSeasonSection.emby-scroller-container .card.overflowBackdropCard.card-hoverable.card-withuserdata {
+.layout-desktop #itemDetailPage .verticalSection.detailVerticalSection.moreFromSeasonSection.emby-scroller-container .card.overflowBackdropCard.card-hoverable.card-withuserdata,
+.layout-tv #itemDetailPage .verticalSection.detailVerticalSection.moreFromSeasonSection.emby-scroller-container .card.overflowBackdropCard.card-hoverable.card-withuserdata {
 	width: 12.5vw;
 }
 
-.layout-desktop #itemDetailPage .verticalSection.detailVerticalSection.moreFromSeasonSection.emby-scroller-container .sectionTitle {
+.layout-desktop #itemDetailPage .verticalSection.detailVerticalSection.moreFromSeasonSection.emby-scroller-container .sectionTitle,
+.layout-tv #itemDetailPage .verticalSection.detailVerticalSection.moreFromSeasonSection.emby-scroller-container .sectionTitle {
 	filter: drop-shadow(0px 0px 1px rgb(0, 0, 0));
 }
 
-.layout-desktop #itemDetailPage .verticalSection.detailVerticalSection.moreFromSeasonSection.emby-scroller-container .sectionTitle.sectionTitle-cards.padded-right::before {
+.layout-desktop #itemDetailPage .verticalSection.detailVerticalSection.moreFromSeasonSection.emby-scroller-container .sectionTitle.sectionTitle-cards.padded-right::before,
+.layout-tv #itemDetailPage .verticalSection.detailVerticalSection.moreFromSeasonSection.emby-scroller-container .sectionTitle.sectionTitle-cards.padded-right::before {
 	filter: drop-shadow(0px 0px 1px rgb(0, 0, 0));
 	scroll-snap-align: unset;
 }
 
-.layout-desktop .subtitleSync {
+.layout-desktop .subtitleSync,
+.layout-tv .subtitleSync {
   position: absolute;
   width: 100%;
   margin-top: 4em !important;
@@ -2762,18 +2932,25 @@ body {
   padding-top: 4.5em !important;
 }
 
-.layout-desktop .collectionItems .verticalSection {
+.layout-tv .libraryPage:not(.noSecondaryNavPage) {
+  padding-top: 4.5em !important;
+}
+
+.layout-desktop .collectionItems .verticalSection,
+.layout-tv .collectionItems .verticalSection {
   height: 46em;
   overflow-y: scroll;
   scroll-snap-type: y mandatory;
   max-width: 69vw;
 }
 
-.layout-desktop .collectionItems .card.portraitCard.card-hoverable.card-withuserdata {
+.layout-desktop .collectionItems .card.portraitCard.card-hoverable.card-withuserdata,
+.layout-tv .collectionItems .card.portraitCard.card-hoverable.card-withuserdata {
 	scroll-snap-align: start;
 }
 
-.layout-desktop .collectionItems .portraitCard {
+.layout-desktop .collectionItems .portraitCard,
+.layout-tv .collectionItems .portraitCard {
   width: 13.75em;
 }
 
@@ -2800,11 +2977,14 @@ body {
 }
 
 .layout-desktop #homeTab .overflowPortraitCard, 
-.layout-desktop #homeTab .overflowSquareCard {
+.layout-desktop #homeTab .overflowSquareCard,
+.layout-tv #homeTab .overflowPortraitCard, 
+.layout-tv #homeTab .overflowSquareCard {
     width: 9.35vw !important;
 }
 
-.layout-desktop .itemsContainer.padded-left.padded-right.padded-right-withalphapicker.vertical-list {
+.layout-desktop .itemsContainer.padded-left.padded-right.padded-right-withalphapicker.vertical-list,
+.layout-tv .itemsContainer.padded-left.padded-right.padded-right-withalphapicker.vertical-list {
 	margin-top: -9em;
 	padding-top: 8em;
 	scroll-snap-align: start;
@@ -2903,13 +3083,15 @@ body {
 	body {
 		font-size: 73%;
 	}
-	.layout-desktop .detailPagePrimaryContent {
+	.layout-desktop .detailPagePrimaryContent,
+	.layout-tv .detailPagePrimaryContent {
 		font-size: 98.5%;
 	}
 	.sectionTabs {
 		margin-top: -2em;
 	}
-	.layout-desktop .detailPagePrimaryContainer.padded-left.padded-right.detailRibbon::before {
+	.layout-desktop .detailPagePrimaryContainer.padded-left.padded-right.detailRibbon::before,
+	.layout-tv .detailPagePrimaryContainer.padded-left.padded-right.detailRibbon::before {
 		top: -3.83em;
 		height: 3.83em;
 	}
@@ -2921,13 +3103,16 @@ body {
 	body {
 		font-size: 133.3333%;
 	}
-	.layout-desktop .detailPagePrimaryContent {
+	.layout-desktop .detailPagePrimaryContent,
+	.layout-tv .detailPagePrimaryContent {
 		font-size: 98.5%;
 	}
-	.layout-desktop .mainDrawer.transition.touch-menu-la.drawer-open {
+	.layout-desktop .mainDrawer.transition.touch-menu-la.drawer-open,
+	.layout-tv .mainDrawer.transition.touch-menu-la.drawer-open {
 		width: 21em !important;
 	}
-	.layout-desktop .detailPagePrimaryContainer.padded-left.padded-right.detailRibbon::before {
+	.layout-desktop .detailPagePrimaryContainer.padded-left.padded-right.detailRibbon::before,
+	.layout-tv .detailPagePrimaryContainer.padded-left.padded-right.detailRibbon::before {
 		top: -3.97em;
 		height: 3.97em;
 	}
@@ -3402,13 +3587,15 @@ a[href*="shokoanime.com"] {
 	body {
 		font-size: 73%;
 	}
-	.layout-desktop .detailPagePrimaryContent {
+	.layout-desktop .detailPagePrimaryContent,
+	.layout-tv .detailPagePrimaryContent {
 		font-size: 98.5%;
 	}
 	.sectionTabs {
 		margin-top: -2em;
 	}
-	.layout-desktop .detailPagePrimaryContainer.padded-left.padded-right.detailRibbon::before {
+	.layout-desktop .detailPagePrimaryContainer.padded-left.padded-right.detailRibbon::before,
+	.layout-tv .detailPagePrimaryContainer.padded-left.padded-right.detailRibbon::before {
 		top: -3.83em;
 		height: 3.83em;
 	}
@@ -3420,13 +3607,16 @@ a[href*="shokoanime.com"] {
 	body {
 		font-size: 133.3333%;
 	}
-	.layout-desktop .detailPagePrimaryContent {
+	.layout-desktop .detailPagePrimaryContent,
+	.layout-tv .detailPagePrimaryContent {
 		font-size: 98.5%;
 	}
-	.layout-desktop .mainDrawer.transition.touch-menu-la.drawer-open {
+	.layout-desktop .mainDrawer.transition.touch-menu-la.drawer-open,
+	.layout-tv .mainDrawer.transition.touch-menu-la.drawer-open {
 		width: 21em !important;
 	}
-	.layout-desktop .detailPagePrimaryContainer.padded-left.padded-right.detailRibbon::before {
+	.layout-desktop .detailPagePrimaryContainer.padded-left.padded-right.detailRibbon::before,
+	.layout-tv .detailPagePrimaryContainer.padded-left.padded-right.detailRibbon::before {
 		top: -3.97em;
 		height: 3.97em;
 	}
