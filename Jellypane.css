@@ -2997,8 +2997,8 @@ body {
 	color: #fff;
 	font-weight: 500;
 	border: 1px solid #aac0f775;
-	bottom: 7.5em;
-	right: 7.5em;
+	bottom: 0em;
+	right: 0em;
 }
 
 .skip-button:hover,
@@ -3008,7 +3008,7 @@ body {
 }
 
 .upNextContainer {
-  background: #041331;
+  background: #0413316e;
   z-index: 50;
 }
 
