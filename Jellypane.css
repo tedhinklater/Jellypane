@@ -3697,3 +3697,11 @@ a[href*="shokoanime.com"] {
 .padded-top.padded-bottom.scrollSlider.focuscontainer-x {
     display: none;
 }
+
+.layout-desktop .sections.homeSectionsContainer .verticalSection.section0.emby-scroller-container .emby-scrollbuttons.padded-right {
+	top: -3em;
+}
+
+.layout-desktop .sections.homeSectionsContainer .verticalSection .emby-scrollbuttons.padded-right {
+	right: -2em;
+}
