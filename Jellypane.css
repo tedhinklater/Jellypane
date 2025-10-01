@@ -1355,8 +1355,6 @@ body {
 .layout-desktop .nextUpSection.verticalSection.detailVerticalSection,
 .layout-tv .nextUpSection.verticalSection.detailVerticalSection {
 	position: absolute;
-	top: -25em;
-	right: 4.45em;
 }
 
 .layout-desktop #itemDetailPage .nextUpSection.verticalSection.detailVerticalSection .sectionTitle.sectionTitle-cards:before,
@@ -2863,11 +2861,23 @@ body {
 .layout-desktop .nextUpSection.verticalSection.detailVerticalSection,
 .layout-tv .nextUpSection.verticalSection.detailVerticalSection {
 	position: absolute;
-	top: -24.5em;
 	right: 0em;
 	background: #04133199;
 	border-top-left-radius: 0.2em;
-	padding-left: 1em;
+	animation: slideDown 1.5s ease-out forwards;
+	animation-delay: 0.5s;
+	opacity: 0;
+}
+
+@keyframes slideDown {
+  from {
+    bottom: 110em;
+    opacity: 0;
+  }
+  to {
+    bottom: 106em;
+    opacity: 1;
+  }
 }
 
 .layout-desktop #itemDetailPage .nextUpSection.verticalSection.detailVerticalSection .sectionTitle.sectionTitle-cards:before,
@@ -3711,7 +3721,7 @@ a[href*="shokoanime.com"] {
 .headerButton,
 .headerTabs.sectionTabs {
 	pointer-events: all;
-	-webkit-filter: drop-shadow(0px 0px 1px rgb(0, 0, 0));
-	filter: drop-shadow(0px 0px 1px rgb(0, 0, 0));
+	-webkit-filter: drop-shadow(0px 0px 1.5px rgb(0, 0, 0));
+	filter: drop-shadow(0px 0px 1.5px rgb(0, 0, 0));
 	color: #fff;
 }
