@@ -1,6 +1,6 @@
 # Jellypane
 
-A feature-rich glassmorphism theme for Jellyfin 10.10.X with scroll-snap panels
+A feature-rich glassmorphism theme for Jellyfin 10.11.X
 
 768p :heavy_check_mark: 1080p :heavy_check_mark: 1440p :heavy_check_mark: 4k :heavy_check_mark: Mobile :heavy_check_mark: TV Mode :heavy_check_mark:
 
@@ -11,15 +11,7 @@ Paste this line into your Custom CSS box
 
 ```css
 
-@import url("https://cdn.jsdelivr.net/gh/tedhinklater/Jellypane@main/Jellypane.css");
-
-```
-
-Or use the version below if you don't want the scroll-snap feature (desktop/mobile browsers are great and so is JMP on mobile, but desktop JMP really does not like the snap version)
-
-```css
-
-@import url("https://cdn.jsdelivr.net/gh/tedhinklater/Jellypane@main/Jellypane(NoSnap).css");
+@import url("https://cdn.jsdelivr.net/gh/tedhinklater/Jellypane@main/Jellypane10.11.css");
 
 ```
 
