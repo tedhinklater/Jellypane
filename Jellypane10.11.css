@@ -2521,8 +2521,8 @@ body {
 
 .layout-desktop .tagline,
 .layout-tv .tagline {
-  position: fixed;
-  top: 48.5em;
+  position: absolute;
+  top: 0em;
   left: 1em;
   font-weight: 600;
   width: 27.65em;
