@@ -2826,12 +2826,11 @@ body {
 .layout-tv .nextUpSection.verticalSection.detailVerticalSection {
 	position: absolute;
 	right: 2em;
-	background: #04133199;
 	border-top-left-radius: 0.2em;
 	animation: slideDown 1.5s ease-out forwards;
 	animation-delay: 0.5s;
 	opacity: 0;
-  top: -25em;
+  	top: -25em;
 }
 
 @keyframes slideDown {
