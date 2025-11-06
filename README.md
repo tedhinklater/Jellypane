@@ -15,6 +15,12 @@ Paste this line into your Custom CSS box
 
 ```
 
+Or, if you're still on 10.10.x or below
+
+```css
+@import url("https://cdn.jsdelivr.net/gh/tedhinklater/Jellypane@main/Jellypane.css");
+```
+
 Important: Click your User icon in Jellyfin, go to Display, scroll down and make sure the Theme is "Dark" and Backdrops are enabled.
 
 Homepage
