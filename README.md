@@ -1,0 +1,2 @@
+# Jellypane
+unmaintained jellyfin theme
