@@ -824,7 +824,7 @@ progress::-webkit-progress-value {
   height: 100%;
   background: #04133199;
   backdrop-filter: blur(0px);
-  z-index: 0; 
+  z-index: -1; 
   pointer-events: none;
 }
 
@@ -2313,7 +2313,7 @@ progress::-webkit-progress-value {
   height: 100%;
   background: #04133199;
   backdrop-filter: blur(0px);
-  z-index: 0; 
+  z-index: -1; 
   pointer-events: none;
 }
 
